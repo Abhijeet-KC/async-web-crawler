@@ -1,1 +1,7 @@
 2025-09-26T19:45:02.315977 | https://jeevee.com/ | SUCCESS
+2025-09-26T20:53:46.065961 | https://jeevee.com/ | FAILED | Cannot connect to host jeevee.com:443 ssl:default [getaddrinfo failed]
+2025-09-26T20:59:19.655752 | http://kiec.edu.np/ | SUCCESS
+2025-09-26T21:26:16.419672 | https://jeevee.com/ | SUCCESS
+2025-09-26T22:01:35.463448 | https://jeevee.com/ | SUCCESS
+2025-09-26T22:04:31.568194 | http://kiec.edu.np/ | SUCCESS
+2025-09-26T22:54:09.026305 | http://kiec.edu.np/ | SUCCESS
