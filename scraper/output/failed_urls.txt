@@ -4,3 +4,15 @@
 2025-09-27T08:04:50.524300 | http://kiec.edu.np/ | CAPTCHA_DETECTED | html=output/captcha_pages\kiec.edu.np_20250927T080450.html | screenshot=None
 2025-09-27T08:51:44.382160 | http://kiec.edu.np/ | CAPTCHA_DETECTED | html=output/captcha_pages\kiec.edu.np_20250927T085144.html | screenshot=None
 2025-09-27T08:54:01.991813 | http://kiec.edu.np/ | CAPTCHA_DETECTED | html=output/captcha_pages\kiec.edu.np_20250927T085401.html | screenshot=None
+2025-09-27T09:21:45.641505 | http://kiec.edu.np/ | CAPTCHA_DETECTED | html=output/captcha_pages\kiec.edu.np_20250927T092145.html | screenshot=None
+2025-09-27T09:21:45.949372 | https://prettyclickcosmetics.com/ | CAPTCHA_DETECTED | html=output/captcha_pages\prettyclickcosmetics.com_20250927T092145.html | screenshot=None
+2025-09-27T09:22:54.761449 | http://kiec.edu.np/ | CAPTCHA_DETECTED | html=output/captcha_pages\kiec.edu.np_20250927T092254.html | screenshot=None
+2025-09-27T09:22:55.055111 | https://prettyclickcosmetics.com/ | CAPTCHA_DETECTED | html=output/captcha_pages\prettyclickcosmetics.com_20250927T092255.html | screenshot=None
+2025-09-27T09:52:47.558356 | http://kiec.edu.np/ | CAPTCHA_DETECTED | html=output/captcha_pages\kiec.edu.np_20250927T095247.html
+2025-09-27T09:52:47.864266 | https://prettyclickcosmetics.com/ | CAPTCHA_DETECTED | html=output/captcha_pages\prettyclickcosmetics.com_20250927T095247.html
+2025-09-27T10:03:19.047512 | http://kiec.edu.np/ | CAPTCHA_DETECTED 
+2025-09-27T10:03:19.320864 | https://prettyclickcosmetics.com/ | CAPTCHA_DETECTED 
+2025-09-27T10:08:44.150678 | http://kiec.edu.np/ | CAPTCHA_DETECTED 
+2025-09-27T10:08:44.418049 | https://prettyclickcosmetics.com/ | CAPTCHA_DETECTED 
+2025-09-27T10:15:00.195270 | http://kiec.edu.np/ | CAPTCHA_DETECTED 
+2025-09-27T10:15:00.460613 | https://prettyclickcosmetics.com/ | CAPTCHA_DETECTED 

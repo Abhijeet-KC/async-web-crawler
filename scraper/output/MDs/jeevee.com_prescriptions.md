@@ -1,10 +1,10 @@
 ---
-url: https://jeevee.com/
-timestamp: 2025-09-27T10:14:37.362799
+url: https://jeevee.com/prescriptions
+timestamp: 2025-09-27T10:14:38.875538
 status: SUCCESS
 ---
 
-Online Beauty, Baby & Health Store - E commerce Store | Jeevee
+Upload Prescriptions Online | Jeevee
 
 ![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27100%27%20height=%2720%27/%3e)![LogoSvg](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![LogoSvg](/_next/static/media/logo.b826b85b.svg)
 
@@ -24,21 +24,39 @@ My Account
 
 ![Switch Language](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![Switch Language](/_next/static/media/us_flag.937a74e4.png)
 
-...
+Upload Prescription
+===================
 
-Remove Item
+Drag files to upload or browse
 
-Remove this item from wishlist?
+Selected Image
 
-CancelRemove
+CancelSave
 
-...
+Confirmation
 
-Remove Item
+Do you want to send the request? You'll receive the medicine list shortly after your request.
 
-Remove this item from wishlist?
+CancelOk
 
-CancelRemove
+Instruction
+-----------
+
+#### Step 1
+
+Click to upload image of prescription or desired product.
+
+#### Step 2
+
+Request for the quotation
+
+#### Step 3
+
+You will receive a notification to confirm billing.
+
+#### Step 4
+
+Confirm order and billing in Orders section
 
 Payment Options
 

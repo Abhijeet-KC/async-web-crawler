@@ -1,10 +1,10 @@
 ---
-url: https://jeevee.com/
-timestamp: 2025-09-27T10:14:37.362799
+url: https://jeevee.com/about
+timestamp: 2025-09-27T10:14:44.432856
 status: SUCCESS
 ---
 
-Online Beauty, Baby & Health Store - E commerce Store | Jeevee
+About Jeevee | Jeevee
 
 ![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27100%27%20height=%2720%27/%3e)![LogoSvg](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![LogoSvg](/_next/static/media/logo.b826b85b.svg)
 
@@ -24,21 +24,99 @@ My Account
 
 ![Switch Language](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![Switch Language](/_next/static/media/us_flag.937a74e4.png)
 
-...
+About Us
 
-Remove Item
+Nepal’s No.1 Health, Baby & Beauty Store
 
-Remove this item from wishlist?
+Initially established in 2019 with the aim of digitizing the healthcare sector, Jeevee moved towards setting up as an online hub not just for health but baby and beauty products as well.
 
-CancelRemove
+Undeniably, bringing affordable, quality healthcare to the masses with just one tap is what primarily Jeevee aims at.
 
-...
+Alongside, Jeevee slowly stretched its wings to an online marketplace platform and aimed to personify itself as Nepal’s largest e-commerce in health, Baby, and beauty categories.
 
-Remove Item
+And all in all the tech company was solidified to cater to customer needs and provide them with the best shopping experience and thrived to provide quality, authentic and reliable products at an affordable price with innovative technology.
 
-Remove this item from wishlist?
+Additionally, prompt nationwide delivery, standardized shipping rates, certain ease in communication, and booking orders also come aligned while meeting customer satisfaction.
 
-CancelRemove
+With 1500+ brands and 3 Lakhs+ products, Jeevee offers a wide range of curated collections of makeup, skincare, hair care, fragrance, makeup, personal care, household, appliances, and health and wellness categories.
+
+Our Key Features
+
+1. Nepal’s No.1 Health, Baby & Beauty Store
+
+Apart from being a prominent player in the healthcare arena, we have expanded our domain to cater to the overall head-to-toe, daily needs of consumers and babies positioning itself as the #1 Health, Baby, and Beauty Store.
+
+2. 100% Authentic Products
+
+We have a dedicated team who ensures the quality and authenticity of the products before sourcing them in our store from brands and authorized distributors.
+
+3. Nepal’s First Semi-Automated Fulfillment Center
+
+Whilst stepping up the efforts for a wider market presence and addressing the demands of every customer, Jeevee has reorganized a fulfillment center of 15,800 sqft where the team operates day-in-day- out to provide on-time delivery for 90% of orders.
+
+4. Completely Homegrown
+
+What sets us apart is our home-grown foundation, we share complete locally-based human resources, driven to bring change in standards of society with the flexibility of online shopping.
+
+We have a talented team of Nepali Software Engineers fully committed to the development of functional app/web applications while incorporating the most effective design principles, robust architecture, analytics, and ML/AI models behind the scene.
+
+Receive Your Package  
+Anywhere in Nepal
+
+We do nationwide deliveries with  
+standardized shipping rates.
+
+![About Us](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![About Us](/_next/static/media/about_1.d54c0222.png)
+
+Be the First to  
+Know New Deals
+
+We'll send you information on   
+the latest deals & offers.
+
+![About Us](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![About Us](/_next/static/media/about_2.90aca069.png)
+
+Find Everything from   
+Baby, Beauty to Health
+
+We house 1000 genuine brands & 45,000+ products.
+
+![About Us](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![About Us](/_next/static/media/about_3.5757140e.png)
+
+Never Forget   
+Your Password
+
+Access your account securely with our reliable biometric login system.
+
+![About Us](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![About Us](/_next/static/media/about_4.9a3036d2.png)
+
+Make Your   
+Payments Securely
+
+Use our multiple safe payment gateways online for all your shopping.
+
+![About Us](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![About Us](/_next/static/media/about_5.1e2bc1d8.png)
+
+Shop in Your   
+Language
+
+We’re bilingual! Find all your health, beauty & babycare essentials in Nepali & English.
+
+![About Us](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![About Us](/_next/static/media/about_6.78e001d6.png)
+
+Fall in Love   
+with Shopping
+
+Fulfill all your wants, needs, whims & “don’t need but love” buys here.
+
+![About Us](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![About Us](/_next/static/media/about_7.72cbfad7.png)
+
+Seek & You   
+Will Find
+
+Filter out unnecessary products and get to ones you want easily.
+
+![About Us](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![About Us](/_next/static/media/about_8.bdddb165.png)
 
 Payment Options
 

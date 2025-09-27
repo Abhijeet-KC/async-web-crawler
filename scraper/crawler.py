@@ -6,22 +6,33 @@ import logging
 from markdownify import markdownify as md
 from datetime import datetime
 from bs4 import BeautifulSoup
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urljoin, urldefrag
 import re
 
 CAPTCHA_DIR = "output/captcha_pages"
 os.makedirs(CAPTCHA_DIR, exist_ok=True)
+    
+def normalize_url(url, base=None):
+    """Normalize URL: resolve relative links, remove fragments, lowercase.""" 
+    if base:
+        url = urljoin(base, url)
+    url, _ = urldefrag(url)  # remove #fragment
+    return url.strip().lower()
 
-# optional: pyppeteer screenshot support
-try:
-    from pyppeteer import launch
-    PUPPETEER_AVAILABLE = True
-except Exception:
-    PUPPETEER_AVAILABLE = False
+def is_url_allowed(url):
+    """Check domain, blocked full URLs, and BLOCK_PATTERNS."""
+    if url in BLOCKED_PAGES_FULL:
+        return False
+    for pattern in BLOCK_PATTERNS:
+        if re.search(pattern, url):
+            return False
+    if ALLOWED_DOMAIN not in url:
+        return False
+    return True
 
 # Configuration Variables
 CRAWL_DEPTH = 1
-ALLOWED_DOMAIN = "kiec.edu.np"
+ALLOWED_DOMAIN = ["jeevee.com", "kiec.edu.np", "prettyclickcosmetics.com"]
 PAGES_PER_SEED = 5
 MAX_PAGES = 20
 BLOCKED_PAGES_FULL = set()  
@@ -69,9 +80,9 @@ visited_urls = set()
 total_pages_crawled = 0
 
 async def save_captcha_evidence(html, url, page_obj=None):
-    """Detect common captcha signs, save HTML and optional screenshot, return True if detected."""
+    """Detect common captcha signs and save HTML, return True if detected."""
     if not html:
-        return False, None, None
+        return False
 
     lower = html.lower()
     keywords = ["captcha", "recaptcha", "h-captcha", "are you human", "verify you", "just a moment", "bot verification", "checking your browser", "cloudflare"]
@@ -94,29 +105,15 @@ async def save_captcha_evidence(html, url, page_obj=None):
             pass
 
     if not detected:
-        return False, None, None
+        return False
 
     # create safe filenames
     parsed = urlparse(url)
     base = (parsed.netloc + parsed.path).replace("/", "_").strip("_")
     ts = datetime.now().strftime("%Y%m%dT%H%M%S")
-    html_path = os.path.join(CAPTCHA_DIR, f"{base}_{ts}.html")
-    png_path = None
-
-    # save HTML
-    with open(html_path, "w", encoding="utf-8") as h:
-        h.write(html)
-
-    # try screenshot if puppeteer is available
-    if page_obj and PUPPETEER_AVAILABLE:
-        try:
-            png_path = os.path.join(CAPTCHA_DIR, f"{base}_{ts}.png")
-            await page_obj.screenshot({'path': png_path, 'fullPage': True})
-        except Exception:
-            png_path = None
-
-    logger.warning(f"CAPTCHA detected at {url} | html_saved={html_path} | screenshot={png_path}")
-    return True, html_path, png_path
+    
+    logger.warning(f"CAPTCHA detected at {url} ")
+    return True
 
 def is_url_allowed(url):
     """Check if a URL is allowed based on blocklists and domain."""
@@ -131,7 +128,7 @@ def is_url_allowed(url):
     
     # skip if not in allowed domain
     parsed = urlparse(url)
-    if parsed.netloc != ALLOWED_DOMAIN:
+    if parsed.netloc not in ALLOWED_DOMAIN:
         return False
 
     return True
@@ -144,7 +141,7 @@ async def crawl_seed(seed_url, depth=0, origin_seed=None):
     if total_pages_crawled >= MAX_PAGES or depth > CRAWL_DEPTH or seed_url in visited_urls:
         return
 
-    visited_urls.add(seed_url)
+    visited_urls.add(normalize_url(seed_url))
     logger.info(f"Crawling (depth {depth}): {seed_url}")
 
     async with aiohttp.ClientSession() as session:
@@ -152,7 +149,7 @@ async def crawl_seed(seed_url, depth=0, origin_seed=None):
 
         # Detect & save CAPTCHA evidence (if present) 
         if html:
-            captcha, html_path, screenshot_path = await save_captcha_evidence(html, seed_url)
+            captcha = await save_captcha_evidence(html, seed_url)
             if captcha:
                 timestamp = datetime.now().isoformat()
                 index_entry = {
@@ -160,9 +157,7 @@ async def crawl_seed(seed_url, depth=0, origin_seed=None):
                     "file": None,
                     "status": "CAPTCHA_DETECTED",
                     "timestamp": timestamp,
-                    "seed_origin": origin_seed,
-                    "captcha_html": html_path,
-                    "captcha_screenshot": screenshot_path
+                    "seed_origin": origin_seed
                 }
                 with open(INDEX_FILE, "a") as idx:
                     idx.write(json.dumps(index_entry) + "\n")
@@ -170,7 +165,7 @@ async def crawl_seed(seed_url, depth=0, origin_seed=None):
                 try:
                     os.makedirs("output", exist_ok=True)
                     with open("output/failed_urls.txt", "a", encoding="utf-8") as f:
-                        f.write(f"{timestamp} | {seed_url} | CAPTCHA_DETECTED | html={html_path} | screenshot={screenshot_path}\n")
+                        f.write(f"{timestamp} | {seed_url} | CAPTCHA_DETECTED \n")
                         logger.warning(f"CAPTCHA logged to failed_urls.txt for {seed_url}")
                 except Exception:
                     pass    
@@ -208,9 +203,14 @@ async def crawl_seed(seed_url, depth=0, origin_seed=None):
             total_pages_crawled += 1
 
             # Find links
-            links = [a.get("href") for a in BeautifulSoup(html, "html.parser").find_all("a", href=True)]
-            valid_links = [link for link in links if is_url_allowed(link) and link not in visited_urls]
-
+            soup = BeautifulSoup(html, "html.parser")
+            links = [a.get("href") for a in soup.find_all("a", href=True)]
+            valid_links = []
+            for link in links:
+                norm_link = normalize_url(link, base=seed_url)
+                if norm_link not in visited_urls and is_url_allowed(norm_link):
+                    valid_links.append(norm_link)
+        
             for link in valid_links[:PAGES_PER_SEED]:
                 await asyncio.sleep(POLITE_DELAY) 
                 await crawl_seed(link, depth + 1, origin_seed=origin_seed)
@@ -225,10 +225,15 @@ async def main():
     for seed in seeds:
         await crawl_seed(seed)
     
-    # Summary statistics
-    logger.info(f"Crawl Completed!")
+    # Final crawl summary
     logger.info(f"Total Pages Crawled: {total_pages_crawled}")
     logger.info(f"Total URLs Visited: {len(visited_urls)}")
+    try:
+        with open("output/failed_urls.txt", "r", encoding="utf-8") as f:
+            total_failed = sum(1 for _ in f)
+        logger.info(f"Total Failed URLs: {total_failed}")
+    except FileNotFoundError:
+        logger.info("Total Failed URLs: 0")
 
 if __name__ == "__main__":
     asyncio.run(main())

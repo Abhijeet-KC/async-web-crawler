@@ -1,10 +1,10 @@
 ---
-url: https://jeevee.com/
-timestamp: 2025-09-27T10:14:37.362799
+url: https://jeevee.com/vendor-enrollment
+timestamp: 2025-09-27T10:14:48.957688
 status: SUCCESS
 ---
 
-Online Beauty, Baby & Health Store - E commerce Store | Jeevee
+Vendor Enrollment | Jeevee
 
 ![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27100%27%20height=%2720%27/%3e)![LogoSvg](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![LogoSvg](/_next/static/media/logo.b826b85b.svg)
 
@@ -24,21 +24,144 @@ My Account
 
 ![Switch Language](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![Switch Language](/_next/static/media/us_flag.937a74e4.png)
 
-...
+Sell on Jeevee
 
-Remove Item
+Sell products online effortlessly on Jeevee
 
-Remove this item from wishlist?
+Fill Enrollment   
+Application
 
-CancelRemove
+Sell on Jeevee   
+at Jeevee
 
-...
+Vendor Account Application Form
+===============================
 
-Remove Item
+Applicant’s Informations
 
-Remove this item from wishlist?
+Full Name
 
-CancelRemove
+Phone Number
+
+Email Address
+
+Vendor Informations
+
+Vendor Name
+
+Please mention the company name as per VAT/PAN Certificate.
+
+Vendor Address
+
+Company registered under?
+
+VATPAN
+
+PAN Number
+
+Brand Informations
+
+Add Brands
+
+Brand Name
+
++ Add More
+
+Brand USP (Unique Selling Proposition)
+
+ASP(Average Selling Price) of brand in Rs.
+
+Select price range most products fall under ?
+
+0 - 5k5k - 10k10k - 50k50k and above
+
+Brand social media links *(Optional)*
+
+Social Media
+
+Web Address 
+
+Test link
+
++ Add More
+
+Brand Pages *(Optional)*
+
+Brand
+
+Web Address 
+
+Test link
+
++ Add More
+
+Product Informations
+
+Product Categories
+
+Skin
+
+Hair
+
+Fragrance
+
+Makeup
+
+Kids Fashion
+
+Gadgets and Accessories
+
+Personal Care
+
+Mom & Baby
+
+Health and Wellness
+
+Don’t see a category you have? Click on “Add” button and add Categories
+
+Add
+
+Country of Origin of the Products
+
+Select Country
+
+Total no of SKUs
+
+Add Categories
+
+Add Categories you have
+
++ Add More
+
+CancelAdd
+
+Is there anything else you’d like us to know?
+
+Share any relevant information regarding your brand and its founder
+
+0/16 Fields Complete
+
+Apply Now
+
+### Why choose Jeevee?
+
+Large Customer base
+
+Jeevee is trusted by more than 7 lac customers for all their health, baby & beauty needs. User reviews, ratings and influencer collabs fuel our growth. Jeevee’s commitment to excellence is clear with its selective vendor acquisition process.
+
+Secure Payments
+
+We ensure timely payment as per the agreed terms and conditions.
+
+Vendor Support
+
+We offer clear communication channels, streamlined processes and valuable support to help our vendors grow their brand and business.
+
+Thank you
+
+We have received your application. We will review and contact you soon.
+
+Refill AnotherBack to Homepage
 
 Payment Options
 

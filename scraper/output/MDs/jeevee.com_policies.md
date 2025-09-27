@@ -1,10 +1,10 @@
 ---
-url: https://jeevee.com/
-timestamp: 2025-09-27T10:14:37.362799
+url: https://jeevee.com/policies
+timestamp: 2025-09-27T10:14:54.914406
 status: SUCCESS
 ---
 
-Online Beauty, Baby & Health Store - E commerce Store | Jeevee
+Privacy and Policy | Jeevee
 
 ![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27100%27%20height=%2720%27/%3e)![LogoSvg](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![LogoSvg](/_next/static/media/logo.b826b85b.svg)
 
@@ -24,21 +24,9 @@ My Account
 
 ![Switch Language](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![Switch Language](/_next/static/media/us_flag.937a74e4.png)
 
-...
+Policies
 
-Remove Item
-
-Remove this item from wishlist?
-
-CancelRemove
-
-...
-
-Remove Item
-
-Remove this item from wishlist?
-
-CancelRemove
+[Shipping Policy](/policies/shipping)[Return & Exchange Policy](/policies/return)[Refund Policy](/policies/refund)[Expiry Policy](/policies/expiry)[3X Money Back Guarantee Policy](/policies/guarantee)
 
 Payment Options
 

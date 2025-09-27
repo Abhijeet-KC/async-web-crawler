@@ -41,3 +41,110 @@
 2025-09-27 08:54:01,994 | INFO | Crawl Completed!
 2025-09-27 08:54:02,001 | INFO | Total Pages Crawled: 0
 2025-09-27 08:54:02,004 | INFO | Total URLs Visited: 1
+2025-09-27 09:21:45,376 | INFO | Crawling (depth 0): http://kiec.edu.np/
+2025-09-27 09:21:45,638 | INFO | Fetched http://kiec.edu.np/ (status 200)
+2025-09-27 09:21:45,640 | WARNING | CAPTCHA detected at http://kiec.edu.np/ | html_saved=output/captcha_pages\kiec.edu.np_20250927T092145.html | screenshot=None
+2025-09-27 09:21:45,642 | WARNING | CAPTCHA logged to failed_urls.txt for http://kiec.edu.np/
+2025-09-27 09:21:45,644 | INFO | Crawling (depth 0): https://prettyclickcosmetics.com/
+2025-09-27 09:21:45,902 | INFO | Fetched https://prettyclickcosmetics.com/ (status 200)
+2025-09-27 09:21:45,948 | WARNING | CAPTCHA detected at https://prettyclickcosmetics.com/ | html_saved=output/captcha_pages\prettyclickcosmetics.com_20250927T092145.html | screenshot=None
+2025-09-27 09:21:45,950 | WARNING | CAPTCHA logged to failed_urls.txt for https://prettyclickcosmetics.com/
+2025-09-27 09:21:45,953 | INFO | Total Pages Crawled: 0
+2025-09-27 09:21:45,954 | INFO | Total URLs Visited: 2
+2025-09-27 09:21:45,989 | INFO | Total Failed URLs: 8
+2025-09-27 09:22:53,844 | INFO | Crawling (depth 0): https://jeevee.com/
+2025-09-27 09:22:54,258 | INFO | Fetched https://jeevee.com/ (status 200)
+2025-09-27 09:22:54,547 | INFO | Crawling (depth 0): http://kiec.edu.np/
+2025-09-27 09:22:54,758 | INFO | Fetched http://kiec.edu.np/ (status 200)
+2025-09-27 09:22:54,760 | WARNING | CAPTCHA detected at http://kiec.edu.np/ | html_saved=output/captcha_pages\kiec.edu.np_20250927T092254.html | screenshot=None
+2025-09-27 09:22:54,762 | WARNING | CAPTCHA logged to failed_urls.txt for http://kiec.edu.np/
+2025-09-27 09:22:54,765 | INFO | Crawling (depth 0): https://prettyclickcosmetics.com/
+2025-09-27 09:22:55,007 | INFO | Fetched https://prettyclickcosmetics.com/ (status 200)
+2025-09-27 09:22:55,053 | WARNING | CAPTCHA detected at https://prettyclickcosmetics.com/ | html_saved=output/captcha_pages\prettyclickcosmetics.com_20250927T092255.html | screenshot=None
+2025-09-27 09:22:55,057 | WARNING | CAPTCHA logged to failed_urls.txt for https://prettyclickcosmetics.com/
+2025-09-27 09:22:55,061 | INFO | Total Pages Crawled: 1
+2025-09-27 09:22:55,061 | INFO | Total URLs Visited: 3
+2025-09-27 09:22:55,102 | INFO | Total Failed URLs: 10
+2025-09-27 09:48:38,061 | INFO | Crawling (depth 0): https://jeevee.com/
+2025-09-27 09:48:38,704 | INFO | Fetched https://jeevee.com/ (status 200)
+2025-09-27 09:50:22,502 | INFO | Crawling (depth 0): https://jeevee.com/
+2025-09-27 09:50:22,851 | INFO | Fetched https://jeevee.com/ (status 200)
+2025-09-27 09:52:46,805 | INFO | Crawling (depth 0): https://jeevee.com/
+2025-09-27 09:52:47,152 | INFO | Fetched https://jeevee.com/ (status 200)
+2025-09-27 09:52:47,350 | INFO | Crawling (depth 0): http://kiec.edu.np/
+2025-09-27 09:52:47,556 | INFO | Fetched http://kiec.edu.np/ (status 200)
+2025-09-27 09:52:47,557 | WARNING | CAPTCHA detected at http://kiec.edu.np/ | html_saved=output/captcha_pages\kiec.edu.np_20250927T095247.html 
+2025-09-27 09:52:47,559 | WARNING | CAPTCHA logged to failed_urls.txt for http://kiec.edu.np/
+2025-09-27 09:52:47,561 | INFO | Crawling (depth 0): https://prettyclickcosmetics.com/
+2025-09-27 09:52:47,835 | INFO | Fetched https://prettyclickcosmetics.com/ (status 200)
+2025-09-27 09:52:47,863 | WARNING | CAPTCHA detected at https://prettyclickcosmetics.com/ | html_saved=output/captcha_pages\prettyclickcosmetics.com_20250927T095247.html 
+2025-09-27 09:52:47,865 | WARNING | CAPTCHA logged to failed_urls.txt for https://prettyclickcosmetics.com/
+2025-09-27 09:52:47,867 | INFO | Total Pages Crawled: 1
+2025-09-27 09:52:47,867 | INFO | Total URLs Visited: 3
+2025-09-27 09:52:47,887 | INFO | Total Failed URLs: 12
+2025-09-27 10:03:18,247 | INFO | Crawling (depth 0): https://jeevee.com/
+2025-09-27 10:03:18,659 | INFO | Fetched https://jeevee.com/ (status 200)
+2025-09-27 10:03:18,857 | INFO | Crawling (depth 0): http://kiec.edu.np/
+2025-09-27 10:03:19,046 | INFO | Fetched http://kiec.edu.np/ (status 200)
+2025-09-27 10:03:19,046 | WARNING | CAPTCHA detected at http://kiec.edu.np/ 
+2025-09-27 10:03:19,048 | WARNING | CAPTCHA logged to failed_urls.txt for http://kiec.edu.np/
+2025-09-27 10:03:19,049 | INFO | Crawling (depth 0): https://prettyclickcosmetics.com/
+2025-09-27 10:03:19,303 | INFO | Fetched https://prettyclickcosmetics.com/ (status 200)
+2025-09-27 10:03:19,320 | WARNING | CAPTCHA detected at https://prettyclickcosmetics.com/ 
+2025-09-27 10:03:19,322 | WARNING | CAPTCHA logged to failed_urls.txt for https://prettyclickcosmetics.com/
+2025-09-27 10:03:19,324 | INFO | Total Pages Crawled: 1
+2025-09-27 10:03:19,324 | INFO | Total URLs Visited: 3
+2025-09-27 10:03:19,347 | INFO | Total Failed URLs: 14
+2025-09-27 10:08:20,706 | INFO | Crawling (depth 0): https://jeevee.com/
+2025-09-27 10:08:21,119 | INFO | Fetched https://jeevee.com/ (status 200)
+2025-09-27 10:08:22,323 | INFO | Crawling (depth 1): https://jeevee.com/prescriptions
+2025-09-27 10:08:22,612 | INFO | Fetched https://jeevee.com/prescriptions (status 200)
+2025-09-27 10:08:27,802 | INFO | Crawling (depth 1): https://jeevee.com/about
+2025-09-27 10:08:28,185 | INFO | Fetched https://jeevee.com/about (status 200)
+2025-09-27 10:08:32,357 | INFO | Crawling (depth 1): https://jeevee.com/vendor-enrollment
+2025-09-27 10:08:32,715 | INFO | Fetched https://jeevee.com/vendor-enrollment (status 200)
+2025-09-27 10:08:35,973 | INFO | Crawling (depth 1): https://jeevee.com/terms
+2025-09-27 10:08:36,300 | INFO | Fetched https://jeevee.com/terms (status 200)
+2025-09-27 10:08:38,451 | INFO | Crawling (depth 1): https://jeevee.com/policies
+2025-09-27 10:08:38,772 | INFO | Fetched https://jeevee.com/policies (status 200)
+2025-09-27 10:08:43,945 | INFO | Crawling (depth 0): http://kiec.edu.np/
+2025-09-27 10:08:44,150 | INFO | Fetched http://kiec.edu.np/ (status 200)
+2025-09-27 10:08:44,150 | WARNING | CAPTCHA detected at http://kiec.edu.np/ 
+2025-09-27 10:08:44,151 | WARNING | CAPTCHA logged to failed_urls.txt for http://kiec.edu.np/
+2025-09-27 10:08:44,153 | INFO | Crawling (depth 0): https://prettyclickcosmetics.com/
+2025-09-27 10:08:44,399 | INFO | Fetched https://prettyclickcosmetics.com/ (status 200)
+2025-09-27 10:08:44,417 | WARNING | CAPTCHA detected at https://prettyclickcosmetics.com/ 
+2025-09-27 10:08:44,419 | WARNING | CAPTCHA logged to failed_urls.txt for https://prettyclickcosmetics.com/
+2025-09-27 10:08:44,421 | INFO | Total Pages Crawled: 6
+2025-09-27 10:08:44,421 | INFO | Total URLs Visited: 8
+2025-09-27 10:08:44,442 | INFO | Total Failed URLs: 16
+2025-09-27 10:14:36,560 | INFO | Crawling (depth 0): https://jeevee.com/
+2025-09-27 10:14:37,307 | INFO | Fetched https://jeevee.com/ (status 200)
+2025-09-27 10:14:38,514 | INFO | Crawling (depth 1): https://jeevee.com/prescriptions
+2025-09-27 10:14:38,842 | INFO | Fetched https://jeevee.com/prescriptions (status 200)
+2025-09-27 10:14:44,019 | INFO | Crawling (depth 1): https://jeevee.com/about
+2025-09-27 10:14:44,398 | INFO | Fetched https://jeevee.com/about (status 200)
+2025-09-27 10:14:48,581 | INFO | Crawling (depth 1): https://jeevee.com/vendor-enrollment
+2025-09-27 10:14:48,908 | INFO | Fetched https://jeevee.com/vendor-enrollment (status 200)
+2025-09-27 10:14:52,107 | INFO | Crawling (depth 1): https://jeevee.com/terms
+2025-09-27 10:14:52,431 | INFO | Fetched https://jeevee.com/terms (status 200)
+2025-09-27 10:14:54,589 | INFO | Crawling (depth 1): https://jeevee.com/policies
+2025-09-27 10:14:54,881 | INFO | Fetched https://jeevee.com/policies (status 200)
+2025-09-27 10:15:00,035 | INFO | Crawling (depth 0): http://kiec.edu.np/
+2025-09-27 10:15:00,194 | INFO | Fetched http://kiec.edu.np/ (status 200)
+2025-09-27 10:15:00,195 | WARNING | CAPTCHA detected at http://kiec.edu.np/ 
+2025-09-27 10:15:00,196 | WARNING | CAPTCHA logged to failed_urls.txt for http://kiec.edu.np/
+2025-09-27 10:15:00,198 | INFO | Crawling (depth 0): https://prettyclickcosmetics.com/
+2025-09-27 10:15:00,442 | INFO | Fetched https://prettyclickcosmetics.com/ (status 200)
+2025-09-27 10:15:00,459 | WARNING | CAPTCHA detected at https://prettyclickcosmetics.com/ 
+2025-09-27 10:15:00,461 | WARNING | CAPTCHA logged to failed_urls.txt for https://prettyclickcosmetics.com/
+2025-09-27 10:15:00,463 | INFO | Crawling (depth 0): https://www.tranquilityspa.com.np/
+2025-09-27 10:15:00,522 | WARNING | Attempt 1 failed for https://www.tranquilityspa.com.np/: Cannot connect to host www.tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+2025-09-27 10:15:02,544 | WARNING | Attempt 2 failed for https://www.tranquilityspa.com.np/: Cannot connect to host www.tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+2025-09-27 10:15:04,564 | WARNING | Attempt 3 failed for https://www.tranquilityspa.com.np/: Cannot connect to host www.tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+2025-09-27 10:15:04,564 | ERROR | Failed to fetch https://www.tranquilityspa.com.np/ after 3 attempts
+2025-09-27 10:15:04,565 | ERROR | 2025-09-27T10:15:04.565991 | https://www.tranquilityspa.com.np/ | FAILED | Cannot connect to host www.tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+
+2025-09-27 10:15:04,566 | INFO | Total Pages Crawled: 6
+2025-09-27 10:15:04,566 | INFO | Total URLs Visited: 9
+2025-09-27 10:15:04,590 | INFO | Total Failed URLs: 18
