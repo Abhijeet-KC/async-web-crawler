@@ -148,3 +148,91 @@
 2025-09-27 10:15:04,566 | INFO | Total Pages Crawled: 6
 2025-09-27 10:15:04,566 | INFO | Total URLs Visited: 9
 2025-09-27 10:15:04,590 | INFO | Total Failed URLs: 18
+2025-09-27 10:38:00,763 | INFO | Crawling (depth 0): https://jeevee.com/
+2025-09-27 10:38:01,165 | INFO | Fetched https://jeevee.com/ (status 200)
+2025-09-27 10:38:02,373 | INFO | Crawling (depth 1): https://jeevee.com/prescriptions
+2025-09-27 10:38:02,664 | INFO | Fetched https://jeevee.com/prescriptions (status 200)
+2025-09-27 10:38:07,872 | INFO | Crawling (depth 1): https://jeevee.com/about
+2025-09-27 10:38:08,218 | INFO | Fetched https://jeevee.com/about (status 200)
+2025-09-27 10:38:12,389 | INFO | Crawling (depth 1): https://jeevee.com/vendor-enrollment
+2025-09-27 10:38:12,709 | INFO | Fetched https://jeevee.com/vendor-enrollment (status 200)
+2025-09-27 10:38:15,929 | INFO | Crawling (depth 1): https://jeevee.com/terms
+2025-09-27 10:38:16,292 | INFO | Fetched https://jeevee.com/terms (status 200)
+2025-09-27 10:38:18,478 | INFO | Crawling (depth 1): https://jeevee.com/policies
+2025-09-27 10:38:18,756 | INFO | Fetched https://jeevee.com/policies (status 200)
+2025-09-27 10:38:23,968 | INFO | Crawling (depth 0): http://kiec.edu.np/
+2025-09-27 10:38:24,179 | INFO | Fetched http://kiec.edu.np/ (status 200)
+2025-09-27 10:38:24,180 | WARNING | CAPTCHA detected at http://kiec.edu.np/ 
+2025-09-27 10:38:24,182 | WARNING | CAPTCHA logged to failed_urls.txt for http://kiec.edu.np/
+2025-09-27 10:38:24,184 | INFO | Crawling (depth 0): https://prettyclickcosmetics.com/
+2025-09-27 10:38:24,429 | INFO | Fetched https://prettyclickcosmetics.com/ (status 200)
+2025-09-27 10:38:24,465 | WARNING | CAPTCHA detected at https://prettyclickcosmetics.com/ 
+2025-09-27 10:38:24,468 | WARNING | CAPTCHA logged to failed_urls.txt for https://prettyclickcosmetics.com/
+2025-09-27 10:38:24,471 | INFO | Crawling (depth 0): https://www.tranquilityspa.com.np/
+2025-09-27 10:38:24,564 | WARNING | Attempt 1 failed for https://www.tranquilityspa.com.np/: Cannot connect to host www.tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+2025-09-27 10:38:26,595 | WARNING | Attempt 2 failed for https://www.tranquilityspa.com.np/: Cannot connect to host www.tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+2025-09-27 10:38:28,625 | WARNING | Attempt 3 failed for https://www.tranquilityspa.com.np/: Cannot connect to host www.tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+2025-09-27 10:38:28,626 | ERROR | Failed to fetch https://www.tranquilityspa.com.np/ after 3 attempts
+2025-09-27 10:38:28,627 | ERROR | 2025-09-27T10:38:28.626155 | https://www.tranquilityspa.com.np/ | FAILED | Cannot connect to host www.tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+
+2025-09-27 10:38:28,630 | INFO | Total Pages Crawled: 6
+2025-09-27 10:38:28,630 | INFO | Total URLs Visited: 9
+2025-09-27 10:38:28,661 | INFO | Total Failed URLs: 21
+2025-09-27 11:12:13,179 | INFO | Crawling (depth 0): https://jeevee.com/
+2025-09-27 11:12:13,859 | INFO | Fetched https://jeevee.com/ (status 200)
+2025-09-27 11:12:15,061 | INFO | Crawling (depth 1): https://jeevee.com/prescriptions
+2025-09-27 11:12:15,738 | INFO | Fetched https://jeevee.com/prescriptions (status 200)
+2025-09-27 11:12:20,919 | INFO | Crawling (depth 1): https://jeevee.com/about
+2025-09-27 11:12:21,291 | INFO | Fetched https://jeevee.com/about (status 200)
+2025-09-27 11:12:25,451 | INFO | Crawling (depth 1): https://jeevee.com/vendor-enrollment
+2025-09-27 11:12:25,789 | INFO | Fetched https://jeevee.com/vendor-enrollment (status 200)
+2025-09-27 11:12:28,997 | INFO | Crawling (depth 1): https://jeevee.com/terms
+2025-09-27 11:12:29,747 | INFO | Fetched https://jeevee.com/terms (status 200)
+2025-09-27 11:12:31,899 | INFO | Crawling (depth 1): https://jeevee.com/policies
+2025-09-27 11:12:32,202 | INFO | Fetched https://jeevee.com/policies (status 200)
+2025-09-27 11:12:37,371 | INFO | Crawling (depth 0): http://kiec.edu.np/
+2025-09-27 11:12:37,581 | INFO | Fetched http://kiec.edu.np/ (status 200)
+2025-09-27 11:12:37,581 | WARNING | CAPTCHA detected at http://kiec.edu.np/
+2025-09-27 11:12:37,582 | WARNING | CAPTCHA logged to failed_urls.txt for http://kiec.edu.np/
+2025-09-27 11:12:37,584 | INFO | Crawling (depth 0): https://prettyclickcosmetics.com/
+2025-09-27 11:12:37,827 | INFO | Fetched https://prettyclickcosmetics.com/ (status 200)
+2025-09-27 11:12:37,844 | WARNING | CAPTCHA detected at https://prettyclickcosmetics.com/
+2025-09-27 11:12:37,846 | WARNING | CAPTCHA logged to failed_urls.txt for https://prettyclickcosmetics.com/
+2025-09-27 11:12:37,849 | INFO | Crawling (depth 0): https://www.tranquilityspa.com.np/
+2025-09-27 11:12:37,916 | WARNING | Retry 1/2 for https://www.tranquilityspa.com.np/
+2025-09-27 11:12:39,945 | WARNING | Retry 2/2 for https://www.tranquilityspa.com.np/
+2025-09-27 11:12:41,975 | ERROR | Failed to fetch https://www.tranquilityspa.com.np/ after 3 attempts: Cannot connect to host www.tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+2025-09-27 11:12:41,976 | ERROR | 2025-09-27T11:12:41.976123 | https://www.tranquilityspa.com.np/ | FAILED | Cannot connect to host www.tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+
+2025-09-27 11:12:41,979 | INFO | Total Pages Crawled: 6
+2025-09-27 11:12:41,979 | INFO | Total URLs Visited: 9
+2025-09-27 11:12:42,005 | INFO | Total Failed URLs: 24
+2025-09-27 11:20:18,628 | INFO | Crawling (depth 0): https://jeevee.com/
+2025-09-27 11:20:19,060 | INFO | Fetched https://jeevee.com/ (status 200)
+2025-09-27 11:20:20,364 | INFO | Crawling (depth 1): https://jeevee.com/prescriptions
+2025-09-27 11:20:20,692 | INFO | Fetched https://jeevee.com/prescriptions (status 200)
+2025-09-27 11:20:25,934 | INFO | Crawling (depth 1): https://jeevee.com/about
+2025-09-27 11:20:26,297 | INFO | Fetched https://jeevee.com/about (status 200)
+2025-09-27 11:20:30,508 | INFO | Crawling (depth 1): https://jeevee.com/vendor-enrollment
+2025-09-27 11:20:30,840 | INFO | Fetched https://jeevee.com/vendor-enrollment (status 200)
+2025-09-27 11:20:34,180 | INFO | Crawling (depth 1): https://jeevee.com/terms
+2025-09-27 11:20:34,508 | INFO | Fetched https://jeevee.com/terms (status 200)
+2025-09-27 11:20:36,718 | INFO | Crawling (depth 1): https://jeevee.com/policies
+2025-09-27 11:20:37,028 | INFO | Fetched https://jeevee.com/policies (status 200)
+2025-09-27 11:20:42,233 | INFO | Crawling (depth 0): http://kiec.edu.np/
+2025-09-27 11:20:42,451 | INFO | Fetched http://kiec.edu.np/ (status 200)
+2025-09-27 11:20:42,451 | WARNING | CAPTCHA detected at http://kiec.edu.np/
+2025-09-27 11:20:42,453 | WARNING | CAPTCHA logged to failed_urls.txt for http://kiec.edu.np/
+2025-09-27 11:20:42,457 | INFO | Crawling (depth 0): https://prettyclickcosmetics.com/
+2025-09-27 11:20:42,698 | INFO | Fetched https://prettyclickcosmetics.com/ (status 200)
+2025-09-27 11:20:42,724 | WARNING | CAPTCHA detected at https://prettyclickcosmetics.com/
+2025-09-27 11:20:42,728 | WARNING | CAPTCHA logged to failed_urls.txt for https://prettyclickcosmetics.com/
+2025-09-27 11:20:42,732 | INFO | Crawling (depth 0): https://www.tranquilityspa.com.np/
+2025-09-27 11:20:42,783 | WARNING | Retry 1/2 for https://www.tranquilityspa.com.np/
+2025-09-27 11:20:44,812 | WARNING | Retry 2/2 for https://www.tranquilityspa.com.np/
+2025-09-27 11:20:46,852 | ERROR | Failed to fetch https://www.tranquilityspa.com.np/ after 3 attempts: Cannot connect to host www.tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+2025-09-27 11:20:46,854 | ERROR | 2025-09-27T11:20:46.853209 | https://www.tranquilityspa.com.np/ | FAILED | Cannot connect to host www.tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+
+2025-09-27 11:20:46,856 | INFO | Total Pages Crawled: 6
+2025-09-27 11:20:46,857 | INFO | Total URLs Visited: 9
+2025-09-27 11:20:46,894 | INFO | Total Failed URLs: 3

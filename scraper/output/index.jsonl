@@ -37,3 +37,30 @@
 {"url": "https://jeevee.com/policies", "file": "jeevee.com_policies.md", "status": "SUCCESS", "timestamp": "2025-09-27T10:14:54.914406", "seed_origin": "https://jeevee.com/"}
 {"url": "http://kiec.edu.np/", "file": null, "status": "CAPTCHA_DETECTED", "timestamp": "2025-09-27T10:15:00.195270", "seed_origin": "http://kiec.edu.np/"}
 {"url": "https://prettyclickcosmetics.com/", "file": null, "status": "CAPTCHA_DETECTED", "timestamp": "2025-09-27T10:15:00.460613", "seed_origin": "https://prettyclickcosmetics.com/"}
+{"url": "https://jeevee.com/", "file": "jeevee.com_.md", "status": "SUCCESS", "timestamp": "2025-09-27T10:38:01.224159", "seed_origin": "https://jeevee.com/"}
+{"url": "https://jeevee.com/prescriptions", "file": "jeevee.com_prescriptions.md", "status": "SUCCESS", "timestamp": "2025-09-27T10:38:02.699847", "seed_origin": "https://jeevee.com/"}
+{"url": "https://jeevee.com/about", "file": "jeevee.com_about.md", "status": "SUCCESS", "timestamp": "2025-09-27T10:38:08.256386", "seed_origin": "https://jeevee.com/"}
+{"url": "https://jeevee.com/vendor-enrollment", "file": "jeevee.com_vendor-enrollment.md", "status": "SUCCESS", "timestamp": "2025-09-27T10:38:12.766827", "seed_origin": "https://jeevee.com/"}
+{"url": "https://jeevee.com/terms", "file": "jeevee.com_terms.md", "status": "SUCCESS", "timestamp": "2025-09-27T10:38:16.332367", "seed_origin": "https://jeevee.com/"}
+{"url": "https://jeevee.com/policies", "file": "jeevee.com_policies.md", "status": "SUCCESS", "timestamp": "2025-09-27T10:38:18.818017", "seed_origin": "https://jeevee.com/"}
+{"url": "http://kiec.edu.np/", "file": null, "status": "CAPTCHA_DETECTED", "timestamp": "2025-09-27T10:38:24.180770", "seed_origin": "http://kiec.edu.np/"}
+{"url": "https://prettyclickcosmetics.com/", "file": null, "status": "CAPTCHA_DETECTED", "timestamp": "2025-09-27T10:38:24.467612", "seed_origin": "https://prettyclickcosmetics.com/"}
+{"url": "https://www.tranquilityspa.com.np/", "file": null, "status": "FAILED", "timestamp": "2025-09-27T10:38:28.626155", "seed_origin": "https://www.tranquilityspa.com.np/", "error": "Cannot connect to host www.tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]"}
+{"url": "https://jeevee.com/", "file": "jeevee.com_.md", "status": "SUCCESS", "timestamp": "2025-09-27T11:12:13.913754", "seed_origin": "https://jeevee.com/"}
+{"url": "https://jeevee.com/prescriptions", "file": "jeevee.com_prescriptions.md", "status": "SUCCESS", "timestamp": "2025-09-27T11:12:15.772270", "seed_origin": "https://jeevee.com/"}
+{"url": "https://jeevee.com/about", "file": "jeevee.com_about.md", "status": "SUCCESS", "timestamp": "2025-09-27T11:12:21.326234", "seed_origin": "https://jeevee.com/"}
+{"url": "https://jeevee.com/vendor-enrollment", "file": "jeevee.com_vendor-enrollment.md", "status": "SUCCESS", "timestamp": "2025-09-27T11:12:25.838463", "seed_origin": "https://jeevee.com/"}
+{"url": "https://jeevee.com/terms", "file": "jeevee.com_terms.md", "status": "SUCCESS", "timestamp": "2025-09-27T11:12:29.782710", "seed_origin": "https://jeevee.com/"}
+{"url": "https://jeevee.com/policies", "file": "jeevee.com_policies.md", "status": "SUCCESS", "timestamp": "2025-09-27T11:12:32.235148", "seed_origin": "https://jeevee.com/"}
+{"url": "http://kiec.edu.np/", "file": null, "status": "CAPTCHA_DETECTED", "timestamp": "2025-09-27T11:12:37.581702", "seed_origin": "http://kiec.edu.np/"}
+{"url": "https://prettyclickcosmetics.com/", "file": null, "status": "CAPTCHA_DETECTED", "timestamp": "2025-09-27T11:12:37.845862", "seed_origin": "https://prettyclickcosmetics.com/"}
+{"url": "https://www.tranquilityspa.com.np/", "file": null, "status": "FAILED", "timestamp": "2025-09-27T11:12:41.976123", "seed_origin": "https://www.tranquilityspa.com.np/", "error": "Cannot connect to host www.tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]"}
+{"url": "https://jeevee.com/", "file": "jeevee.com_.md", "status": "SUCCESS", "timestamp": "2025-09-27T11:20:19.142692", "seed_origin": "https://jeevee.com/"}
+{"url": "https://jeevee.com/prescriptions", "file": "jeevee.com_prescriptions.md", "status": "SUCCESS", "timestamp": "2025-09-27T11:20:20.733756", "seed_origin": "https://jeevee.com/"}
+{"url": "https://jeevee.com/about", "file": "jeevee.com_about.md", "status": "SUCCESS", "timestamp": "2025-09-27T11:20:26.348697", "seed_origin": "https://jeevee.com/"}
+{"url": "https://jeevee.com/vendor-enrollment", "file": "jeevee.com_vendor-enrollment.md", "status": "SUCCESS", "timestamp": "2025-09-27T11:20:30.911150", "seed_origin": "https://jeevee.com/"}
+{"url": "https://jeevee.com/terms", "file": "jeevee.com_terms.md", "status": "SUCCESS", "timestamp": "2025-09-27T11:20:34.563157", "seed_origin": "https://jeevee.com/"}
+{"url": "https://jeevee.com/policies", "file": "jeevee.com_policies.md", "status": "SUCCESS", "timestamp": "2025-09-27T11:20:37.081647", "seed_origin": "https://jeevee.com/"}
+{"url": "http://kiec.edu.np/", "file": null, "status": "CAPTCHA_DETECTED", "timestamp": "2025-09-27T11:20:42.452737", "seed_origin": "http://kiec.edu.np/"}
+{"url": "https://prettyclickcosmetics.com/", "file": null, "status": "CAPTCHA_DETECTED", "timestamp": "2025-09-27T11:20:42.725250", "seed_origin": "https://prettyclickcosmetics.com/"}
+{"url": "https://www.tranquilityspa.com.np/", "file": null, "status": "FAILED", "timestamp": "2025-09-27T11:20:46.853209", "seed_origin": "https://www.tranquilityspa.com.np/", "error": "Cannot connect to host www.tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]"}

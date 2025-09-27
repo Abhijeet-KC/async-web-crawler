@@ -16,27 +16,18 @@ def normalize_url(url, base=None):
     """Normalize URL: resolve relative links, remove fragments, lowercase.""" 
     if base:
         url = urljoin(base, url)
-    url, _ = urldefrag(url)  # remove #fragment
+    url, _ = urldefrag(url) 
     return url.strip().lower()
-
-def is_url_allowed(url):
-    """Check domain, blocked full URLs, and BLOCK_PATTERNS."""
-    if url in BLOCKED_PAGES_FULL:
-        return False
-    for pattern in BLOCK_PATTERNS:
-        if re.search(pattern, url):
-            return False
-    if ALLOWED_DOMAIN not in url:
-        return False
-    return True
 
 # Configuration Variables
 CRAWL_DEPTH = 1
-ALLOWED_DOMAIN = ["jeevee.com", "kiec.edu.np", "prettyclickcosmetics.com"]
+ALLOWED_DOMAIN = ["jeevee.com", "kiec.edu.np", "prettyclickcosmetics.com", "tranquilityspa.com.np"]
 PAGES_PER_SEED = 5
 MAX_PAGES = 20
 BLOCKED_PAGES_FULL = set()  
-BLOCK_PATTERNS = []         
+BLOCK_PATTERNS = []  
+
+ALLOW_INSECURE = False       
 POLITE_DELAY = 1            
 
 OUTPUT_DIR = "output/MDs"
@@ -44,15 +35,15 @@ LOG_FILE = "crawlLog.txt"
 INDEX_FILE = "output/index.jsonl"
 
 # Setup logging
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s | %(levelname)s | %(message)s",
-    handlers=[
-        logging.FileHandler(LOG_FILE),
-        logging.StreamHandler()
-    ]
-)
 logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+if not logger.handlers:
+    ch = logging.StreamHandler()
+    ch.setFormatter(logging.Formatter("%(asctime)s | %(levelname)s | %(message)s"))
+    fh = logging.FileHandler(LOG_FILE)
+    fh.setFormatter(logging.Formatter("%(asctime)s | %(levelname)s | %(message)s"))
+    logger.addHandler(ch)
+    logger.addHandler(fh)
 
 # Read seeds from file
 with open("seeds.txt") as f:
@@ -68,32 +59,29 @@ async def fetch(session, url, retries=2, delay=2):
                 logger.info(f"Fetched {url} (status {response.status})")
                 return html, response.status
         except Exception as e:
-            logger.warning(f"Attempt {attempt+1} failed for {url}: {e}")
             if attempt < retries:
+                logger.warning(f"Retry {attempt+1}/{retries} for {url}")
                 await asyncio.sleep(delay)
             else:
-                logger.error(f"Failed to fetch {url} after {retries+1} attempts")
+                logger.error(f"Failed to fetch {url} after {retries+1} attempts: {e}")
                 return None, str(e)
 
 # Crawl function
 visited_urls = set()
 total_pages_crawled = 0
+failed_captcha_urls = set()
 
 async def save_captcha_evidence(html, url, page_obj=None):
-    """Detect common captcha signs and save HTML, return True if detected."""
+    """Detect common captcha signs and return True if detected."""
     if not html:
         return False
 
     lower = html.lower()
-    keywords = ["captcha", "recaptcha", "h-captcha", "are you human", "verify you", "just a moment", "bot verification", "checking your browser", "cloudflare"]
+    keywords = ["captcha", "recaptcha", "h-captcha", "are you human", "verify you", 
+                "just a moment", "bot verification", "checking your browser", "cloudflare"]
 
-    # quick keyword check in HTML
-    if any(k in lower for k in keywords):
-        detected = True
-    else:
-        detected = False
-
-    # also check for img src containing captcha
+    detected = any(k in lower for k in keywords)
+    
     if not detected:
         try:
             soup = BeautifulSoup(html, "html.parser")
@@ -104,34 +92,20 @@ async def save_captcha_evidence(html, url, page_obj=None):
         except Exception:
             pass
 
-    if not detected:
-        return False
-
-    # create safe filenames
-    parsed = urlparse(url)
-    base = (parsed.netloc + parsed.path).replace("/", "_").strip("_")
-    ts = datetime.now().strftime("%Y%m%dT%H%M%S")
-    
-    logger.warning(f"CAPTCHA detected at {url} ")
-    return True
+    if detected and url not in failed_captcha_urls:
+        failed_captcha_urls.add(url)
+        logger.warning(f"CAPTCHA detected at {url}")
+    return detected
 
 def is_url_allowed(url):
     """Check if a URL is allowed based on blocklists and domain."""
-    # skip if in full blocked list
     if url in BLOCKED_PAGES_FULL:
         return False
-    
-    # skip if matches any regex patterns
     for pattern in BLOCK_PATTERNS:
         if re.search(pattern, url):
             return False
-    
-    # skip if not in allowed domain
     parsed = urlparse(url)
-    if parsed.netloc not in ALLOWED_DOMAIN:
-        return False
-
-    return True
+    return parsed.netloc in ALLOWED_DOMAIN
 
 async def crawl_seed(seed_url, depth=0, origin_seed=None):
     global total_pages_crawled
@@ -143,11 +117,12 @@ async def crawl_seed(seed_url, depth=0, origin_seed=None):
 
     visited_urls.add(normalize_url(seed_url))
     logger.info(f"Crawling (depth {depth}): {seed_url}")
-
-    async with aiohttp.ClientSession() as session:
+    
+    connector = aiohttp.TCPConnector(ssl=False) if ALLOW_INSECURE else aiohttp.TCPConnector()
+    async with aiohttp.ClientSession(connector=connector) as session:
         html, status = await fetch(session, seed_url)
 
-        # Detect & save CAPTCHA evidence (if present) 
+        # Detect CAPTCHA
         if html:
             captcha = await save_captcha_evidence(html, seed_url)
             if captcha:
@@ -161,7 +136,6 @@ async def crawl_seed(seed_url, depth=0, origin_seed=None):
                 }
                 with open(INDEX_FILE, "a") as idx:
                     idx.write(json.dumps(index_entry) + "\n")
-                    
                 try:
                     os.makedirs("output", exist_ok=True)
                     with open("output/failed_urls.txt", "a", encoding="utf-8") as f:
@@ -169,7 +143,6 @@ async def crawl_seed(seed_url, depth=0, origin_seed=None):
                         logger.warning(f"CAPTCHA logged to failed_urls.txt for {seed_url}")
                 except Exception:
                     pass    
-                
                 return
                     
         timestamp = datetime.now().isoformat()
@@ -178,13 +151,10 @@ async def crawl_seed(seed_url, depth=0, origin_seed=None):
             # Convert HTML to Markdown
             markdown_content = md(html)
             
-            # Add metadata header
             metadata = f"---\nurl: {seed_url}\ntimestamp: {timestamp}\nstatus: SUCCESS\n---\n\n"
             markdown_content = metadata + markdown_content
             
-            # Generate filename from URL
             filename = seed_url.replace("https://", "").replace("http://", "").replace("/", "_") + ".md"
-            
             os.makedirs(OUTPUT_DIR, exist_ok=True)
             with open(os.path.join(OUTPUT_DIR, filename), "w", encoding="utf-8") as f:
                 f.write(markdown_content)
@@ -220,12 +190,29 @@ async def crawl_seed(seed_url, depth=0, origin_seed=None):
             with open(LOG_FILE, "a") as log:
                 logger.error(f"{timestamp} | {seed_url} | FAILED | {status}\n")
 
+            try:
+                os.makedirs("output", exist_ok=True)
+                with open("output/failed_urls.txt", "a", encoding="utf-8") as f:
+                    f.write(f"{timestamp} | {seed_url} | FAILED | {status}\n")
+            except Exception:
+                pass
+
+            index_entry = {
+                "url": seed_url,
+                "file": None,
+                "status": "FAILED",
+                "timestamp": timestamp,
+                "seed_origin": origin_seed,
+                "error": str(status)
+            }
+            with open(INDEX_FILE, "a", encoding="utf-8") as idx:
+                idx.write(json.dumps(index_entry) + "\n")
+
 # Running crawler
 async def main():
     for seed in seeds:
         await crawl_seed(seed)
     
-    # Final crawl summary
     logger.info(f"Total Pages Crawled: {total_pages_crawled}")
     logger.info(f"Total URLs Visited: {len(visited_urls)}")
     try:
