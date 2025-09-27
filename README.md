@@ -6,6 +6,7 @@ The crawler also generates a **JSONL index**, tracks failed URLs, and logs detai
 The crawler has been tested on WordPress, React, and Next.js websites.
 
 ## Project Structure
+```text
 /scraper/
 ├── crawler.py # Main crawler script
 ├── crawlLog.txt # Detailed log file
@@ -16,7 +17,7 @@ The crawler has been tested on WordPress, React, and Next.js websites.
     ├── MDs/ # Markdown files for each crawled page
     ├── index.jsonl # JSON index of all crawled pages
     └── failed_urls.txt # URLs that failed to crawl
-
+```
 > HTML files and screenshots are generated during runtime but ignored in Git (optional).
 
 ---
@@ -78,8 +79,8 @@ You can modify these at the top of crawler.py:
   </tbody>
 </table>
 
-### Running the Crawler from the repo
-#### Option 1 : Using Python Virtual Environment
+## Running the Crawler from the repo
+### Option 1 : Using Python Virtual Environment
 ```bash
 # clone repo
 git clone <repo-url>
@@ -112,15 +113,6 @@ chmod +x /path/to/chromedriver
     <li>For Windows: put chromedriver.exe in a folder listed in your PATH.</li>
 </ul>
 
-### Logging & Error Handling
-
-<ul>
-  <li><code>crawlLog.txt</code> logs crawl progress, retries, and errors.</li>
-  <li>Failed URLs (e.g., CAPTCHA-protected) are tracked in <code>output/failed_urls.txt</code>.</li>
-  <li>Robots.txt compliance and polite delays are respected.</li>
-  <li>JS-heavy pages are handled with Selenium (headless by default).</li>
-</ul>
-
 ### Option 2: Using Docker (Recommended for Consistency)</h3>
 
 #### Build Docker image
@@ -138,9 +130,18 @@ docker run --rm -v $(pwd)/output:/app/output web-crawler
   <li>Cross-platform compatible: works on Windows, macOS, Linux without manual dependency setup.</li>
 </ul>
 
-### Notes on Testing
+## Logging & Error Handling
 
-#### Sites tested:
+<ul>
+  <li><code>crawlLog.txt</code> logs crawl progress, retries, and errors.</li>
+  <li>Failed URLs (e.g., CAPTCHA-protected) are tracked in <code>output/failed_urls.txt</code>.</li>
+  <li>Robots.txt compliance and polite delays are respected.</li>
+  <li>JS-heavy pages are handled with Selenium (headless by default).</li>
+</ul>
+
+## Notes on Testing
+
+### Sites tested:
 
 <ul>
     <li>https://jeevee.com – Next.js</li>
