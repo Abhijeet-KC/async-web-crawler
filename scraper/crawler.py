@@ -7,7 +7,7 @@ from markdownify import markdownify as md
 from datetime import datetime
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, urljoin, urldefrag
-import string
+import urllib.robotparser
 import re
 
 from selenium import webdriver
@@ -22,15 +22,27 @@ def normalize_url(url, base=None):
     url, _ = urldefrag(url) 
     return url.strip().lower()
 
-def is_url_allowed(url):
-    """Check if a URL is allowed based on blocklists and domain."""
+async def is_url_allowed(url):
+    """Check if a URL is allowed based on blocklists, domain, and robots.txt."""
     if url in BLOCKED_PAGES_FULL:
         return False
     for pattern in BLOCK_PATTERNS:
         if re.search(pattern, url):
             return False
     parsed = urlparse(url)
-    return parsed.netloc in ALLOWED_DOMAIN
+    domain = parsed.netloc
+
+    if domain not in ALLOWED_DOMAIN:
+        return False
+
+    rp = await fetch_robots_txt(domain)
+    if rp:
+        # Use "*" as user-agent
+        allowed = rp.can_fetch("*", url)
+        if not allowed:
+            logger.info(f"Blocked by robots.txt: {url}")
+        return allowed
+    return True
 
 def url_to_filename(url: str, ext=".md") -> str:
     """
@@ -50,6 +62,28 @@ def url_to_filename(url: str, ext=".md") -> str:
     filename = f"{domain}_{path}{ext}"
     return filename
 
+async def fetch_robots_txt(domain):
+    """Fetch and parse robots.txt for a domain asynchronously."""
+    if domain in ROBOTS_CACHE:
+        return ROBOTS_CACHE[domain]
+    
+    robots_url = f"https://{domain}/robots.txt"
+    rp = urllib.robotparser.RobotFileParser()
+    try:
+        async with aiohttp.ClientSession() as session:
+            async with session.get(robots_url, timeout=5) as resp:
+                if resp.status == 200:
+                    content = await resp.text()
+                    # RobotFileParser expects a local file or .parse(list_of_lines)
+                    rp.parse(content.splitlines())
+                else:
+                    rp = None  # No robots.txt found
+    except Exception as e:
+        logger.warning(f"Failed to fetch robots.txt for {domain}: {e}")
+        rp = None
+    
+    ROBOTS_CACHE[domain] = rp
+    return rp
 # Configuration Variables
 CRAWL_DEPTH = 1
 ALLOWED_DOMAIN = ["jeevee.com", "kiec.edu.np", "prettyclickcosmetics.com", "tranquilityspa.com.np"]
@@ -59,7 +93,8 @@ BLOCKED_PAGES_FULL = set()
 BLOCK_PATTERNS = []  
 
 ALLOW_INSECURE = False      
-POLITE_DELAY = 1            
+POLITE_DELAY = 1    
+ROBOTS_CACHE = {}        
 
 OUTPUT_DIR = "output/MDs"
 HTML_DIR = "output/html"
@@ -258,7 +293,7 @@ async def crawl_seed(seed_url, depth=0, origin_seed=None):
             valid_links = []
             for link in links:
                 norm_link = normalize_url(link, base=seed_url)
-                if norm_link not in visited_urls and is_url_allowed(norm_link):
+                if norm_link not in visited_urls and await is_url_allowed(norm_link):
                     valid_links.append(norm_link)
         
             for link in valid_links[:PAGES_PER_SEED]:

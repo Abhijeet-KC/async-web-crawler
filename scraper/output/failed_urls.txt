@@ -1,6 +1,0 @@
-2025-09-27T12:49:39.244499 | http://kiec.edu.np/ | CAPTCHA_DETECTED 
-2025-09-27T12:49:39.262810 | https://prettyclickcosmetics.com/ | CAPTCHA_DETECTED 
-2025-09-27T12:49:55.903042 | https://www.tranquilityspa.com.np/ | CAPTCHA_DETECTED 
-2025-09-27T12:59:41.711029 | http://kiec.edu.np/ | CAPTCHA_DETECTED 
-2025-09-27T13:09:43.059647 | http://kiec.edu.np/ | CAPTCHA_DETECTED 
-2025-09-27T13:13:16.572532 | http://kiec.edu.np/ | CAPTCHA_DETECTED 
