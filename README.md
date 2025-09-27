@@ -139,6 +139,10 @@ docker run --rm -v $(pwd)/output:/app/output web-crawler
   <li>JS-heavy pages are handled with Selenium (headless by default).</li>
 </ul>
 
+## Demo Video
+
+[![Watch the video](thumbnail.jpg)](https://youtu.be/tw7DLRJ9pLY)
+
 ## Notes on Testing
 
 ### Sites tested:
