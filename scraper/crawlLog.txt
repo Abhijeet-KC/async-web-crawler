@@ -472,3 +472,282 @@
 2025-09-27 18:31:50,746 | INFO | Total Pages Crawled: 14
 2025-09-27 18:31:50,747 | INFO | Total URLs Visited: 15
 2025-09-27 18:31:50,747 | INFO | Total Failed URLs: 1
+2025-09-27 18:49:53,853 | INFO | Crawling (depth 0, from https://jeevee.com/): https://jeevee.com/
+2025-09-27 18:49:53,854 | INFO | Crawling (depth 0, from http://kiec.edu.np/): http://kiec.edu.np/
+2025-09-27 18:49:53,855 | INFO | Crawling (depth 0, from https://prettyclickcosmetics.com/): https://prettyclickcosmetics.com/
+2025-09-27 18:49:53,856 | INFO | Crawling (depth 0, from https://www.tranquilityspa.com.np/): https://www.tranquilityspa.com.np/
+2025-09-27 18:49:53,950 | WARNING | Retry 1/2 for https://www.tranquilityspa.com.np/
+2025-09-27 18:49:54,081 | INFO | Fetched http://kiec.edu.np/ (status 200)
+2025-09-27 18:49:54,093 | WARNING | CAPTCHA strongly detected at http://kiec.edu.np/
+2025-09-27 18:49:54,187 | INFO | Fetched https://prettyclickcosmetics.com/ (status 200)
+2025-09-27 18:49:57,032 | INFO | Fetched https://jeevee.com/ (status 200)
+2025-09-27 18:49:57,334 | WARNING | Retry 2/2 for https://www.tranquilityspa.com.np/
+2025-09-27 18:49:57,510 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=foundation
+2025-09-27 18:49:57,511 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=lipstick
+2025-09-27 18:49:57,511 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=blush
+2025-09-27 18:49:57,512 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=cosrx
+2025-09-27 18:49:57,513 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=sunscreen
+2025-09-27 18:49:57,513 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=vitamin c serum
+2025-09-27 18:49:57,513 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/account/login
+2025-09-27 18:49:57,514 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 18:49:57,516 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/account/login
+2025-09-27 18:49:57,541 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 18:49:57,542 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/policies/shipping-policy
+2025-09-27 18:49:57,543 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 18:49:57,543 | INFO | Crawling (depth 1, from https://prettyclickcosmetics.com/): https://prettyclickcosmetics.com/products/milani-make-it-last-setting-spray
+2025-09-27 18:49:57,683 | INFO | Crawling (depth 1, from https://jeevee.com/): https://jeevee.com/prescriptions
+2025-09-27 18:49:57,741 | INFO | Fetched https://prettyclickcosmetics.com/products/milani-make-it-last-setting-spray (status 200)
+2025-09-27 18:49:58,367 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=foundation
+2025-09-27 18:49:58,368 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=lipstick
+2025-09-27 18:49:58,369 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=blush
+2025-09-27 18:49:58,369 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=cosrx
+2025-09-27 18:49:58,370 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=sunscreen
+2025-09-27 18:49:58,371 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=vitamin c serum
+2025-09-27 18:49:58,371 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/account/login
+2025-09-27 18:49:58,371 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 18:49:58,374 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/account/login
+2025-09-27 18:49:58,375 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/policies/shipping-policy
+2025-09-27 18:49:58,377 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 18:49:58,378 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/policies/shipping-policy
+2025-09-27 18:49:58,378 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 18:49:58,380 | INFO | Crawling (depth 1, from https://prettyclickcosmetics.com/): https://prettyclickcosmetics.com/collections/types?q=setting%20spray
+2025-09-27 18:49:58,579 | INFO | Fetched https://jeevee.com/prescriptions (status 200)
+2025-09-27 18:49:58,714 | INFO | Crawling (depth 1, from https://jeevee.com/): https://jeevee.com/about
+2025-09-27 18:49:59,371 | ERROR | Failed to fetch https://www.tranquilityspa.com.np/ after 3 attempts: Cannot connect to host www.tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+2025-09-27 18:49:59,382 | INFO | Fetched https://prettyclickcosmetics.com/collections/types?q=setting%20spray (status 200)
+2025-09-27 18:50:00,504 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=foundation
+2025-09-27 18:50:00,506 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=lipstick
+2025-09-27 18:50:00,508 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=blush
+2025-09-27 18:50:00,512 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=cosrx
+2025-09-27 18:50:00,518 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=sunscreen
+2025-09-27 18:50:00,526 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=vitamin c serum
+2025-09-27 18:50:00,528 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/account/login
+2025-09-27 18:50:00,529 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 18:50:00,536 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/account/login
+2025-09-27 18:50:00,543 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 18:50:00,550 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/policies/shipping-policy
+2025-09-27 18:50:00,551 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 18:50:00,554 | INFO | Crawling (depth 1, from https://prettyclickcosmetics.com/): https://prettyclickcosmetics.com/products/milani-conceal-perfect-2-in-one-foundation-concealer
+2025-09-27 18:50:00,768 | INFO | Fetched https://prettyclickcosmetics.com/products/milani-conceal-perfect-2-in-one-foundation-concealer (status 200)
+2025-09-27 18:50:01,631 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=foundation
+2025-09-27 18:50:01,633 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=lipstick
+2025-09-27 18:50:01,633 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=blush
+2025-09-27 18:50:01,634 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=cosrx
+2025-09-27 18:50:01,635 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=sunscreen
+2025-09-27 18:50:01,635 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=vitamin c serum
+2025-09-27 18:50:01,636 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/account/login
+2025-09-27 18:50:01,636 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 18:50:01,639 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/account/login
+2025-09-27 18:50:01,641 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/policies/shipping-policy
+2025-09-27 18:50:01,643 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 18:50:01,644 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/policies/shipping-policy
+2025-09-27 18:50:01,644 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 18:50:01,779 | INFO | Fetched https://jeevee.com/about (status 200)
+2025-09-27 18:50:02,069 | INFO | Crawling (depth 1, from https://jeevee.com/): https://jeevee.com/vendor-enrollment
+2025-09-27 18:50:02,993 | INFO | Fetched https://jeevee.com/vendor-enrollment (status 200)
+2025-09-27 18:50:03,210 | INFO | Crawling (depth 1, from https://jeevee.com/): https://jeevee.com/terms
+2025-09-27 18:50:04,241 | INFO | Fetched https://jeevee.com/terms (status 200)
+2025-09-27 18:50:04,396 | INFO | Crawling (depth 1, from https://jeevee.com/): https://jeevee.com/policies
+2025-09-27 18:50:05,767 | INFO | Fetched https://jeevee.com/policies (status 200)
+2025-09-27 18:50:13,721 | WARNING | Failed to fetch robots.txt for tranquilityspa.com.np: Cannot connect to host tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+2025-09-27 18:50:13,723 | INFO | Crawling (depth 1, from https://www.tranquilityspa.com.np/): https://tranquilityspa.com.np/pages/about
+2025-09-27 18:50:13,773 | WARNING | Retry 1/2 for https://tranquilityspa.com.np/pages/about
+2025-09-27 18:50:15,801 | WARNING | Retry 2/2 for https://tranquilityspa.com.np/pages/about
+2025-09-27 18:50:17,821 | ERROR | Failed to fetch https://tranquilityspa.com.np/pages/about after 3 attempts: Cannot connect to host tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+2025-09-27 18:50:23,966 | INFO | Crawling (depth 1, from https://www.tranquilityspa.com.np/): https://tranquilityspa.com.np/teams
+2025-09-27 18:50:24,029 | WARNING | Retry 1/2 for https://tranquilityspa.com.np/teams
+2025-09-27 18:50:26,064 | WARNING | Retry 2/2 for https://tranquilityspa.com.np/teams
+2025-09-27 18:50:28,099 | ERROR | Failed to fetch https://tranquilityspa.com.np/teams after 3 attempts: Cannot connect to host tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+2025-09-27 18:50:34,188 | INFO | Crawling (depth 1, from https://www.tranquilityspa.com.np/): https://tranquilityspa.com.np/outlets/the-soaltee-kathmandu/services?service=4
+2025-09-27 18:50:34,249 | WARNING | Retry 1/2 for https://tranquilityspa.com.np/outlets/the-soaltee-kathmandu/services?service=4
+2025-09-27 18:50:36,272 | WARNING | Retry 2/2 for https://tranquilityspa.com.np/outlets/the-soaltee-kathmandu/services?service=4
+2025-09-27 18:50:38,299 | ERROR | Failed to fetch https://tranquilityspa.com.np/outlets/the-soaltee-kathmandu/services?service=4 after 3 attempts: Cannot connect to host tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+2025-09-27 18:50:44,366 | INFO | Total Pages Crawled: 14
+2025-09-27 18:50:44,366 | INFO | Total URLs Visited: 15
+2025-09-27 18:50:44,367 | INFO | Total Failed URLs: 2
+2025-09-27 18:56:17,789 | INFO | Crawling (depth 0, from https://jeevee.com/): https://jeevee.com/
+2025-09-27 18:56:17,790 | INFO | Crawling (depth 0, from http://kiec.edu.np/): http://kiec.edu.np/
+2025-09-27 18:56:17,791 | INFO | Crawling (depth 0, from https://prettyclickcosmetics.com/): https://prettyclickcosmetics.com/
+2025-09-27 18:56:17,792 | INFO | Crawling (depth 0, from https://www.tranquilityspa.com.np/): https://www.tranquilityspa.com.np/
+2025-09-27 18:56:17,889 | WARNING | Retry 1/2 for https://www.tranquilityspa.com.np/
+2025-09-27 18:56:18,070 | INFO | Fetched http://kiec.edu.np/ (status 200)
+2025-09-27 18:56:18,073 | WARNING | CAPTCHA strongly detected at http://kiec.edu.np/
+2025-09-27 18:56:18,087 | INFO | Fetched https://prettyclickcosmetics.com/ (status 200)
+2025-09-27 18:56:20,986 | INFO | Fetched https://jeevee.com/ (status 200)
+2025-09-27 18:56:21,297 | WARNING | Retry 2/2 for https://www.tranquilityspa.com.np/
+2025-09-27 18:56:21,460 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=foundation
+2025-09-27 18:56:21,461 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=lipstick
+2025-09-27 18:56:21,462 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=blush
+2025-09-27 18:56:21,463 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=cosrx
+2025-09-27 18:56:21,464 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=sunscreen
+2025-09-27 18:56:21,465 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=vitamin c serum
+2025-09-27 18:56:21,465 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/account/login
+2025-09-27 18:56:21,466 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 18:56:21,470 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/account/login
+2025-09-27 18:56:21,507 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 18:56:21,509 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/policies/shipping-policy
+2025-09-27 18:56:21,510 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 18:56:21,510 | INFO | Crawling (depth 1, from https://prettyclickcosmetics.com/): https://prettyclickcosmetics.com/products/milani-make-it-last-setting-spray
+2025-09-27 18:56:21,621 | INFO | Crawling (depth 1, from https://jeevee.com/): https://jeevee.com/prescriptions
+2025-09-27 18:56:21,726 | INFO | Fetched https://prettyclickcosmetics.com/products/milani-make-it-last-setting-spray (status 200)
+2025-09-27 18:56:22,373 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=foundation
+2025-09-27 18:56:22,374 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=lipstick
+2025-09-27 18:56:22,374 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=blush
+2025-09-27 18:56:22,375 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=cosrx
+2025-09-27 18:56:22,376 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=sunscreen
+2025-09-27 18:56:22,376 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=vitamin c serum
+2025-09-27 18:56:22,377 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/account/login
+2025-09-27 18:56:22,377 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 18:56:22,379 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/account/login
+2025-09-27 18:56:22,380 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/policies/shipping-policy
+2025-09-27 18:56:22,382 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 18:56:22,383 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/policies/shipping-policy
+2025-09-27 18:56:22,384 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 18:56:22,387 | INFO | Crawling (depth 1, from https://prettyclickcosmetics.com/): https://prettyclickcosmetics.com/collections/types?q=setting%20spray
+2025-09-27 18:56:22,713 | INFO | Fetched https://jeevee.com/prescriptions (status 200)
+2025-09-27 18:56:22,861 | INFO | Crawling (depth 1, from https://jeevee.com/): https://jeevee.com/about
+2025-09-27 18:56:23,338 | INFO | Fetched https://prettyclickcosmetics.com/collections/types?q=setting%20spray (status 200)
+2025-09-27 18:56:24,409 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=foundation
+2025-09-27 18:56:24,409 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=lipstick
+2025-09-27 18:56:24,410 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=blush
+2025-09-27 18:56:24,410 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=cosrx
+2025-09-27 18:56:24,411 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=sunscreen
+2025-09-27 18:56:24,411 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=vitamin c serum
+2025-09-27 18:56:24,412 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/account/login
+2025-09-27 18:56:24,413 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 18:56:24,415 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/account/login
+2025-09-27 18:56:24,420 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 18:56:24,422 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/policies/shipping-policy
+2025-09-27 18:56:24,423 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 18:56:24,427 | INFO | Fetched https://jeevee.com/about (status 200)
+2025-09-27 18:56:24,586 | INFO | Crawling (depth 1, from https://prettyclickcosmetics.com/): https://prettyclickcosmetics.com/products/milani-conceal-perfect-2-in-one-foundation-concealer
+2025-09-27 18:56:24,587 | INFO | Crawling (depth 1, from https://jeevee.com/): https://jeevee.com/vendor-enrollment
+2025-09-27 18:56:24,606 | ERROR | Failed to fetch https://www.tranquilityspa.com.np/ after 3 attempts: Cannot connect to host www.tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+2025-09-27 18:56:24,788 | INFO | Fetched https://prettyclickcosmetics.com/products/milani-conceal-perfect-2-in-one-foundation-concealer (status 200)
+2025-09-27 18:56:25,827 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=foundation
+2025-09-27 18:56:25,860 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=lipstick
+2025-09-27 18:56:25,896 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=blush
+2025-09-27 18:56:25,899 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=cosrx
+2025-09-27 18:56:25,902 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=sunscreen
+2025-09-27 18:56:25,903 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=vitamin c serum
+2025-09-27 18:56:25,905 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/account/login
+2025-09-27 18:56:25,905 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 18:56:25,911 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/account/login
+2025-09-27 18:56:25,914 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/policies/shipping-policy
+2025-09-27 18:56:25,923 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 18:56:25,930 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/policies/shipping-policy
+2025-09-27 18:56:25,932 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 18:56:25,945 | INFO | Fetched https://jeevee.com/vendor-enrollment (status 200)
+2025-09-27 18:56:26,355 | INFO | Crawling (depth 1, from https://jeevee.com/): https://jeevee.com/terms
+2025-09-27 18:56:26,658 | INFO | Fetched https://jeevee.com/terms (status 200)
+2025-09-27 18:56:26,811 | INFO | Crawling (depth 1, from https://jeevee.com/): https://jeevee.com/policies
+2025-09-27 18:56:27,994 | INFO | Fetched https://jeevee.com/policies (status 200)
+2025-09-27 18:56:37,836 | WARNING | Failed to fetch robots.txt for tranquilityspa.com.np: Cannot connect to host tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+2025-09-27 18:56:37,839 | INFO | Crawling (depth 1, from https://www.tranquilityspa.com.np/): https://tranquilityspa.com.np/pages/about
+2025-09-27 18:56:37,855 | WARNING | Retry 1/2 for https://tranquilityspa.com.np/pages/about
+2025-09-27 18:56:39,880 | WARNING | Retry 2/2 for https://tranquilityspa.com.np/pages/about
+2025-09-27 18:56:41,911 | ERROR | Failed to fetch https://tranquilityspa.com.np/pages/about after 3 attempts: Cannot connect to host tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+2025-09-27 18:56:48,281 | INFO | Crawling (depth 1, from https://www.tranquilityspa.com.np/): https://tranquilityspa.com.np/teams
+2025-09-27 18:56:48,369 | WARNING | Retry 1/2 for https://tranquilityspa.com.np/teams
+2025-09-27 18:56:50,393 | WARNING | Retry 2/2 for https://tranquilityspa.com.np/teams
+2025-09-27 18:56:52,416 | ERROR | Failed to fetch https://tranquilityspa.com.np/teams after 3 attempts: Cannot connect to host tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+2025-09-27 18:56:58,565 | INFO | Crawling (depth 1, from https://www.tranquilityspa.com.np/): https://tranquilityspa.com.np/outlets/the-soaltee-kathmandu/services?service=4
+2025-09-27 18:56:58,628 | WARNING | Retry 1/2 for https://tranquilityspa.com.np/outlets/the-soaltee-kathmandu/services?service=4
+2025-09-27 18:57:00,649 | WARNING | Retry 2/2 for https://tranquilityspa.com.np/outlets/the-soaltee-kathmandu/services?service=4
+2025-09-27 18:57:02,671 | ERROR | Failed to fetch https://tranquilityspa.com.np/outlets/the-soaltee-kathmandu/services?service=4 after 3 attempts: Cannot connect to host tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+2025-09-27 18:57:08,746 | INFO | Total Pages Crawled: 14
+2025-09-27 18:57:08,746 | INFO | Total URLs Visited: 15
+2025-09-27 18:57:08,762 | INFO | Total Failed URLs: 3
+2025-09-27 19:20:12,220 | INFO | Crawling (depth 0, from https://jeevee.com/): https://jeevee.com/
+2025-09-27 19:20:12,221 | INFO | Crawling (depth 0, from http://kiec.edu.np/): http://kiec.edu.np/
+2025-09-27 19:20:12,224 | INFO | Crawling (depth 0, from https://prettyclickcosmetics.com/): https://prettyclickcosmetics.com/
+2025-09-27 19:20:12,225 | INFO | Crawling (depth 0, from https://www.tranquilityspa.com.np/): https://www.tranquilityspa.com.np/
+2025-09-27 19:20:12,334 | WARNING | Retry 1/2 for https://www.tranquilityspa.com.np/
+2025-09-27 19:20:12,449 | INFO | Fetched http://kiec.edu.np/ (status 200)
+2025-09-27 19:20:12,451 | WARNING | CAPTCHA strongly detected at http://kiec.edu.np/
+2025-09-27 19:20:12,488 | INFO | Fetched https://prettyclickcosmetics.com/ (status 200)
+2025-09-27 19:20:16,011 | WARNING | Retry 2/2 for https://www.tranquilityspa.com.np/
+2025-09-27 19:20:16,109 | INFO | Fetched https://jeevee.com/ (status 200)
+2025-09-27 19:20:16,445 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=foundation
+2025-09-27 19:20:16,446 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=lipstick
+2025-09-27 19:20:16,447 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=blush
+2025-09-27 19:20:16,447 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=cosrx
+2025-09-27 19:20:16,448 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=sunscreen
+2025-09-27 19:20:16,449 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=vitamin c serum
+2025-09-27 19:20:16,449 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/account/login
+2025-09-27 19:20:16,450 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 19:20:16,454 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/account/login
+2025-09-27 19:20:16,489 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 19:20:16,490 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/policies/shipping-policy
+2025-09-27 19:20:16,491 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 19:20:16,491 | INFO | Crawling (depth 1, from https://prettyclickcosmetics.com/): https://prettyclickcosmetics.com/products/milani-make-it-last-setting-spray
+2025-09-27 19:20:16,700 | INFO | Fetched https://prettyclickcosmetics.com/products/milani-make-it-last-setting-spray (status 200)
+2025-09-27 19:20:17,509 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=foundation
+2025-09-27 19:20:17,510 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=lipstick
+2025-09-27 19:20:17,510 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=blush
+2025-09-27 19:20:17,512 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=cosrx
+2025-09-27 19:20:17,512 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=sunscreen
+2025-09-27 19:20:17,513 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=vitamin c serum
+2025-09-27 19:20:17,513 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/account/login
+2025-09-27 19:20:17,514 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 19:20:17,519 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/account/login
+2025-09-27 19:20:17,520 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/policies/shipping-policy
+2025-09-27 19:20:17,522 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 19:20:17,524 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/policies/shipping-policy
+2025-09-27 19:20:17,525 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 19:20:17,528 | INFO | Crawling (depth 1, from https://prettyclickcosmetics.com/): https://prettyclickcosmetics.com/collections/types?q=setting%20spray
+2025-09-27 19:20:17,530 | INFO | Crawling (depth 1, from https://jeevee.com/): https://jeevee.com/prescriptions
+2025-09-27 19:20:17,861 | INFO | Fetched https://jeevee.com/prescriptions (status 200)
+2025-09-27 19:20:18,040 | INFO | Crawling (depth 1, from https://jeevee.com/): https://jeevee.com/about
+2025-09-27 19:20:18,055 | ERROR | Failed to fetch https://www.tranquilityspa.com.np/ after 3 attempts: Cannot connect to host www.tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+2025-09-27 19:20:18,407 | INFO | Fetched https://prettyclickcosmetics.com/collections/types?q=setting%20spray (status 200)
+2025-09-27 19:20:19,903 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=foundation
+2025-09-27 19:20:19,904 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=lipstick
+2025-09-27 19:20:19,904 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=blush
+2025-09-27 19:20:19,906 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=cosrx
+2025-09-27 19:20:19,906 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=sunscreen
+2025-09-27 19:20:19,907 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=vitamin c serum
+2025-09-27 19:20:19,908 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/account/login
+2025-09-27 19:20:19,909 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 19:20:19,916 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/account/login
+2025-09-27 19:20:19,924 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 19:20:19,926 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/policies/shipping-policy
+2025-09-27 19:20:19,927 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 19:20:19,931 | INFO | Crawling (depth 1, from https://prettyclickcosmetics.com/): https://prettyclickcosmetics.com/products/milani-conceal-perfect-2-in-one-foundation-concealer
+2025-09-27 19:20:20,210 | INFO | Fetched https://jeevee.com/about (status 200)
+2025-09-27 19:20:20,433 | INFO | Crawling (depth 1, from https://jeevee.com/): https://jeevee.com/vendor-enrollment
+2025-09-27 19:20:20,436 | INFO | Fetched https://prettyclickcosmetics.com/products/milani-conceal-perfect-2-in-one-foundation-concealer (status 200)
+2025-09-27 19:20:21,682 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=foundation
+2025-09-27 19:20:21,682 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=lipstick
+2025-09-27 19:20:21,683 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=blush
+2025-09-27 19:20:21,684 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=cosrx
+2025-09-27 19:20:21,685 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=sunscreen
+2025-09-27 19:20:21,686 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/search?type=product&options%5bprefix%5d=last&q=vitamin c serum
+2025-09-27 19:20:21,687 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/account/login
+2025-09-27 19:20:21,688 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 19:20:21,693 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/account/login
+2025-09-27 19:20:21,695 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/policies/shipping-policy
+2025-09-27 19:20:21,697 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 19:20:21,699 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/policies/shipping-policy
+2025-09-27 19:20:21,700 | INFO | Blocked by robots.txt: https://prettyclickcosmetics.com/cart
+2025-09-27 19:20:22,137 | INFO | Fetched https://jeevee.com/vendor-enrollment (status 200)
+2025-09-27 19:20:22,440 | INFO | Crawling (depth 1, from https://jeevee.com/): https://jeevee.com/terms
+2025-09-27 19:20:24,257 | INFO | Fetched https://jeevee.com/terms (status 200)
+2025-09-27 19:20:24,489 | INFO | Crawling (depth 1, from https://jeevee.com/): https://jeevee.com/policies
+2025-09-27 19:20:25,316 | INFO | Fetched https://jeevee.com/policies (status 200)
+2025-09-27 19:20:31,718 | WARNING | Failed to fetch robots.txt for tranquilityspa.com.np: Cannot connect to host tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+2025-09-27 19:20:31,721 | INFO | Crawling (depth 1, from https://www.tranquilityspa.com.np/): https://tranquilityspa.com.np/pages/about
+2025-09-27 19:20:31,751 | WARNING | Retry 1/2 for https://tranquilityspa.com.np/pages/about
+2025-09-27 19:20:33,799 | WARNING | Retry 2/2 for https://tranquilityspa.com.np/pages/about
+2025-09-27 19:20:35,842 | ERROR | Failed to fetch https://tranquilityspa.com.np/pages/about after 3 attempts: Cannot connect to host tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+2025-09-27 19:20:42,646 | INFO | Crawling (depth 1, from https://www.tranquilityspa.com.np/): https://tranquilityspa.com.np/teams
+2025-09-27 19:20:42,714 | WARNING | Retry 1/2 for https://tranquilityspa.com.np/teams
+2025-09-27 19:20:44,763 | WARNING | Retry 2/2 for https://tranquilityspa.com.np/teams
+2025-09-27 19:20:46,792 | ERROR | Failed to fetch https://tranquilityspa.com.np/teams after 3 attempts: Cannot connect to host tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+2025-09-27 19:20:53,173 | INFO | Crawling (depth 1, from https://www.tranquilityspa.com.np/): https://tranquilityspa.com.np/outlets/the-soaltee-kathmandu/services?service=4
+2025-09-27 19:20:53,235 | WARNING | Retry 1/2 for https://tranquilityspa.com.np/outlets/the-soaltee-kathmandu/services?service=4
+2025-09-27 19:20:55,277 | WARNING | Retry 2/2 for https://tranquilityspa.com.np/outlets/the-soaltee-kathmandu/services?service=4
+2025-09-27 19:20:57,307 | ERROR | Failed to fetch https://tranquilityspa.com.np/outlets/the-soaltee-kathmandu/services?service=4 after 3 attempts: Cannot connect to host tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+2025-09-27 19:21:03,898 | INFO | Total Pages Crawled: 14
+2025-09-27 19:21:03,899 | INFO | Total URLs Visited: 15
+2025-09-27 19:21:03,900 | INFO | Total Failed URLs: 1

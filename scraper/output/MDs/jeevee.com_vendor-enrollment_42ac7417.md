@@ -1,10 +1,10 @@
 ---
-url: https://jeevee.com/terms
-timestamp: 2025-09-27T18:31:11.832751
+url: https://jeevee.com/vendor-enrollment
+timestamp: 2025-09-27T19:20:22.138431
 status: SUCCESS
 ---
 
-Terms and conditions | Jeevee
+Vendor Enrollment | Jeevee
 
 ![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27100%27%20height=%2720%27/%3e)![LogoSvg](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![LogoSvg](/_next/static/media/logo.b826b85b.svg)
 
@@ -24,168 +24,144 @@ My Account
 
 ![Switch Language](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![Switch Language](/_next/static/media/us_flag.937a74e4.png)
 
-Terms & Conditions
+Sell on Jeevee
 
-Welcome to Jeevee ("Website/Mobile Application", Personal Health
-Record App or "we"). This Website/Mobile Application is owned and
-operated by Jeevee Health Private Limited (“Jeevee”), whose
-registered office is in Kathmandu, Nepal.
+Sell products online effortlessly on Jeevee
 
-The following are the Terms and Conditions, read together with the Privacy Policy, that govern your use of the application and services from Jeevee, and constitute a legally binding agreement, between you ("the Customer", the "User" or "the Caregiver") and Jeevee, a DDA registered company.
+Fill Enrollment   
+Application
 
-By visiting, viewing, accessing or otherwise using any of the services or information created, collected, compiled or submitted to Jeevee, you are deemed to have agreed to all the following Terms and Conditions of Sale/Service. So, before you use this Website/Mobile Application, please read these Terms & conditions carefully as you agree to be bound by them. If you do not accept these Terms and Conditions, please do not use this Website/Mobile Application.
+Sell on Jeevee   
+at Jeevee
 
-1. Creating an Account
+Vendor Account Application Form
+===============================
 
-To use any features of the Website/Mobile Application (e.g., appointment, order prescription set reminder posting feedback/reviews, receiving Jeevee support), you must set up an account with Jeevee and provide certain information about yourself as prompted by the form, including, your name, gender, blood group, NMC No, name of degree, years of experience, email address, account password, mobile phone number and billing/shipping address. Our Privacy Policy protects all of your registration information.
+Applicant’s Informations
 
-You represent and warrant that the information you submit during registration is truthful and accurate and that you will maintain the accuracy of such information.
+Full Name
 
-Your Jeevee Account username and password are personal to you. You may not transfer your account and you will be responsible for the activities associated with your Jeevee Account.
+Phone Number
 
-Jeevee will not be liable for any loss or damages as a result of your failure to maintain the confidentiality of your account credentials. If you suspect any unauthorised use of your Jeevee account, you shall immediately notify us at: [support@jeeveehealth.com.np](mailto:support@jeeveehealth.com.np)
+Email Address
 
-It is your responsibility to keep your email address up-to-date on your account setup at Jeevee so that we can communicate with you electronically as well.
+Vendor Informations
 
-2. Privacy Policy
+Vendor Name
 
-2.1 Your personally identifiable information will be used in accordance with our Privacy Policy (kindly refer to “Privacy Policy”). To understand our practices, as to how we collect, use and disclose your personally identifiable information, please refer our Privacy Policy, which also governs your visit to Jeevee.'
+Please mention the company name as per VAT/PAN Certificate.
 
-2.2 We understand the privacy of all information you provide is of a primary importance. This is why we do everything possible to use it carefully and sensibly. This information is never shared with other companies or person or third party service providers.
+Vendor Address
 
-3. Security Policy
+Company registered under?
 
-All your transactions are 100% secure when you record your medical information, prescription or place an order online at Jeevee. Your personal information is encrypted by using 256-bit Secure Sockets Layer (SSL) encryption technology before being sent over the Internet, which ensures the privacy and high level of security of all your information.
+VATPAN
 
-4. Use of Information on the Website/Mobile Application
+PAN Number
 
-4.1 The information provided on the Website/Mobile Application or through our services is intended for informational purposes only, and is not intended to diagnose, treat, cure or prevent any disease.
+Brand Informations
 
-4.2 The information on this Website/Mobile Application is not a substitute for professional medical advice or treatment for specific medical conditions. It is important that you do not make medical decisions, and you should always seek the advice of your physician or other qualified healthcare professional with any questions you may have about your medical condition.
+Add Brands
 
-4.3 Jeevee does not endorse any views or opinions that may be included in the Website/Mobile Application Content, or other information provided through our Services. Your submission of questions or reviews on our Products does not constitute a professional relationship between you and Jeevee.
+Brand Name
 
-5. Disclaimer of Warranties and Limitation of Liability
++ Add More
 
-5.1 All information, Products and services included on or otherwise made available to you through this Website/Mobile Application are provided by Jeevee on an "as is" and "as available" basis, either expressed or implied, we specifically disclaim warranties of any kind to the extent allowed by the applicable law. You expressly agree that your use of this Website/Mobile Application is at your sole risk.
+Brand USP (Unique Selling Proposition)
 
-5.2 Jeevee assumes no responsibility for any damages or viruses that may infect your computer equipment or other property on account of your access to, use of, or browsing in this site.
+ASP(Average Selling Price) of brand in Rs.
 
-5.3 Jeevee has exerted reasonable efforts to ensure that all information published on the Website/Mobile Application is accurate at the time of posting; however, there may be errors in such information for which we shall have no liability. We reserve the right to remove or alter any of the information contained on the Website/Mobile Application at our sole discretion.
+Select price range most products fall under ?
 
-5.4 Jeevee cannot guarantee the adequacy, currency or completeness of the Website/Mobile Application content. Jeevee does not warrant or endorse the effectiveness, quality or safety of the Products available on its Website/Mobile Application.
+0 - 5k5k - 10k10k - 50k50k and above
 
-5.5 We disclaim responsibility for any harm to persons resulting from any instructions or Products referred to in the Website/Mobile Application Jeevee is not associated with any manufacturer of medicines or other products on the Website/Mobile Application. We do not warrant that the Website/Mobile Application, or its content will meet your requirements.
+Brand social media links *(Optional)*
 
-5.6 Please note that while Jeevee has made every effort to accurately display the colours of products on its Website/Mobile Application, the actual colour you see will depend on your monitor. We cannot guarantee that your monitor's display of any colour will be the same as the colour of the Products delivered to you.
+Social Media
 
-5.7 We may let you view our information and communicate with us through the Digital Marketing, Social Media services such as Facebook/LinkedIn/Twitter/Whats app/Viber and Instagram. Jeevee explicitly disclaims any responsibility for the terms of use and privacy policies that govern these third-party Website/Mobile Applications, which are in no way associated with us.
+Web Address 
 
-5.8 Jeevee accepts no responsibility for any loss or damage suffered due to your reliance on the product reviews posted by the Jeevee Users.
+Test link
 
-5.9 Jeevee reserves the right to modify or withdraw any part of the Website/Mobile Application or any of its content at any time without notice.
++ Add More
 
-6. Website/Mobile Application Availability
+Brand Pages *(Optional)*
 
-We take all reasonable care to ensure the availability of the Jeevee Website/Mobile Application 24 hours every day, 365 days per year. However, the Website/Mobile Application may become temporarily unavailable due to maintenance, server or other technical issues, or for reasons beyond our control. Jeevee does not warrant uninterrupted access to this Website/Mobile Application or any linked Website/Mobile Application. However, we may, but shall not be obliged to, issue a notice when we know of scheduled maintenance of our Website/Mobile Application.
+Brand
 
-7. Links to third-party Website/Mobile Applications
+Web Address 
 
-We provide link to third-party Website/Mobile Applications, our online payment service partners, which process your Net Banking and Credit/Debit Card payments, respectively. We are not responsible for the availability or proper functioning of such linked pages or sites, and we will not be held responsible for any loss or inconvenience encountered as a result of using such Website/Mobile Application link.
+Test link
 
-8. Terms of Sale
++ Add More
 
-8.1 Jeevee may accept or decline any order placed by a Customer in its absolute discretion without any liability to you.
+Product Informations
 
-8.2 Jeevee reserves the right to discontinue any program or offer on its Website/Mobile Application.
+Product Categories
 
-8.3 We reserve the right, without prior notice, to limit the order quantity of any Products available on Jeevee.
+Skin
 
-8.4 We acknowledge and you agree that you have fully and accurately disclosed your personal information and personal health information and consent to its use by the Pharmacist of Jeevee and/or its affiliates. You confirm that you have had a physical examination by a physician and do not require a physical examination.
+Hair
 
-8.4 We acknowledge and you agree that you have fully and accurately disclosed your personal information and personal health information and consent to its use by the Pharmacist of Jeevee and/or its affiliates. You confirm that you have had a physical examination by a physician and do not require a physical examination.
+Fragrance
 
-8.5 You understand that all Products shall be sold and dispensed by a registered Pharmacist at Jeevee and/or its affiliates.
+Makeup
 
-8.6 If you are the patient/parent/authorised person on behalf of the patient, you authorise and appoint the Pharmacist of Jeevee and/or its affiliates, as your attorney and agent, to take all steps, sign all documents and to act on your behalf as if you were personally present and acting for yourself for the limited purposes of (a) obtaining a valid prescription for any prescription which you have sent to the Jeevee Pharmacy; and (b) packaging your prescriptions and delivering them to you. By making this purchase you hereby authorise Jeevee and/or its affiliates to ship the order by Post/courier to your designated location. This authorisation shall include, but not be limited to: collecting and using your personal and personal health information as reasonably necessary for the fulfilment of your order.
+Kids Fashion
 
-'YOU HAVE READ AND UNDERSTOOD THESE TERMS AND AGREE THAT THEY SHALL BE BINDING UPON YOU AND YOUR ASSIGNS, HEIRS AND PERSONAL REPRESENTATIVES.'
+Gadgets and Accessories
 
-8.7 'If you are the parent/legal guardian/authorised person for the patient disclosed herein, you affirm that you are over the age of majority, and have full authority to sign for and provide the above representations to the Pharmacist of Jeevee and/or its affiliates on the Patient's behalf'.
+Personal Care
 
-9. Prescription Medication Policy
+Mom & Baby
 
-9.1 Jeevee, a fully licensed and regulated pharmacy, takes all precautions to strictly abide by the laws and regulations set forth in the dispensing of prescription medications. By placing the order for your prescription medicines, you acknowledge and accept the following terms regarding the purchase of any prescription medicines.
+Health and Wellness
 
-9.2 Jeevee will not dispense any prescription medication without a valid prescription from a licensed physician.
+Don’t see a category you have? Click on “Add” button and add Categories
 
-9.3 If you are ordering prescription medication(s), you hereby confirm that either you ask your doctor to make the prescription on Jeevee app or you will send us a scanned copy of your valid prescription(s) via mobile application, email, fax, Whatsapp, viber, or by post, and this prescription shall then be subject to the scrutiny of and approval by our qualified Pharmacists.
+Add
 
-9.4 If our pharmacists have any questions or concerns about the prescription(s) you hereby authorize them to consult with an external network of doctors about the validity of the prescription.
+Country of Origin of the Products
 
-9.5 The drug information provided in the Jeevee is for informative purposes only and this Website/Mobile Application is not intended to provide diagnosis, treatment or medical advice. We are not liable for any adverse effects or harm to you as a result of your reliance on the information in the Website/Mobile Application.
+Select Country
 
-9.6 Jeevee requires either the User or Customer or the Caregiver to confirm he/she is completely aware of the indications, side effects, drug interactions, effects of missed dose or overdose of the medicines he/she orders from us. It is imperative to seek professional advice from your physician before purchasing or consuming any medicine from Jeevee.
+Total no of SKUs
 
-9.7 At Jeevee, a Caregiver can order prescription medicines on your behalf.
+Add Categories
 
-10. Copyrights, Trademarks and other Intellectual Property Rights
+Add Categories you have
 
-10.1 As per the Terms and Conditions of Jeevee, the Website/Mobile Application grants access to Users/Customers to view the content solely for visiting, ordering, and communicating only. All materials in this Website/Mobile Application, including, but not limited to, images, illustrations, text, logos and page headers, that are part of this Website/Mobile Application are copyrights and/or other intellectual properties owned by Jeevee Health Private Limited. All other trademarks not owned by Jeevee that appear on this Website/Mobile Application are the property of their respective owners, who may or may not be affiliated with, connected to, or sponsored by Jeevee.
++ Add More
 
-10.2 You hereby agree that you will not reproduce, duplicate or copy the content of Jeevee for any purpose, unless you have been specifically permitted to do so in a separate agreement with this Website/Mobile Application.
+CancelAdd
 
-11. User Indentification
+Is there anything else you’d like us to know?
 
-You hereby agree to indemnify, defend, hold harmless Jeevee and its officers, directors, employees, agents, information providers, partners, licensors, advertisers and suppliers from and against all claims, losses, expenses, damages and costs, including reasonable legal fees and costs, resulting from any violation of this agreement, or any activity related to your account, or any information or material you have submitted or will submit to us in violation of any law or in breach of any third party rights (including, but not limited to, claims in respect of defamation, invasion of privacy, or infringement of any other intellectual property right). We reserve the right to exclusively defend and control any claims arising from the above and any such indemnification matters, and you hereby agree to cooperate fully with us in asserting any available defences.
+Share any relevant information regarding your brand and its founder
 
-12. Applicable Law and Jurisdiction
+0/16 Fields Complete
 
-These Terms and Conditions and your use of this Website/Mobile Application and its content will be governed by and construed in all respects in accordance with the laws of Nepal subject to the jurisdictional courts of Kathmandu.
+Apply Now
 
-13. Severability
+### Why choose Jeevee?
 
-If any provision of these Terms and Conditions shall be unlawful, void, or for any reason unenforceable, then that provision shall be deemed severable from these Terms and Conditions and shall not affect the validity and enforceability of any remaining provisions.
+Large Customer base
 
-14. No Waiver
+Jeevee is trusted by more than 7 lac customers for all their health, baby & beauty needs. User reviews, ratings and influencer collabs fuel our growth. Jeevee’s commitment to excellence is clear with its selective vendor acquisition process.
 
-No failure on the part of Jeevee to enforce any part of these Terms and Conditions shall constitute a waiver of any of Jeevee rights under these Terms and Conditions, whether for past or future actions on the part of any person. Neither the receipt of any funds by Jeevee nor the reliance of any person on Jeevee actions shall be deemed to constitute a waiver of any part of these Terms and Conditions. Only a specific, written waiver signed by an authorised representative of Jeevee shall have any legal effect whatsoever.
+Secure Payments
 
-15. Submissions
+We ensure timely payment as per the agreed terms and conditions.
 
-15.1 Jeevee reserves sole discretion to accept, edit or reject any and all materials you may send to us (collectively, "Submissions") as part of the features in the Website/Mobile Application, including but not limited to, Ratings & Reviews, Ask Our Pharmacist Your Questions and Testimonials. Such Submissions should not be offensive on moral, religious, racial or political grounds or of an abusive, indecent, threatening, unlawful, obscene, defamatory, menacing or otherwise objectionable nature. Transmitting such offensive materials may violate relevant laws, regulations and ethics of pharmacy.
+Vendor Support
 
-15.2 Jeevee shall be deemed to own all known and hereafter existing rights of every kind and nature regarding the Submissions. By posting, uploading, inputting or providing your Submissions, you hereby grant unrestricted use of the Submissions for any purpose, without compensation to you, including a non-terminable, royalty-free and non-exclusive license to use, copy, distribute, transmit, publicly display, publicly perform, reproduce, edit, translate and reformat your Submission; and to publish your name in connection with your Submission.
+We offer clear communication channels, streamlined processes and valuable support to help our vendors grow their brand and business.
 
-15.3 You also represent and warrant that your Submissions will not infringe, misappropriate or violate a third party's patent, copyright, trademark, trade secret, moral rights or other intellectual property rights, or rights of publicity or privacy.
+Thank you
 
-15.4 The User shall be prohibited to introduce, post, or transmit any information or software, which contains a virus, worm or other harmful components into the Jeevee Website/Mobile Application.
+We have received your application. We will review and contact you soon.
 
-15.5 Jeevee does not endorse and is not responsible for any Submissions on its Website/Mobile Application. We will not be liable for any loss or harm caused by the Submissions or your reliance on the information, including but not limited to, statements, opinions and reviews posted by the Users/Customers, which may be inaccurate, offensive, obscene, threatening or harassing.
-
-16. Changes to these Terms and Conditions
-
-We reserve the right to amend these terms and conditions from time to time without further notice to you. Any such amendments we make shall be effective once we post a revised version of these Terms and Conditions on the Website/Mobile Application. It is your responsibility to review the Jeevee Terms and Conditions regularly. Your continued use of the Website/Mobile Application following the publication of any such changes will constitute your agreement to follow and be automatically bound by the amended terms and conditions. These Terms were published on 01/09/2019.
-
-Contact Information
-
-Please contact us for any questions or comments regarding these Terms and Conditions.
-
-If you have any queries or need assistance, contact our support team:
-
-**Email:**[support@jeeveehealth.com.np](mailto:support@jeeveehealth.com.np)
-
-**Phone:**[+977-1-5970680](tel:+977-1-5970680)
-
-(O)
-
-|
-
-[+977 98011-65960](tel:+977 98011-65960)
-
-(M)
-
-**WhatsApp/Viber:**[+977 98011-65960](tel:+977 98011-65960)
+Refill AnotherBack to Homepage
 
 Payment Options
 

@@ -1,10 +1,10 @@
 ---
-url: https://prettyclickcosmetics.com/products/milani-conceal-perfect-2-in-one-foundation-concealer
-timestamp: 2025-09-27T18:31:08.835159
+url: https://prettyclickcosmetics.com/products/milani-make-it-last-setting-spray
+timestamp: 2025-09-27T19:20:16.701066
 status: SUCCESS
 ---
 
-Milani Conceal + Perfect 2 In One Foundation + Concealer – Prettyclick 
+Milani Make It Last Original - Natural Finish Setting Spray – Prettyclick 
 
 
 
@@ -454,133 +454,67 @@ View
 
 [Home](/ "Home")
 [ALL COLLECTION](/collections/all-collection)
-Milani Conceal + Perfect 2 In One Foundation + Concealer
+Milani Make It Last Original - Natural Finish Setting Spray
 
 [Skip to product information](#ProductInfo-template--19780744249575__main)
 
-![](//prettyclickcosmetics.com/cdn/shop/files/69e7ee19baf68744f45ccf63960474ff.png?v=1731257672&width=1946)
+![LocalID_49939 ](//prettyclickcosmetics.com/cdn/shop/files/7bcb3b110d6297620f70c7101819bb75e1f55821_1758291934_1_MakeItLast_SettingSpray_03_PDP_PoductWithSwatch_Seal_2_900x_93802128-f6c5-423a-a472-fe6fce82e31e.png?v=1758291938&width=1946)
 
 Open media 0 in modal
 
-![](//prettyclickcosmetics.com/cdn/shop/files/3b3c98df5d6af2e2daf6698572981d15.png?v=1731257672&width=1946)
+![LocalID_49940 ](//prettyclickcosmetics.com/cdn/shop/files/89f5c7f85794bc8cc39ff596505a3a43ee35b60a_1758292081_1_MakeItLast_SettingSpray_03_PDP_PoductWithSwatch_grande_172747e6-566e-4451-883d-d8c407efa67c.png?v=1758292086&width=1946)
 
 Open media 1 in modal
 
-![](//prettyclickcosmetics.com/cdn/shop/files/e73bc78216227a6102d02edf63293f8b.png?v=1731257672&width=1946)
+![LocalID_49941 ](//prettyclickcosmetics.com/cdn/shop/files/6712dd81a017a8dd706184e503f1168f5a3f7444_1758292081_3_MakeItLastSettingSpray_PDP_Stylized_grande_c84e5f16-073d-49a5-860e-55456c6c17ba.png?v=1758292086&width=1946)
 
 Open media 2 in modal
 
-![](//prettyclickcosmetics.com/cdn/shop/files/4d0af26dc44995f58398084ed0d34d77.png?v=1731257672&width=1946)
+![LocalID_49942 ](//prettyclickcosmetics.com/cdn/shop/files/72d86f9c46b7232c36a5ce3251b2e8f7038db09d_1758292198_4_MakeItLastSettingSpray_PDP_BA-Quad_grande_ae9a10b4-2744-4d79-81ce-fd4dd510d64d.png?v=1758292204&width=1946)
 
 Open media 3 in modal
 
-![](//prettyclickcosmetics.com/cdn/shop/files/c25763a240aa1468f959394db65f5614.png?v=1731257672&width=1946)
+![LocalID_49943 ](//prettyclickcosmetics.com/cdn/shop/files/57588965592cc8d32bdf042770c2c46b231fb1a4_1758292198_6_MakeItLastSettingSpray_PDP_Infographic_grande_c7eda19d-2dec-42df-a1dc-3b52205bce6e.png?v=1758292204&width=1946)
 
 Open media 4 in modal
 
-![](//prettyclickcosmetics.com/cdn/shop/files/3c3629132acea0d5232a667546cf5562.png?v=1731257672&width=1946)
+![LocalID_49944 ](//prettyclickcosmetics.com/cdn/shop/files/e9aeaae3b7358088f0c9c716177bb58880179ddf_1758292198_7_MakeItLast_SettingSpray_03_PDP_OpenPoduct_grande_c2351fee-1c31-47d6-9bbb-7c2f9f6fb885.png?v=1758292204&width=1946)
 
 Open media 5 in modal
 
-![](//prettyclickcosmetics.com/cdn/shop/files/dd979245ac188e26c7c85e34461c642d.png?v=1731257672&width=1946)
+![LocalID_49945 ](//prettyclickcosmetics.com/cdn/shop/files/b3ec139c2b4caec0f16438fdda7bb412a4b919cb_1758292198_8_MakeItLast_SettingSpray_03_PDP_Packaging_grande_7ebfb464-ceda-4aa5-ab22-dd718fafb1ed.png?v=1758292204&width=1946)
 
 Open media 6 in modal
 
-![](//prettyclickcosmetics.com/cdn/shop/files/5af0419be7942bd3a832db89b995cd6e.png?v=1731257672&width=1946)
+![LocalID_49939 ](//prettyclickcosmetics.com/cdn/shop/files/7bcb3b110d6297620f70c7101819bb75e1f55821_1758291934_1_MakeItLast_SettingSpray_03_PDP_PoductWithSwatch_Seal_2_900x_93802128-f6c5-423a-a472-fe6fce82e31e.png?v=1758291938&width=900)
 
-Open media 7 in modal
+![LocalID_49940 ](//prettyclickcosmetics.com/cdn/shop/files/89f5c7f85794bc8cc39ff596505a3a43ee35b60a_1758292081_1_MakeItLast_SettingSpray_03_PDP_PoductWithSwatch_grande_172747e6-566e-4451-883d-d8c407efa67c.png?v=1758292086&width=600)
 
-![](//prettyclickcosmetics.com/cdn/shop/files/152ddd1f7067b8f9f3f9cb65b2dbb2cc.png?v=1731257672&width=1946)
+![LocalID_49941 ](//prettyclickcosmetics.com/cdn/shop/files/6712dd81a017a8dd706184e503f1168f5a3f7444_1758292081_3_MakeItLastSettingSpray_PDP_Stylized_grande_c84e5f16-073d-49a5-860e-55456c6c17ba.png?v=1758292086&width=600)
 
-Open media 8 in modal
+![LocalID_49942 ](//prettyclickcosmetics.com/cdn/shop/files/72d86f9c46b7232c36a5ce3251b2e8f7038db09d_1758292198_4_MakeItLastSettingSpray_PDP_BA-Quad_grande_ae9a10b4-2744-4d79-81ce-fd4dd510d64d.png?v=1758292204&width=600)
 
-![](//prettyclickcosmetics.com/cdn/shop/files/dc8cb2660ef44bdbb5e1d1f467678d9e.png?v=1731257672&width=1946)
+![LocalID_49943 ](//prettyclickcosmetics.com/cdn/shop/files/57588965592cc8d32bdf042770c2c46b231fb1a4_1758292198_6_MakeItLastSettingSpray_PDP_Infographic_grande_c7eda19d-2dec-42df-a1dc-3b52205bce6e.png?v=1758292204&width=600)
 
-Open media 9 in modal
+![LocalID_49944 ](//prettyclickcosmetics.com/cdn/shop/files/e9aeaae3b7358088f0c9c716177bb58880179ddf_1758292198_7_MakeItLast_SettingSpray_03_PDP_OpenPoduct_grande_c2351fee-1c31-47d6-9bbb-7c2f9f6fb885.png?v=1758292204&width=600)
 
-![](//prettyclickcosmetics.com/cdn/shop/files/db9f9eb2fd4947ebf2c0310ee767dc4c.png?v=1731257672&width=1946)
-
-Open media 10 in modal
-
-![](//prettyclickcosmetics.com/cdn/shop/files/eb8cf3268683c206a86bedd23c8c04f5.png?v=1731257672&width=1946)
-
-Open media 11 in modal
-
-![](//prettyclickcosmetics.com/cdn/shop/files/0cf8988862c1ec45b8344ea4361f6822.png?v=1731257672&width=1946)
-
-Open media 12 in modal
-
-![](//prettyclickcosmetics.com/cdn/shop/files/62b112cdab85acaaf040d02a4e290b70.png?v=1731257673&width=1946)
-
-Open media 13 in modal
-
-![](//prettyclickcosmetics.com/cdn/shop/files/78be35a835947a5731715ebe8e062b25.png?v=1731257673&width=1946)
-
-Open media 14 in modal
-
-![](//prettyclickcosmetics.com/cdn/shop/files/8c3ba8bd391ff299a88a7725a48b0b0c.png?v=1731257673&width=1946)
-
-Open media 15 in modal
-
-![](//prettyclickcosmetics.com/cdn/shop/files/85ae71e2f903c981bf50471574d98b20.png?v=1731257673&width=1946)
-
-Open media 16 in modal
-
-![](//prettyclickcosmetics.com/cdn/shop/files/16f925640c5fd05fee38c3f2a30fd0d1.png?v=1731257673&width=1946)
-
-Open media 17 in modal
-
-![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/69e7ee19baf68744f45ccf63960474ff.png?v=1731257672&width=900)
-
-![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/3b3c98df5d6af2e2daf6698572981d15.png?v=1731257672&width=900)
-
-![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/e73bc78216227a6102d02edf63293f8b.png?v=1731257672&width=900)
-
-![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/4d0af26dc44995f58398084ed0d34d77.png?v=1731257672&width=900)
-
-![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/c25763a240aa1468f959394db65f5614.png?v=1731257672&width=900)
-
-![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/3c3629132acea0d5232a667546cf5562.png?v=1731257672&width=900)
-
-![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/dd979245ac188e26c7c85e34461c642d.png?v=1731257672&width=900)
-
-![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/5af0419be7942bd3a832db89b995cd6e.png?v=1731257672&width=900)
-
-![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/152ddd1f7067b8f9f3f9cb65b2dbb2cc.png?v=1731257672&width=900)
-
-![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/dc8cb2660ef44bdbb5e1d1f467678d9e.png?v=1731257672&width=900)
-
-![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/db9f9eb2fd4947ebf2c0310ee767dc4c.png?v=1731257672&width=900)
-
-![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/eb8cf3268683c206a86bedd23c8c04f5.png?v=1731257672&width=900)
-
-![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/0cf8988862c1ec45b8344ea4361f6822.png?v=1731257672&width=900)
-
-![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/62b112cdab85acaaf040d02a4e290b70.png?v=1731257673&width=900)
-
-![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/78be35a835947a5731715ebe8e062b25.png?v=1731257673&width=900)
-
-![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/8c3ba8bd391ff299a88a7725a48b0b0c.png?v=1731257673&width=900)
-
-![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/85ae71e2f903c981bf50471574d98b20.png?v=1731257673&width=900)
-
-![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/16f925640c5fd05fee38c3f2a30fd0d1.png?v=1731257673&width=900)
+![LocalID_49945 ](//prettyclickcosmetics.com/cdn/shop/files/b3ec139c2b4caec0f16438fdda7bb412a4b919cb_1758292198_8_MakeItLast_SettingSpray_03_PDP_Packaging_grande_7ebfb464-ceda-4aa5-ab22-dd718fafb1ed.png?v=1758292204&width=600)
 
 Save 20%
 
-Milani Conceal + Perfect 2 In One Foundation + Concealer
-========================================================
+Milani Make It Last Original - Natural Finish Setting Spray
+===========================================================
 
-[Milani Conceal + Perfect 2 In One Foundation + Concealer
---------------------------------------------------------](/products/milani-conceal-perfect-2-in-one-foundation-concealer)
+[Milani Make It Last Original - Natural Finish Setting Spray
+-----------------------------------------------------------](/products/milani-make-it-last-setting-spray)
 
-71 reviews
+7 reviews
 
 Vendor:
 [Milani](/collections/vendors?q=Milani)
 
 Type:
-[Foundation](/collections/types?q=Foundation)
+[Setting Spray](/collections/types?q=Setting%20Spray)
 
 PRETTYCLICK REWARD POINTS
 
@@ -588,14 +522,14 @@ Earn 5% prettyclick reward points on every purchase
 
 Regular price
 
-Rs1,400.00
+Rs1,480.00
 
 Sale price
 
-Rs1,400.00
+Rs1,480.00
 Regular price
 
-~~Rs1,750.00~~
+~~Rs1,850.00~~
 
 Unit price
 
@@ -608,63 +542,16 @@ Tax included.
 
 Available in stock
 
-2-in-1 complexion perfection! Combat under eye circles, redness and imperfections with our best-selling multi-tasking foundation and concealer formula. The Milani Conceal + Perfect 2-In-1 Foundation + Concealer provides medium to full coverage with a natural matte finish that stays all day. The long wear, oil-free formula is waterproof and sweatproof, so you’re always photo ready. Available in 45 shades.   
-    
-100% Agree their skin looks more even\*   
-93% Agree skin texture is smoothed and redness is reduced\*   
-93% Agree their complexion looks fresh and natural\*   
-90% Agree they have flawless, photo-ready complexion\*   
-*\* Results observed in a consumer panel survey*
-
-Color:
-Porcelain 00A
-
-
-
-Porcelain 00AVariant sold out or unavailable
-
-Light Natural 00Variant sold out or unavailable
-
-Creamy Vanilla 01Variant sold out or unavailable
-
-Creamy Natural 02AVariant sold out or unavailable
-
-Natural 02Variant sold out or unavailable
-
-Light Beige 03Variant sold out or unavailable
-
-Medium Beige 04Variant sold out or unavailable
-
-Natural Beige 05AVariant sold out or unavailable
-
-Warm Beige 05Variant sold out or unavailable
-
-Sand Beige 06Variant sold out or unavailable
-
-Sand 07Variant sold out or unavailable
-
-Warm Sand 08AVariant sold out or unavailable
-
-Creamy Nude 01AVariant sold out or unavailable
-
-Tan 09Variant sold out or unavailable
-
-Hazelnut-10AVariant sold out or unavailable
-
-Light 00BVariant sold out or unavailable
-
-Light Tan 08Variant sold out or unavailable
-
-Ivory 00AAVariant sold out or unavailable
+Spray, then slay! This long-wearing primer and setting spray from our Make it Last line will lock in your makeup to make touch-ups a thing of the past. Simply spray to freshly applied makeup to make it last all day ... and all night, too. Make It Last Prime + Correct + Set Setting Spray preps your face, reduces the appearance of imperfections and then locks in for the long haul. You can enjoy up to 16 hours without a crease or smudge in sight. Spray before or after makeup application, or wear it alone for a captivating natural finish.
 
 Quantity
 
 
-Decrease quantity for Milani Conceal + Perfect 2 In One Foundation + Concealer
+Decrease quantity for Milani Make It Last Original - Natural Finish Setting Spray
 
 
 
-Increase quantity for Milani Conceal + Perfect 2 In One Foundation + Concealer
+Increase quantity for Milani Make It Last Original - Natural Finish Setting Spray
 
 Add to cart
 
@@ -679,74 +566,57 @@ Refresh
 
 Share:
 
-[Share on Facebook](//www.facebook.com/sharer.php?u=https://prettyclickcosmetics.com/products/milani-conceal-perfect-2-in-one-foundation-concealer)[Share on X](//twitter.com/share?text=&url=https://prettyclickcosmetics.com/products/milani-conceal-perfect-2-in-one-foundation-concealer)[Pin on Pinterest](//pinterest.com/pin/create/button/?url=https://prettyclickcosmetics.com/products/milani-conceal-perfect-2-in-one-foundation-concealer&media=//prettyclickcosmetics.com/cdn/shop/files/69e7ee19baf68744f45ccf63960474ff.png?crop=center&height=1024&v=1731257672&width=1024&description=)
+[Share on Facebook](//www.facebook.com/sharer.php?u=https://prettyclickcosmetics.com/products/milani-make-it-last-setting-spray)[Share on X](//twitter.com/share?text=&url=https://prettyclickcosmetics.com/products/milani-make-it-last-setting-spray)[Pin on Pinterest](//pinterest.com/pin/create/button/?url=https://prettyclickcosmetics.com/products/milani-make-it-last-setting-spray&media=//prettyclickcosmetics.com/cdn/shop/files/7bcb3b110d6297620f70c7101819bb75e1f55821_1758291934_1_MakeItLast_SettingSpray_03_PDP_PoductWithSwatch_Seal_2_900x_93802128-f6c5-423a-a472-fe6fce82e31e.png?crop=center&height=1024&v=1758291938&width=1024&description=)
 
 
 
-![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/69e7ee19baf68744f45ccf63960474ff.png?v=1731257672&width=180)
+![LocalID_49939 ](//prettyclickcosmetics.com/cdn/shop/files/7bcb3b110d6297620f70c7101819bb75e1f55821_1758291934_1_MakeItLast_SettingSpray_03_PDP_PoductWithSwatch_Seal_2_900x_93802128-f6c5-423a-a472-fe6fce82e31e.png?v=1758291938&width=180)
 
-### Milani Conceal + Perfect 2 In One Foundation + Concealer
+### Milani Make It Last Original - Natural Finish Setting Spray
 
 Regular price
 
-Rs1,400.00
+Rs1,480.00
 
 Sale price
 
-Rs1,400.00
+Rs1,480.00
 Regular price
 
-~~Rs1,750.00~~
+~~Rs1,850.00~~
 
 Unit price
 
 /per
 
-Porcelain 00A
-Light Natural 00
-Creamy Vanilla 01
-Creamy Natural 02A
-Natural 02
-Light Beige 03
-Medium Beige 04
-Natural Beige 05A
-Warm Beige 05
-Sand Beige 06
-Sand 07
-Warm Sand 08A
-Creamy Nude 01A
-Tan 09
-Hazelnut-10A
-Light 00B
-Light Tan 08
-Ivory 00AA
+Default Title
 
-Decrease quantity for Milani Conceal + Perfect 2 In One Foundation + Concealer
+Decrease quantity for Milani Make It Last Original - Natural Finish Setting Spray
 
 
 
-Increase quantity for Milani Conceal + Perfect 2 In One Foundation + Concealer
+Increase quantity for Milani Make It Last Original - Natural Finish Setting Spray
 
 Add to cart
 
 Customer Reviews
 ----------------
 
-Based on 71 reviews
+Based on 7 reviews
 
 [Write a review](#)
 
-87%
-
-(62)
-
-10%
+100%
 
 (7)
 
-3%
+0%
 
-(2)
+(0)
+
+0%
+
+(0)
 
 0%
 
@@ -756,41 +626,49 @@ Based on 71 reviews
 
 (0)
 
+J
+
+       Jyoti Shrestha
+
+**My Favorite setting spray**
+
+Milani Make it last setting spray is one of my favorite It last like 12 to 24 hour ❤️
+
+J
+
+       J.
+
+**great one**
+
+Fav spray
+
+K
+
+      Khim maya Gurung
+
+**Best drugstore setting spray**
+
+Love this setting spray 😍
+  
+It really helps to lock our makeup throughout the day .
+
 S
 
-       Sareena Kharel
+      S.W.
 
-Loved it♥️
+**makeup saver**
 
-S
-
-       Suru Sharma
-
-It was satisfactory
+it an extra ordinary product....my make up look so flawless with it... it set the make up and fix it....you can dance all day long...no any smudge.... ❤️
 
 S
 
-       Smriti Ghimire
+      S.W.
 
-**foundation**
+**makeup saver**
 
-Very nice
+it an extra ordinary product....my make up look so flawless with it... it set the make up and fix it....you can dance all day long...no any smudge.... ❤️
 
-A
-
-       Aashika Shrestha
-
-Milani Conceal + Perfect 2 In One Foundation + Concealer Foundation
-
-B
-
-       Benish Rajan
-
-**Awesome foundation**
-
-Never used anything like this. Perfectly blends. Suits my skin tone. Falling in love with this brand
-
-123
+12
 
 
 
@@ -920,7 +798,7 @@ Check out
 
 |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- |
-| Milani Conceal + Perfect 2 In One Foundation + Concealer  [Milani Conceal + Perfect 2 In One Foundation + Concealer](/products/milani-conceal-perfect-2-in-one-foundation-concealer)[View details](/products/milani-conceal-perfect-2-in-one-foundation-concealer) | 2-in-1 complexion perfection! Combat under eye circles, redness and imperfections with our best-selling multi-tasking foundation and concealer formula. The Milani Conceal + Perfect 2-In-1 Foundation + Concealer provides medium to full coverage with a natural matte finish that stays all day. The long wear, oil-free formula is waterproof and sweatproof, so you’re always photo ready. Available in 45 shades.     100% Agree their skin looks more even\*  93% Agree skin texture is smoothed and redness is reduced\*  93% Agree their complexion looks fresh and natural\*  90% Agree they have flawless, photo-ready complexion\*  *\* Results observed in a consumer panel survey* | Regular price  Rs1,400.00  Sale price  Rs1,400.00 Regular price  ~~Rs1,750.00~~  Unit price /per | Milani | Foundation | Color Porcelain 00A,Light Natural 00,Creamy Vanilla 01,Creamy Natural 02A,Natural 02,Light Beige 03,Medium Beige 04,Natural Beige 05A,Warm Beige 05,Sand Beige 06,Sand 07,Warm Sand 08A,Creamy Nude 01A,Tan 09,Hazelnut-10A,Light 00B,Light Tan 08,Ivory 00AA |
+| LocalID_49939  [Milani Make It Last Original - Natural Finish Setting Spray](/products/milani-make-it-last-setting-spray)[View details](/products/milani-make-it-last-setting-spray) | Spray, then slay! This long-wearing primer and setting spray from our Make it Last line will lock in your makeup to make touch-ups a thing of the past. Simply spray to freshly applied makeup to make it last all day ... and all night, too. Make It Last Prime + Correct + Set Setting Spray preps your face, reduces the appearance of imperfections and then locks in for the long haul. You can enjoy up to 16 hours without a crease or smudge in sight. Spray before or after makeup application, or wear it alone for a captivating natural finish. | Regular price  Rs1,480.00  Sale price  Rs1,480.00 Regular price  ~~Rs1,850.00~~  Unit price /per | Milani | Setting Spray |  |
 
 * Choosing a selection results in a full page refresh.
 * Opens in a new window.

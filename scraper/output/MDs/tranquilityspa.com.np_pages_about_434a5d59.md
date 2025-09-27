@@ -1,10 +1,10 @@
 ---
-url: https://tranquilityspa.com.np/teams
-timestamp: 2025-09-27T18:31:40.414667
+url: https://tranquilityspa.com.np/pages/about
+timestamp: 2025-09-27T19:20:42.483187
 status: SUCCESS
 ---
 
-Teams — TRANQUILITY
+About — TRANQUILITY
 
 
 
@@ -102,34 +102,78 @@ WE ARE ON SOCIAL
 
 ---
 
-MEET OUR TEAM
-=============
+ABOUT TRANQUILITY
+=================
 
 ---
 
-![](https://tranquilityspa.com.np/uploads/images/teams/1803680b-da33-4dac-9e14-03b7eb01f3b7.jpg)
+![](https://tranquilityspa.com.np/uploads/images/pages/editor/6c077dff-5d7c-4af6-8965-699a41ff8f88.jpg)
 
-### Shyam Pokheral
+WELCOME TO TRANQUILITY SPA
+--------------------------
 
-#### Director
+Established in 2008, the Tranquility Spa has become the leader in Spa and wellness industry with numerous outlets in different cities and luxury hotels in Nepal and abroad. We are the first Day Spa to be established in Nepal and recognized by Nepal Tourism Board and we are also the first Nepalese brand to expand its service in the international market. Our chain of spas are managed by experienced and professional experts educated in renowned institute in Thailand, Switzerland, UAE, Australia and Kerala, India with a proven history in providing an excellent service at Marriott Putrajaya, Palm Garden Hotel Malaysia, Mirage Lords Inn, Le Meridien, Hyatt, Radisson, Shangri~La and Intercontinental Hotel Group. We are well equipped with state-of-art technology and provide a peaceful environment to soothe away your stress, pain, anxiety and Rejuvenate Mind, Body & Spirit. Our services are centrally located and a perfect place for you to beautify yourself with our beauty treatments.
 
-![](https://tranquilityspa.com.np/uploads/images/teams/8e37d758-93c9-40ca-b55f-429121788ca1.jpg)
+MISSION
+-------
 
-### Suresh Puri
+Our mission is to deliver transformative wellness experiences through expert therapeutic services, cutting-edge technology, and an immersive atmosphere of tranquility. We commit to setting the gold standard in hospitality excellence while nurturing the holistic well-being of our guests. Through unwavering dedication to service quality and continuous innovation, we aim to elevate the global wellness industry while honoring our Nepalese heritage.
 
-#### Executive Director
+VISION
+------
 
-![](https://tranquilityspa.com.np/uploads/images/teams/a072cbc5-f933-4c31-b97c-01fff59f7ef7.jpg)
+Our vision is to be the world's preeminent wellness destination, recognized for pioneering excellence in spa services and holistic healing. We aspire to create a global legacy of wellness transformation, empowering individuals to achieve optimal physical, mental, and spiritual well-being through our innovative treatments and authentic approach to hospitality.
 
-### Chandra Prajuli
+HISTORY
+-------
 
-#### Managing Director
+#### 2008
 
-![](https://tranquilityspa.com.np/uploads/images/teams/c8db70c2-ab90-41c0-9755-6a0a94ccd1d5.png)
+Tranquility Spa began with four treatment rooms, marking the brand’s entry into Nepal's wellness industry.
 
-### Bhuwaneshwor Phaiju
+#### 2009
 
-#### Chairman
+Expanded with new branches in Lalitpur, increasing its local footprint.
+
+#### 2010
+
+Established the Tranquility Beauty & Spa Academy to provide professional spa training.
+
+#### 2011
+
+Opened a new branch in Pokhara, extending its reach across Nepal.
+
+#### 2014
+
+Entered luxury hotels across Nepal, offering premium spa services.
+
+#### 2015
+
+Took its first steps internationally by partnering with global hotel chains.
+
+#### 2016
+
+Expanded into Malaysia and affiliated with the Council for Technical Education and Vocational Training (CTEVT).
+
+#### 2018
+
+Reached agreements and opened spa services at Soaltee Hotel and InterContinental Hotels Group (IHG) properties.
+
+#### 2019
+
+Partnered worldwide with Swiss International Hotels & Resorts.
+
+#### 2020
+
+Secured an agreement with Lemon Tree Hotels in Biratnagar.
+
+#### 2022
+
+Opened the largest wellness center in Pokhara at Swiss International Hotel Sarowar, with expansions to Lavie Residency and Bandipur Tourism.
+
+#### 2023
+
+Launched Heavenscape Beauty Hub in Hattigauda, Amrita’s Wellness in Sanepa, and Sparadise Spa & Salon in Tangal and Crowne Imperial Hotel.
 
 
 

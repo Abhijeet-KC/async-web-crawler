@@ -1,20 +1,10 @@
 ---
-url: https://prettyclickcosmetics.com/products/milani-make-it-last-setting-spray
-timestamp: 2025-09-27T18:31:05.651671
+url: https://prettyclickcosmetics.com/collections/types?q=setting%20spray
+timestamp: 2025-09-27T19:20:18.408214
 status: SUCCESS
 ---
 
-Milani Make It Last Original - Natural Finish Setting Spray – Prettyclick 
-
-
-
-
-
-
-
-
-
-
+setting spray – Prettyclick 
 
 
 
@@ -453,222 +443,542 @@ View
 
 
 [Home](/ "Home")
-[ALL COLLECTION](/collections/all-collection)
-Milani Make It Last Original - Natural Finish Setting Spray
+[Collection](/collections/all)
+setting spray
 
-[Skip to product information](#ProductInfo-template--19780744249575__main)
+Compare (0/5)
 
-![LocalID_49939 ](//prettyclickcosmetics.com/cdn/shop/files/7bcb3b110d6297620f70c7101819bb75e1f55821_1758291934_1_MakeItLast_SettingSpray_03_PDP_PoductWithSwatch_Seal_2_900x_93802128-f6c5-423a-a472-fe6fce82e31e.png?v=1758291938&width=1946)
+Compare
 
-Open media 0 in modal
 
-![LocalID_49940 ](//prettyclickcosmetics.com/cdn/shop/files/89f5c7f85794bc8cc39ff596505a3a43ee35b60a_1758292081_1_MakeItLast_SettingSpray_03_PDP_PoductWithSwatch_grande_172747e6-566e-4451-883d-d8c407efa67c.png?v=1758292086&width=1946)
 
-Open media 1 in modal
 
-![LocalID_49941 ](//prettyclickcosmetics.com/cdn/shop/files/6712dd81a017a8dd706184e503f1168f5a3f7444_1758292081_3_MakeItLastSettingSpray_PDP_Stylized_grande_c84e5f16-073d-49a5-860e-55456c6c17ba.png?v=1758292086&width=1946)
+Clear all
 
-Open media 2 in modal
+Clear all
 
-![LocalID_49942 ](//prettyclickcosmetics.com/cdn/shop/files/72d86f9c46b7232c36a5ce3251b2e8f7038db09d_1758292198_4_MakeItLastSettingSpray_PDP_BA-Quad_grande_ae9a10b4-2744-4d79-81ce-fd4dd510d64d.png?v=1758292204&width=1946)
+13 products
 
-Open media 3 in modal
+Filter
 
-![LocalID_49943 ](//prettyclickcosmetics.com/cdn/shop/files/57588965592cc8d32bdf042770c2c46b231fb1a4_1758292198_6_MakeItLastSettingSpray_PDP_Infographic_grande_c7eda19d-2dec-42df-a1dc-3b52205bce6e.png?v=1758292204&width=1946)
+Filter
+(0)
 
-Open media 4 in modal
+Filter
+------
 
-![LocalID_49944 ](//prettyclickcosmetics.com/cdn/shop/files/e9aeaae3b7358088f0c9c716177bb58880179ddf_1758292198_7_MakeItLast_SettingSpray_03_PDP_OpenPoduct_grande_c2351fee-1c31-47d6-9bbb-7c2f9f6fb885.png?v=1758292204&width=1946)
+Sort by:
 
-Open media 5 in modal
+Featured
+Best selling
+Alphabetically, A-Z
+Alphabetically, Z-A
+Price, low to high
+Price, high to low
+Date, old to new
+Date, new to old
 
-![LocalID_49945 ](//prettyclickcosmetics.com/cdn/shop/files/b3ec139c2b4caec0f16438fdda7bb412a4b919cb_1758292198_8_MakeItLast_SettingSpray_03_PDP_Packaging_grande_7ebfb464-ceda-4aa5-ab22-dd718fafb1ed.png?v=1758292204&width=1946)
+Price
 
-Open media 6 in modal
+The highest price is Rs1,480.00
+From
+To
 
-![LocalID_49939 ](//prettyclickcosmetics.com/cdn/shop/files/7bcb3b110d6297620f70c7101819bb75e1f55821_1758291934_1_MakeItLast_SettingSpray_03_PDP_PoductWithSwatch_Seal_2_900x_93802128-f6c5-423a-a472-fe6fce82e31e.png?v=1758291938&width=900)
+From
+Rs.
 
-![LocalID_49940 ](//prettyclickcosmetics.com/cdn/shop/files/89f5c7f85794bc8cc39ff596505a3a43ee35b60a_1758292081_1_MakeItLast_SettingSpray_03_PDP_PoductWithSwatch_grande_172747e6-566e-4451-883d-d8c407efa67c.png?v=1758292086&width=600)
+To
+Rs.
 
-![LocalID_49941 ](//prettyclickcosmetics.com/cdn/shop/files/6712dd81a017a8dd706184e503f1168f5a3f7444_1758292081_3_MakeItLastSettingSpray_PDP_Stylized_grande_c84e5f16-073d-49a5-860e-55456c6c17ba.png?v=1758292086&width=600)
 
-![LocalID_49942 ](//prettyclickcosmetics.com/cdn/shop/files/72d86f9c46b7232c36a5ce3251b2e8f7038db09d_1758292198_4_MakeItLastSettingSpray_PDP_BA-Quad_grande_ae9a10b4-2744-4d79-81ce-fd4dd510d64d.png?v=1758292204&width=600)
 
-![LocalID_49943 ](//prettyclickcosmetics.com/cdn/shop/files/57588965592cc8d32bdf042770c2c46b231fb1a4_1758292198_6_MakeItLastSettingSpray_PDP_Infographic_grande_c7eda19d-2dec-42df-a1dc-3b52205bce6e.png?v=1758292204&width=600)
+Availability
 
-![LocalID_49944 ](//prettyclickcosmetics.com/cdn/shop/files/e9aeaae3b7358088f0c9c716177bb58880179ddf_1758292198_7_MakeItLast_SettingSpray_03_PDP_OpenPoduct_grande_c2351fee-1c31-47d6-9bbb-7c2f9f6fb885.png?v=1758292204&width=600)
+* In stock
+  5
+* Out of stock
+  8
 
-![LocalID_49945 ](//prettyclickcosmetics.com/cdn/shop/files/b3ec139c2b4caec0f16438fdda7bb412a4b919cb_1758292198_8_MakeItLast_SettingSpray_03_PDP_Packaging_grande_7ebfb464-ceda-4aa5-ab22-dd718fafb1ed.png?v=1758292204&width=600)
 
-Save 20%
 
-Milani Make It Last Original - Natural Finish Setting Spray
-===========================================================
+Body Mist
 
-[Milani Make It Last Original - Natural Finish Setting Spray
------------------------------------------------------------](/products/milani-make-it-last-setting-spray)
+* Gold
+  1
+* Rose Gold
+  1
 
-7 reviews
+Apply
+(0)
 
-Vendor:
-[Milani](/collections/vendors?q=Milani)
+Compare:
 
-Type:
+Sort by:
+
+Featured
+Best selling
+Alphabetically, A-Z
+Alphabetically, Z-A
+Price, low to high
+Price, high to low
+Date, old to new
+Date, new to old
+
+View as:
+
+Price
+
+The highest price is Rs1,480.00
+From
+To
+
+From
+Rs.
+
+To
+Rs.
+
+
+
+Availability
+
+* In stock
+  5
+* Out of stock
+  8
+
+
+
+Body Mist
+
+* Gold
+  1
+* Rose Gold
+  1
+
+[![LocalID_49706 ](//prettyclickcosmetics.com/cdn/shop/files/42749be67a9cf01c68f5f3c3ef8ed52e5e90a1a4_1752840646_flare.png?v=1752840649&width=1080)
+
+NEW
+
+
+Shop Now](/collections/profusion)
+
+[![LocalID_49127 ](//prettyclickcosmetics.com/cdn/shop/files/8a6b62a784bb627522358614f59c04db5723ffea_1748844883_GRAYBGFORECOMM_19.jpg?v=1749208945&width=900)
+
+![LocalID_49126 ](//prettyclickcosmetics.com/cdn/shop/files/0135a9d9d9bac89815fdbd0718b707390b595694_1748844860_flawless-stay-setting-spray-beau.jpg?v=1749208945&width=900)](/products/beauty-creations-flawless-stay-setting-spray-120ml)
+
+Sold out
+
+Sold out
+
+Compare
+
 [Setting Spray](/collections/types?q=Setting%20Spray)
 
-PRETTYCLICK REWARD POINTS
+### [Beauty Creations Flawless Stay Setting Spray 120ml](/products/beauty-creations-flawless-stay-setting-spray-120ml)
+
+Regular price
+
+Rs850.00
+
+Sale price
+
+Rs850.00
+Regular price
+
+Unit price
+
+/per
+
+Sold out[View details](/products/beauty-creations-flawless-stay-setting-spray-120ml)
+
+### Choose your option
+
+[![LocalID_45580 ](//prettyclickcosmetics.com/cdn/shop/files/1b03f5a77b69df280e8fc7ad85d170c8a9527c04_1710780396_all-products-33007529.webp?v=1745931078&width=900)
+
+![LocalID_45581 ](//prettyclickcosmetics.com/cdn/shop/files/f458424007cf6b4be8628e0fdb82200f7fdd19ba_1710780397_all-products-33007530.webp?v=1745931078&width=900)](/products/la-colors-matte-finish-setting-spray-blistercard)
+
+Sold out
+
+Sold out
+
+Compare
+
+[Setting Spray](/collections/types?q=Setting%20Spray)
+
+### [L.A. Colors Matte Finish Setting Spray-Blistercard](/products/la-colors-matte-finish-setting-spray-blistercard)
+
+Regular price
+
+Rs675.00
+
+Sale price
+
+Rs675.00
+Regular price
+
+Unit price
+
+/per
+
+Sold out[View details](/products/la-colors-matte-finish-setting-spray-blistercard)
+
+### Choose your option
+
+[![LocalID_45582 ](//prettyclickcosmetics.com/cdn/shop/files/4ae35eceeb74c5149e525398d3108f002dd1bc1a_1710780398_all-products-33007531_ae8ac6f0-2f0e-47d9-a1a9-5dcbac80e042.jpg?v=1745930639&width=900)
+
+![LocalID_45583 ](//prettyclickcosmetics.com/cdn/shop/files/a5efc6146d9def7df0543d3c37e42c4ce40b36e1_1710780398_all-products-33007532.jpg?v=1745930639&width=900)](/products/la-colors-matte-setting-spray)
+
+Sold out
+
+Sold out
+
+Compare
+
+[Setting Spray](/collections/types?q=Setting%20Spray)
+
+### [L.A. Colors Matte Setting Spray](/products/la-colors-matte-setting-spray)
+
+Regular price
+
+Rs675.00
+
+Sale price
+
+Rs675.00
+Regular price
+
+Unit price
+
+/per
+
+Sold out[View details](/products/la-colors-matte-setting-spray)
+
+### Choose your option
+
+[![LocalID_48974 ](//prettyclickcosmetics.com/cdn/shop/files/eb273e2a2fa62b2f847ab5b3e597439943795110_1745647777_CSS339_01_1024x1024_7fc5a77a-c18c-480f-b4e5-9a38a78416d0.webp?v=1745899425&width=900)
+
+![LocalID_48954 ](//prettyclickcosmetics.com/cdn/shop/files/fa4c2318739dfbd2c0f4966196533a8faa405a65_1745395606_81555793395_2.webp?v=1745899425&width=1080)](/products/l-a-colors-set-refresh-hydrating-finish-makeup-setting-spray-60ml)
+
+Sold out
+
+Sold out
+
+Compare
+
+[Setting Spray](/collections/types?q=Setting%20Spray)
+
+### [L.A. Colors Set+Refresh Hydrating Finish Makeup Setting Spray 60ml](/products/l-a-colors-set-refresh-hydrating-finish-makeup-setting-spray-60ml)
+
+Regular price
+
+Rs800.00
+
+Sale price
+
+Rs800.00
+Regular price
+
+Unit price
+
+/per
+
+Sold out[View details](/products/l-a-colors-set-refresh-hydrating-finish-makeup-setting-spray-60ml)
+
+### Choose your option
+
+[![LocalID_48959 ](//prettyclickcosmetics.com/cdn/shop/files/f79ab3b3685962b1e6e51e77fc9ece318f9fd631_1745396727_CSS338_01.webp?v=1745900179&width=2000)
+
+![LocalID_48960 ](//prettyclickcosmetics.com/cdn/shop/files/2e6892e56c2a1a4c7071f59ec38fe7d6dd4e337b_1745396754_setting_spray_infograph_01_1_1024x1024_b2a408ac-ca3e-488d-b264-e92191a49a59.webp?v=1745900179&width=1024)](/products/l-a-colors-set-refresh-matte-finish-makeup-setting-spray-60ml)
+
+Sold out
+
+Sold out
+
+Compare
+
+[Setting Spray](/collections/types?q=Setting%20Spray)
+
+### [L.A. Colors Set+Refresh Matte Finish Makeup Setting Spray 60ml](/products/l-a-colors-set-refresh-matte-finish-makeup-setting-spray-60ml)
+
+Regular price
+
+Rs800.00
+
+Sale price
+
+Rs800.00
+Regular price
+
+Unit price
+
+/per
+
+Sold out[View details](/products/l-a-colors-set-refresh-matte-finish-makeup-setting-spray-60ml)
+
+### Choose your option
+
+[![LocalID_45619 ](//prettyclickcosmetics.com/cdn/shop/files/05e332b5d55f55047a4ce4d9e65ef621f4df706b_1710780428_all-products-33007577.webp?v=1745930188&width=900)
+
+![LocalID_45620 ](//prettyclickcosmetics.com/cdn/shop/files/5762f5285b186c1e72aa285c0b2dfe10bf639a56_1710780428_all-products-33007578.webp?v=1745930188&width=900)](/products/la-colors-setting-spray-blister-card)
+
+
+Add to cart
+
+Compare
+
+[Setting Spray](/collections/types?q=Setting%20Spray)
+
+### [L.A. Colors Setting Spray- Blister Card](/products/la-colors-setting-spray-blister-card)
+
+Regular price
+
+Rs675.00
+
+Sale price
+
+Rs675.00
+Regular price
+
+Unit price
+
+/per
+
+Add to cart[View details](/products/la-colors-setting-spray-blister-card)
+
+### Choose your option
+
+[![LocalID_47116 ](//prettyclickcosmetics.com/cdn/shop/files/9eecd989ce0b81c6466e85b903fa3879d7005dd6_1714892827_GFS916_prod_img_640x_a8746680-774f-48da-8462-a093d1f52ead.webp?v=1745231746&width=640)](/products/la-girl-primer-spray-prep-hydrate-face-for-make-up)
+
+Sold out
+
+Sold out
+
+Compare
+
+[Setting Spray](/collections/types?q=Setting%20Spray)
+
+### [L.A. Girl Primer Spray Prep & Hydrate Face For Make Up](/products/la-girl-primer-spray-prep-hydrate-face-for-make-up)
+
+Regular price
+
+Rs1,012.50
+
+Sale price
+
+Rs1,012.50
+Regular price
+
+~~Rs1,350.00~~
+
+Unit price
+
+/per
+
+Sold out[View details](/products/la-girl-primer-spray-prep-hydrate-face-for-make-up)
+
+### Choose your option
+
+[![LocalID_45756 ](//prettyclickcosmetics.com/cdn/shop/files/a78209d394055eedd5caae0b0bb4db2ab0520e59_1710780566_all-products-33007754.webp?v=1745231509&width=900)](/products/la-girl-pro-matte-setting-spray)
+
+Sold out
+
+Sold out
+
+Compare
+
+[Setting Spray](/collections/types?q=Setting%20Spray)
+
+### [L.A. Girl Pro Matte Setting Spray](/products/la-girl-pro-matte-setting-spray)
+
+Regular price
+
+Rs862.50
+
+Sale price
+
+Rs862.50
+Regular price
+
+~~Rs1,150.00~~
+
+Unit price
+
+/per
+
+Sold out[View details](/products/la-girl-pro-matte-setting-spray)
+
+### Choose your option
+
+[![LocalID_49227 ](//prettyclickcosmetics.com/cdn/shop/files/77da1b01fd01afb97e302b9cfe591484c48e6a81_1748922172_pro_20perfect_20multi_20tasking_20setting_20spray.jpg?v=1749202838&width=900)
+
+![LocalID_49228 ](//prettyclickcosmetics.com/cdn/shop/files/4c1a8f368990c3d8b6bbe4c21c952bd889d56276_1748922172_pro_20perfect_20multi_20tasking_20setting_20spray1.jpg?v=1749202838&width=900)](/products/l-a-girl-pro-perfect-multi-tasking-setting-spray-105ml)
+
+Sale
+
+Add to cart
+
+Compare
+
+[Setting Spray](/collections/types?q=Setting%20Spray)
+
+### [L.A. Girl Pro Perfect Multi- Tasking Setting Spray 105ml](/products/l-a-girl-pro-perfect-multi-tasking-setting-spray-105ml)
+
+Regular price
+
+Rs1,162.50
+
+Sale price
+
+Rs1,162.50
+Regular price
+
+~~Rs1,550.00~~
+
+Unit price
+
+/per
+
+Add to cart[View details](/products/l-a-girl-pro-perfect-multi-tasking-setting-spray-105ml)
+
+### Choose your option
+
+[![LocalID_47545 ](//prettyclickcosmetics.com/cdn/shop/files/93fbacd62134b134f8b4f618aea1510993a5c2cd_1727191531_all-products-33007763.webp?v=1745231289&width=900)
+
+![LocalID_47546 ](//prettyclickcosmetics.com/cdn/shop/files/21bd25b82ab4c07b2c83958004f36da5780ecc99_1727191532_all-products-33007764.webp?v=1745231288&width=900)](/products/la-girl-shimmery-spray-finishing-spray-for-face-body)
+
+Sold out
+
+Choose options
+
+Compare
+
+[Setting Spray](/collections/types?q=Setting%20Spray)
+
+### [L.A. Girl Shimmery Spray Finishing Spray For Face & Body](/products/la-girl-shimmery-spray-finishing-spray-for-face-body)
+
+Regular price
+
+Rs975.00
+
+Sale price
+
+Rs975.00
+Regular price
+
+~~Rs1,300.00~~
+
+Unit price
+
+/per
+
+Choose options
+
+[View details](/products/la-girl-shimmery-spray-finishing-spray-for-face-body)
+
+### Choose your option
+
+[![LocalID_45908 ](//prettyclickcosmetics.com/cdn/shop/files/0e2869e99f71ba6f2b0256ed9f011a730a1bab0f_1710780755_all-products-33007899.png?v=1756233958&width=900)
+
+![LocalID_45909 ](//prettyclickcosmetics.com/cdn/shop/files/6371c312bfa14a0ceaadfdaae51f66dd2ad12db8_1710780756_all-products-33007900.jpg?v=1756233958&width=900)](/products/milani-16hr-make-it-dewy-setting-spray)
+
+Sale
+
+Add to cart
+
+Compare
+
+[Setting Spray](/collections/types?q=Setting%20Spray)
+
+### [Milani 16HR Make It Dewy Setting Spray](/products/milani-16hr-make-it-dewy-setting-spray)
+
+Regular price
+
+Rs1,480.00
+
+Sale price
+
+Rs1,480.00
+Regular price
+
+~~Rs1,850.00~~
+
+Unit price
+
+/per
+
+Add to cart[View details](/products/milani-16hr-make-it-dewy-setting-spray)
+
+### Choose your option
+
+[![LocalID_49939 ](//prettyclickcosmetics.com/cdn/shop/files/7bcb3b110d6297620f70c7101819bb75e1f55821_1758291934_1_MakeItLast_SettingSpray_03_PDP_PoductWithSwatch_Seal_2_900x_93802128-f6c5-423a-a472-fe6fce82e31e.png?v=1758291938&width=900)
+
+![LocalID_49940 ](//prettyclickcosmetics.com/cdn/shop/files/89f5c7f85794bc8cc39ff596505a3a43ee35b60a_1758292081_1_MakeItLast_SettingSpray_03_PDP_PoductWithSwatch_grande_172747e6-566e-4451-883d-d8c407efa67c.png?v=1758292086&width=600)](/products/milani-make-it-last-setting-spray)
+
+Sale
+
+Add to cart
+
+Compare
+
+[Setting Spray](/collections/types?q=Setting%20Spray)
+
+### [Milani Make It Last Original - Natural Finish Setting Spray](/products/milani-make-it-last-setting-spray)
+
+Regular price
+
+Rs1,480.00
+
+Sale price
+
+Rs1,480.00
+Regular price
+
+~~Rs1,850.00~~
+
+Unit price
+
+/per
+
+Add to cart[View details](/products/milani-make-it-last-setting-spray)
+
+### Choose your option
+
+[![LocalID_47566 ](//prettyclickcosmetics.com/cdn/shop/files/9e29599a53ad8d2e923bd08ef1993c13207f9c3d_1727203114_1114472_20_281_29.jpg?v=1758955966&width=900)
+
+![LocalID_47565 ](//prettyclickcosmetics.com/cdn/shop/files/9cb827699b0df06406ac4a416e650edb7c274c94_1727203114_1114472_3.jpg?v=1758955966&width=900)](/products/wet-n-wild-fight-dirty-clarifying-detox-setting-spray-65-ml)
+
+
+Add to cart
+
+Compare
+
+[Setting Spray](/collections/types?q=Setting%20Spray)
+
+### [Wet n Wild Fight Dirty Clarifying Detox Setting Spray - 65 ml](/products/wet-n-wild-fight-dirty-clarifying-detox-setting-spray-65-ml)
+
+Regular price
+
+Rs950.00
+
+Sale price
+
+Rs950.00
+Regular price
+
+Unit price
+
+/per
+
+Add to cart[View details](/products/wet-n-wild-fight-dirty-clarifying-detox-setting-spray-65-ml)
+
+### Choose your option
+
+100% Authentic
+
+Free Delivery for order of Rs.3500 and more
 
 Earn 5% prettyclick reward points on every purchase
-
-Regular price
-
-Rs1,480.00
-
-Sale price
-
-Rs1,480.00
-Regular price
-
-~~Rs1,850.00~~
-
-Unit price
-
-/per
-
-Tax included.
-[Shipping](/policies/shipping-policy) calculated at checkout.
-
-* 100% Authentic
-
-Available in stock
-
-Spray, then slay! This long-wearing primer and setting spray from our Make it Last line will lock in your makeup to make touch-ups a thing of the past. Simply spray to freshly applied makeup to make it last all day ... and all night, too. Make It Last Prime + Correct + Set Setting Spray preps your face, reduces the appearance of imperfections and then locks in for the long haul. You can enjoy up to 16 hours without a crease or smudge in sight. Spray before or after makeup application, or wear it alone for a captivating natural finish.
-
-Quantity
-
-
-Decrease quantity for Milani Make It Last Original - Natural Finish Setting Spray
-
-
-
-Increase quantity for Milani Make It Last Original - Natural Finish Setting Spray
-
-Add to cart
-
-This item is a recurring or deferred purchase. By continuing, I agree to the cancellation policy and authorize you to charge my payment method at the prices, frequency and dates listed on this page until my order is fulfilled or I cancel, if permitted.
-
-* Free Delivery for orders over Rs 3500
-* Exchange within 7 days if the sealed is not opened
-
-Couldn't load pickup availability
-
-Refresh
-
-Share:
-
-[Share on Facebook](//www.facebook.com/sharer.php?u=https://prettyclickcosmetics.com/products/milani-make-it-last-setting-spray)[Share on X](//twitter.com/share?text=&url=https://prettyclickcosmetics.com/products/milani-make-it-last-setting-spray)[Pin on Pinterest](//pinterest.com/pin/create/button/?url=https://prettyclickcosmetics.com/products/milani-make-it-last-setting-spray&media=//prettyclickcosmetics.com/cdn/shop/files/7bcb3b110d6297620f70c7101819bb75e1f55821_1758291934_1_MakeItLast_SettingSpray_03_PDP_PoductWithSwatch_Seal_2_900x_93802128-f6c5-423a-a472-fe6fce82e31e.png?crop=center&height=1024&v=1758291938&width=1024&description=)
-
-
-
-![LocalID_49939 ](//prettyclickcosmetics.com/cdn/shop/files/7bcb3b110d6297620f70c7101819bb75e1f55821_1758291934_1_MakeItLast_SettingSpray_03_PDP_PoductWithSwatch_Seal_2_900x_93802128-f6c5-423a-a472-fe6fce82e31e.png?v=1758291938&width=180)
-
-### Milani Make It Last Original - Natural Finish Setting Spray
-
-Regular price
-
-Rs1,480.00
-
-Sale price
-
-Rs1,480.00
-Regular price
-
-~~Rs1,850.00~~
-
-Unit price
-
-/per
-
-Default Title
-
-Decrease quantity for Milani Make It Last Original - Natural Finish Setting Spray
-
-
-
-Increase quantity for Milani Make It Last Original - Natural Finish Setting Spray
-
-Add to cart
-
-Customer Reviews
-----------------
-
-Based on 7 reviews
-
-[Write a review](#)
-
-100%
-
-(7)
-
-0%
-
-(0)
-
-0%
-
-(0)
-
-0%
-
-(0)
-
-0%
-
-(0)
-
-J
-
-       Jyoti Shrestha
-
-**My Favorite setting spray**
-
-Milani Make it last setting spray is one of my favorite It last like 12 to 24 hour ❤️
-
-J
-
-       J.
-
-**great one**
-
-Fav spray
-
-K
-
-      Khim maya Gurung
-
-**Best drugstore setting spray**
-
-Love this setting spray 😍
-  
-It really helps to lock our makeup throughout the day .
-
-S
-
-      S.W.
-
-**makeup saver**
-
-it an extra ordinary product....my make up look so flawless with it... it set the make up and fix it....you can dance all day long...no any smudge.... ❤️
-
-S
-
-      S.W.
-
-**makeup saver**
-
-it an extra ordinary product....my make up look so flawless with it... it set the make up and fix it....you can dance all day long...no any smudge.... ❤️
-
-12
 
 
 
@@ -796,9 +1106,8 @@ Check out
 | Type |
 | Product variants |
 
-|  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-| LocalID_49939  [Milani Make It Last Original - Natural Finish Setting Spray](/products/milani-make-it-last-setting-spray)[View details](/products/milani-make-it-last-setting-spray) | Spray, then slay! This long-wearing primer and setting spray from our Make it Last line will lock in your makeup to make touch-ups a thing of the past. Simply spray to freshly applied makeup to make it last all day ... and all night, too. Make It Last Prime + Correct + Set Setting Spray preps your face, reduces the appearance of imperfections and then locks in for the long haul. You can enjoy up to 16 hours without a crease or smudge in sight. Spray before or after makeup application, or wear it alone for a captivating natural finish. | Regular price  Rs1,480.00  Sale price  Rs1,480.00 Regular price  ~~Rs1,850.00~~  Unit price /per | Milani | Setting Spray |  |
+|
+|  |
 
 * Choosing a selection results in a full page refresh.
 * Opens in a new window.

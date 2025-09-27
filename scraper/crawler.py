@@ -5,6 +5,7 @@ import asyncio
 import logging
 import re
 import random
+import hashlib
 import urllib.robotparser
 from urllib.parse import urlparse, urljoin, urldefrag
 from datetime import datetime
@@ -32,6 +33,9 @@ HTML_DIR = "output/html"
 SCREENSHOT_DIR = "output/screenshots"
 LOG_FILE = "crawlLog.txt"
 INDEX_FILE = "output/index.jsonl"
+
+# Async lock for file writes
+file_lock = asyncio.Lock()
 
 # Utility functions
 def normalize_url(url, base=None):
@@ -65,8 +69,8 @@ async def is_url_allowed(url):
 
 def url_to_filename(url: str, ext=".md") -> str:
     """
-    Convert a URL into a consistent safe filename.
-    Example: https://example.com/about -> example.com_about.md
+    Convert a URL into a consistent safe filename with short hash for uniqueness.
+    Example: https://example.com/about -> example.com_about_ab12cd34.md
     """
     parsed = urlparse(url)
     domain = parsed.netloc.replace("www.", "")  
@@ -75,10 +79,10 @@ def url_to_filename(url: str, ext=".md") -> str:
     if not path:  # homepage
         path = "index"
     else:
-        # Replace slashes and special chars with underscores
         path = path.replace("/", "_").replace("?", "_").replace("=", "_").replace("&", "_")
 
-    filename = f"{domain}_{path}{ext}"
+    hash_suffix = hashlib.md5(url.encode()).hexdigest()[:8]
+    filename = f"{domain}_{path}_{hash_suffix}{ext}"
     return filename
 
 async def fetch_robots_txt(domain):
@@ -93,10 +97,9 @@ async def fetch_robots_txt(domain):
             async with session.get(robots_url, timeout=5) as resp:
                 if resp.status == 200:
                     content = await resp.text()
-                    # RobotFileParser expects a local file or .parse(list_of_lines)
                     rp.parse(content.splitlines())
                 else:
-                    rp = None  # No robots.txt found
+                    rp = None
     except Exception as e:
         logger.warning(f"Failed to fetch robots.txt for {domain}: {e}")
         rp = None
@@ -160,7 +163,10 @@ def fetch_js_page(url, headless=True, screenshot_path=None):
         return None
     finally:
         if driver:
-            driver.quit()
+            try:
+                driver.quit()
+            except:
+                pass
             del driver  # free memory immediately
 
 # Crawl function
@@ -182,7 +188,8 @@ async def save_captcha_evidence(html, url, filename, page_obj=None):
 
     detected = any(k in body_text for k in keywords)
 
-    if detected and len(body_text) < 100:
+    # Adjusted strict detection: require keyword AND short or very repetitive page
+    if detected and (len(body_text) < 150 or body_text.count("captcha") > 2):
         strict_detected = True
     else:
         strict_detected = False
@@ -246,11 +253,12 @@ async def crawl_seed(seed_url, depth=0, origin_seed=None):
                     "timestamp": timestamp,
                     "seed_origin": origin_seed
                 }
-                with open(INDEX_FILE, "a") as idx:
-                    idx.write(json.dumps(index_entry) + "\n")
-                os.makedirs("output", exist_ok=True)
-                with open("output/failed_urls.txt", "a", encoding="utf-8") as f:
-                    f.write(f"{timestamp} | {seed_url} | CAPTCHA_DETECTED \n")
+                async with file_lock:
+                    with open(INDEX_FILE, "a", encoding="utf-8") as idx:
+                        idx.write(json.dumps(index_entry) + "\n")
+                    os.makedirs("output", exist_ok=True)
+                    with open("output/failed_urls.txt", "a", encoding="utf-8") as f:
+                        f.write(f"{timestamp} | {seed_url} | CAPTCHA_DETECTED \n")
                 return
 
         page_title = None
@@ -260,6 +268,8 @@ async def crawl_seed(seed_url, depth=0, origin_seed=None):
             if soup.title:
                 page_title = soup.title.string.strip() if soup.title.string else None
             desc_tag = soup.find("meta", attrs={"name": "description"})
+            if not desc_tag:
+                desc_tag = soup.find("meta", attrs={"property": "og:description"})
             if desc_tag and desc_tag.get("content"):
                 meta_description = desc_tag["content"].strip()
 
@@ -285,8 +295,9 @@ async def crawl_seed(seed_url, depth=0, origin_seed=None):
                 "title": page_title,
                 "meta_description": meta_description
             }
-            with open(INDEX_FILE, "a", encoding="utf-8") as idx:
-                idx.write(json.dumps(index_entry) + "\n")
+            async with file_lock:
+                with open(INDEX_FILE, "a", encoding="utf-8") as idx:
+                    idx.write(json.dumps(index_entry) + "\n")
 
             total_pages_crawled += 1
 
@@ -302,20 +313,21 @@ async def crawl_seed(seed_url, depth=0, origin_seed=None):
                 
         else:
             logger.error(f"{timestamp} | {seed_url} | FAILED | {status}")
-            os.makedirs("output", exist_ok=True)
-            with open("output/failed_urls.txt", "a", encoding="utf-8") as f:
-                f.write(f"{timestamp} | {seed_url} | FAILED | {status}\n")
+            async with file_lock:
+                os.makedirs("output", exist_ok=True)
+                with open("output/failed_urls.txt", "a", encoding="utf-8") as f:
+                    f.write(f"{timestamp} | {seed_url} | FAILED | {status}\n")
 
-            index_entry = {
-                "url": seed_url,
-                "file": None,
-                "status": "FAILED",
-                "timestamp": timestamp,
-                "seed_origin": origin_seed,
-                "error": str(status)
-            }
-            with open(INDEX_FILE, "a", encoding="utf-8") as idx:
-                idx.write(json.dumps(index_entry) + "\n")
+                index_entry = {
+                    "url": seed_url,
+                    "file": None,
+                    "status": "FAILED",
+                    "timestamp": timestamp,
+                    "seed_origin": origin_seed,
+                    "error": str(status)
+                }
+                with open(INDEX_FILE, "a", encoding="utf-8") as idx:
+                    idx.write(json.dumps(index_entry) + "\n")
 
 # Running crawler
 async def main():

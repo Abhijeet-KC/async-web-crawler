@@ -1,10 +1,20 @@
 ---
-url: https://prettyclickcosmetics.com/collections/types?q=setting%20spray
-timestamp: 2025-09-27T18:31:07.185578
+url: https://prettyclickcosmetics.com/products/milani-conceal-perfect-2-in-one-foundation-concealer
+timestamp: 2025-09-27T19:20:20.438237
 status: SUCCESS
 ---
 
-setting spray – Prettyclick 
+Milani Conceal + Perfect 2 In One Foundation + Concealer – Prettyclick 
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -443,542 +453,344 @@ View
 
 
 [Home](/ "Home")
-[Collection](/collections/all)
-setting spray
+[ALL COLLECTION](/collections/all-collection)
+Milani Conceal + Perfect 2 In One Foundation + Concealer
 
-Compare (0/5)
+[Skip to product information](#ProductInfo-template--19780744249575__main)
 
-Compare
+![](//prettyclickcosmetics.com/cdn/shop/files/69e7ee19baf68744f45ccf63960474ff.png?v=1731257672&width=1946)
 
+Open media 0 in modal
 
+![](//prettyclickcosmetics.com/cdn/shop/files/3b3c98df5d6af2e2daf6698572981d15.png?v=1731257672&width=1946)
 
+Open media 1 in modal
 
-Clear all
+![](//prettyclickcosmetics.com/cdn/shop/files/e73bc78216227a6102d02edf63293f8b.png?v=1731257672&width=1946)
 
-Clear all
+Open media 2 in modal
 
-13 products
+![](//prettyclickcosmetics.com/cdn/shop/files/4d0af26dc44995f58398084ed0d34d77.png?v=1731257672&width=1946)
 
-Filter
+Open media 3 in modal
 
-Filter
-(0)
+![](//prettyclickcosmetics.com/cdn/shop/files/c25763a240aa1468f959394db65f5614.png?v=1731257672&width=1946)
 
-Filter
-------
+Open media 4 in modal
 
-Sort by:
+![](//prettyclickcosmetics.com/cdn/shop/files/3c3629132acea0d5232a667546cf5562.png?v=1731257672&width=1946)
 
-Featured
-Best selling
-Alphabetically, A-Z
-Alphabetically, Z-A
-Price, low to high
-Price, high to low
-Date, old to new
-Date, new to old
+Open media 5 in modal
 
-Price
+![](//prettyclickcosmetics.com/cdn/shop/files/dd979245ac188e26c7c85e34461c642d.png?v=1731257672&width=1946)
 
-The highest price is Rs1,480.00
-From
-To
+Open media 6 in modal
 
-From
-Rs.
+![](//prettyclickcosmetics.com/cdn/shop/files/5af0419be7942bd3a832db89b995cd6e.png?v=1731257672&width=1946)
 
-To
-Rs.
+Open media 7 in modal
 
+![](//prettyclickcosmetics.com/cdn/shop/files/152ddd1f7067b8f9f3f9cb65b2dbb2cc.png?v=1731257672&width=1946)
 
+Open media 8 in modal
 
-Availability
+![](//prettyclickcosmetics.com/cdn/shop/files/dc8cb2660ef44bdbb5e1d1f467678d9e.png?v=1731257672&width=1946)
 
-* In stock
-  5
-* Out of stock
-  8
+Open media 9 in modal
 
+![](//prettyclickcosmetics.com/cdn/shop/files/db9f9eb2fd4947ebf2c0310ee767dc4c.png?v=1731257672&width=1946)
 
+Open media 10 in modal
 
-Body Mist
+![](//prettyclickcosmetics.com/cdn/shop/files/eb8cf3268683c206a86bedd23c8c04f5.png?v=1731257672&width=1946)
 
-* Gold
-  1
-* Rose Gold
-  1
+Open media 11 in modal
 
-Apply
-(0)
+![](//prettyclickcosmetics.com/cdn/shop/files/0cf8988862c1ec45b8344ea4361f6822.png?v=1731257672&width=1946)
 
-Compare:
+Open media 12 in modal
 
-Sort by:
+![](//prettyclickcosmetics.com/cdn/shop/files/62b112cdab85acaaf040d02a4e290b70.png?v=1731257673&width=1946)
 
-Featured
-Best selling
-Alphabetically, A-Z
-Alphabetically, Z-A
-Price, low to high
-Price, high to low
-Date, old to new
-Date, new to old
+Open media 13 in modal
 
-View as:
+![](//prettyclickcosmetics.com/cdn/shop/files/78be35a835947a5731715ebe8e062b25.png?v=1731257673&width=1946)
 
-Price
+Open media 14 in modal
 
-The highest price is Rs1,480.00
-From
-To
+![](//prettyclickcosmetics.com/cdn/shop/files/8c3ba8bd391ff299a88a7725a48b0b0c.png?v=1731257673&width=1946)
 
-From
-Rs.
+Open media 15 in modal
 
-To
-Rs.
+![](//prettyclickcosmetics.com/cdn/shop/files/85ae71e2f903c981bf50471574d98b20.png?v=1731257673&width=1946)
 
+Open media 16 in modal
 
+![](//prettyclickcosmetics.com/cdn/shop/files/16f925640c5fd05fee38c3f2a30fd0d1.png?v=1731257673&width=1946)
 
-Availability
+Open media 17 in modal
 
-* In stock
-  5
-* Out of stock
-  8
+![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/69e7ee19baf68744f45ccf63960474ff.png?v=1731257672&width=900)
 
+![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/3b3c98df5d6af2e2daf6698572981d15.png?v=1731257672&width=900)
 
+![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/e73bc78216227a6102d02edf63293f8b.png?v=1731257672&width=900)
 
-Body Mist
+![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/4d0af26dc44995f58398084ed0d34d77.png?v=1731257672&width=900)
 
-* Gold
-  1
-* Rose Gold
-  1
+![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/c25763a240aa1468f959394db65f5614.png?v=1731257672&width=900)
 
-[![LocalID_49706 ](//prettyclickcosmetics.com/cdn/shop/files/42749be67a9cf01c68f5f3c3ef8ed52e5e90a1a4_1752840646_flare.png?v=1752840649&width=1080)
+![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/3c3629132acea0d5232a667546cf5562.png?v=1731257672&width=900)
 
-NEW
+![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/dd979245ac188e26c7c85e34461c642d.png?v=1731257672&width=900)
 
+![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/5af0419be7942bd3a832db89b995cd6e.png?v=1731257672&width=900)
 
-Shop Now](/collections/profusion)
+![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/152ddd1f7067b8f9f3f9cb65b2dbb2cc.png?v=1731257672&width=900)
 
-[![LocalID_49127 ](//prettyclickcosmetics.com/cdn/shop/files/8a6b62a784bb627522358614f59c04db5723ffea_1748844883_GRAYBGFORECOMM_19.jpg?v=1749208945&width=900)
+![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/dc8cb2660ef44bdbb5e1d1f467678d9e.png?v=1731257672&width=900)
 
-![LocalID_49126 ](//prettyclickcosmetics.com/cdn/shop/files/0135a9d9d9bac89815fdbd0718b707390b595694_1748844860_flawless-stay-setting-spray-beau.jpg?v=1749208945&width=900)](/products/beauty-creations-flawless-stay-setting-spray-120ml)
+![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/db9f9eb2fd4947ebf2c0310ee767dc4c.png?v=1731257672&width=900)
 
-Sold out
+![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/eb8cf3268683c206a86bedd23c8c04f5.png?v=1731257672&width=900)
 
-Sold out
+![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/0cf8988862c1ec45b8344ea4361f6822.png?v=1731257672&width=900)
 
-Compare
+![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/62b112cdab85acaaf040d02a4e290b70.png?v=1731257673&width=900)
 
-[Setting Spray](/collections/types?q=Setting%20Spray)
+![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/78be35a835947a5731715ebe8e062b25.png?v=1731257673&width=900)
 
-### [Beauty Creations Flawless Stay Setting Spray 120ml](/products/beauty-creations-flawless-stay-setting-spray-120ml)
+![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/8c3ba8bd391ff299a88a7725a48b0b0c.png?v=1731257673&width=900)
 
-Regular price
+![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/85ae71e2f903c981bf50471574d98b20.png?v=1731257673&width=900)
 
-Rs850.00
+![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/16f925640c5fd05fee38c3f2a30fd0d1.png?v=1731257673&width=900)
 
-Sale price
+Save 20%
 
-Rs850.00
-Regular price
+Milani Conceal + Perfect 2 In One Foundation + Concealer
+========================================================
 
-Unit price
+[Milani Conceal + Perfect 2 In One Foundation + Concealer
+--------------------------------------------------------](/products/milani-conceal-perfect-2-in-one-foundation-concealer)
 
-/per
+71 reviews
 
-Sold out[View details](/products/beauty-creations-flawless-stay-setting-spray-120ml)
+Vendor:
+[Milani](/collections/vendors?q=Milani)
 
-### Choose your option
+Type:
+[Foundation](/collections/types?q=Foundation)
 
-[![LocalID_45580 ](//prettyclickcosmetics.com/cdn/shop/files/1b03f5a77b69df280e8fc7ad85d170c8a9527c04_1710780396_all-products-33007529.webp?v=1745931078&width=900)
-
-![LocalID_45581 ](//prettyclickcosmetics.com/cdn/shop/files/f458424007cf6b4be8628e0fdb82200f7fdd19ba_1710780397_all-products-33007530.webp?v=1745931078&width=900)](/products/la-colors-matte-finish-setting-spray-blistercard)
-
-Sold out
-
-Sold out
-
-Compare
-
-[Setting Spray](/collections/types?q=Setting%20Spray)
-
-### [L.A. Colors Matte Finish Setting Spray-Blistercard](/products/la-colors-matte-finish-setting-spray-blistercard)
-
-Regular price
-
-Rs675.00
-
-Sale price
-
-Rs675.00
-Regular price
-
-Unit price
-
-/per
-
-Sold out[View details](/products/la-colors-matte-finish-setting-spray-blistercard)
-
-### Choose your option
-
-[![LocalID_45582 ](//prettyclickcosmetics.com/cdn/shop/files/4ae35eceeb74c5149e525398d3108f002dd1bc1a_1710780398_all-products-33007531_ae8ac6f0-2f0e-47d9-a1a9-5dcbac80e042.jpg?v=1745930639&width=900)
-
-![LocalID_45583 ](//prettyclickcosmetics.com/cdn/shop/files/a5efc6146d9def7df0543d3c37e42c4ce40b36e1_1710780398_all-products-33007532.jpg?v=1745930639&width=900)](/products/la-colors-matte-setting-spray)
-
-Sold out
-
-Sold out
-
-Compare
-
-[Setting Spray](/collections/types?q=Setting%20Spray)
-
-### [L.A. Colors Matte Setting Spray](/products/la-colors-matte-setting-spray)
-
-Regular price
-
-Rs675.00
-
-Sale price
-
-Rs675.00
-Regular price
-
-Unit price
-
-/per
-
-Sold out[View details](/products/la-colors-matte-setting-spray)
-
-### Choose your option
-
-[![LocalID_48974 ](//prettyclickcosmetics.com/cdn/shop/files/eb273e2a2fa62b2f847ab5b3e597439943795110_1745647777_CSS339_01_1024x1024_7fc5a77a-c18c-480f-b4e5-9a38a78416d0.webp?v=1745899425&width=900)
-
-![LocalID_48954 ](//prettyclickcosmetics.com/cdn/shop/files/fa4c2318739dfbd2c0f4966196533a8faa405a65_1745395606_81555793395_2.webp?v=1745899425&width=1080)](/products/l-a-colors-set-refresh-hydrating-finish-makeup-setting-spray-60ml)
-
-Sold out
-
-Sold out
-
-Compare
-
-[Setting Spray](/collections/types?q=Setting%20Spray)
-
-### [L.A. Colors Set+Refresh Hydrating Finish Makeup Setting Spray 60ml](/products/l-a-colors-set-refresh-hydrating-finish-makeup-setting-spray-60ml)
-
-Regular price
-
-Rs800.00
-
-Sale price
-
-Rs800.00
-Regular price
-
-Unit price
-
-/per
-
-Sold out[View details](/products/l-a-colors-set-refresh-hydrating-finish-makeup-setting-spray-60ml)
-
-### Choose your option
-
-[![LocalID_48959 ](//prettyclickcosmetics.com/cdn/shop/files/f79ab3b3685962b1e6e51e77fc9ece318f9fd631_1745396727_CSS338_01.webp?v=1745900179&width=2000)
-
-![LocalID_48960 ](//prettyclickcosmetics.com/cdn/shop/files/2e6892e56c2a1a4c7071f59ec38fe7d6dd4e337b_1745396754_setting_spray_infograph_01_1_1024x1024_b2a408ac-ca3e-488d-b264-e92191a49a59.webp?v=1745900179&width=1024)](/products/l-a-colors-set-refresh-matte-finish-makeup-setting-spray-60ml)
-
-Sold out
-
-Sold out
-
-Compare
-
-[Setting Spray](/collections/types?q=Setting%20Spray)
-
-### [L.A. Colors Set+Refresh Matte Finish Makeup Setting Spray 60ml](/products/l-a-colors-set-refresh-matte-finish-makeup-setting-spray-60ml)
-
-Regular price
-
-Rs800.00
-
-Sale price
-
-Rs800.00
-Regular price
-
-Unit price
-
-/per
-
-Sold out[View details](/products/l-a-colors-set-refresh-matte-finish-makeup-setting-spray-60ml)
-
-### Choose your option
-
-[![LocalID_45619 ](//prettyclickcosmetics.com/cdn/shop/files/05e332b5d55f55047a4ce4d9e65ef621f4df706b_1710780428_all-products-33007577.webp?v=1745930188&width=900)
-
-![LocalID_45620 ](//prettyclickcosmetics.com/cdn/shop/files/5762f5285b186c1e72aa285c0b2dfe10bf639a56_1710780428_all-products-33007578.webp?v=1745930188&width=900)](/products/la-colors-setting-spray-blister-card)
-
-
-Add to cart
-
-Compare
-
-[Setting Spray](/collections/types?q=Setting%20Spray)
-
-### [L.A. Colors Setting Spray- Blister Card](/products/la-colors-setting-spray-blister-card)
-
-Regular price
-
-Rs675.00
-
-Sale price
-
-Rs675.00
-Regular price
-
-Unit price
-
-/per
-
-Add to cart[View details](/products/la-colors-setting-spray-blister-card)
-
-### Choose your option
-
-[![LocalID_47116 ](//prettyclickcosmetics.com/cdn/shop/files/9eecd989ce0b81c6466e85b903fa3879d7005dd6_1714892827_GFS916_prod_img_640x_a8746680-774f-48da-8462-a093d1f52ead.webp?v=1745231746&width=640)](/products/la-girl-primer-spray-prep-hydrate-face-for-make-up)
-
-Sold out
-
-Sold out
-
-Compare
-
-[Setting Spray](/collections/types?q=Setting%20Spray)
-
-### [L.A. Girl Primer Spray Prep & Hydrate Face For Make Up](/products/la-girl-primer-spray-prep-hydrate-face-for-make-up)
-
-Regular price
-
-Rs1,012.50
-
-Sale price
-
-Rs1,012.50
-Regular price
-
-~~Rs1,350.00~~
-
-Unit price
-
-/per
-
-Sold out[View details](/products/la-girl-primer-spray-prep-hydrate-face-for-make-up)
-
-### Choose your option
-
-[![LocalID_45756 ](//prettyclickcosmetics.com/cdn/shop/files/a78209d394055eedd5caae0b0bb4db2ab0520e59_1710780566_all-products-33007754.webp?v=1745231509&width=900)](/products/la-girl-pro-matte-setting-spray)
-
-Sold out
-
-Sold out
-
-Compare
-
-[Setting Spray](/collections/types?q=Setting%20Spray)
-
-### [L.A. Girl Pro Matte Setting Spray](/products/la-girl-pro-matte-setting-spray)
-
-Regular price
-
-Rs862.50
-
-Sale price
-
-Rs862.50
-Regular price
-
-~~Rs1,150.00~~
-
-Unit price
-
-/per
-
-Sold out[View details](/products/la-girl-pro-matte-setting-spray)
-
-### Choose your option
-
-[![LocalID_49227 ](//prettyclickcosmetics.com/cdn/shop/files/77da1b01fd01afb97e302b9cfe591484c48e6a81_1748922172_pro_20perfect_20multi_20tasking_20setting_20spray.jpg?v=1749202838&width=900)
-
-![LocalID_49228 ](//prettyclickcosmetics.com/cdn/shop/files/4c1a8f368990c3d8b6bbe4c21c952bd889d56276_1748922172_pro_20perfect_20multi_20tasking_20setting_20spray1.jpg?v=1749202838&width=900)](/products/l-a-girl-pro-perfect-multi-tasking-setting-spray-105ml)
-
-Sale
-
-Add to cart
-
-Compare
-
-[Setting Spray](/collections/types?q=Setting%20Spray)
-
-### [L.A. Girl Pro Perfect Multi- Tasking Setting Spray 105ml](/products/l-a-girl-pro-perfect-multi-tasking-setting-spray-105ml)
-
-Regular price
-
-Rs1,162.50
-
-Sale price
-
-Rs1,162.50
-Regular price
-
-~~Rs1,550.00~~
-
-Unit price
-
-/per
-
-Add to cart[View details](/products/l-a-girl-pro-perfect-multi-tasking-setting-spray-105ml)
-
-### Choose your option
-
-[![LocalID_47545 ](//prettyclickcosmetics.com/cdn/shop/files/93fbacd62134b134f8b4f618aea1510993a5c2cd_1727191531_all-products-33007763.webp?v=1745231289&width=900)
-
-![LocalID_47546 ](//prettyclickcosmetics.com/cdn/shop/files/21bd25b82ab4c07b2c83958004f36da5780ecc99_1727191532_all-products-33007764.webp?v=1745231288&width=900)](/products/la-girl-shimmery-spray-finishing-spray-for-face-body)
-
-Sold out
-
-Choose options
-
-Compare
-
-[Setting Spray](/collections/types?q=Setting%20Spray)
-
-### [L.A. Girl Shimmery Spray Finishing Spray For Face & Body](/products/la-girl-shimmery-spray-finishing-spray-for-face-body)
-
-Regular price
-
-Rs975.00
-
-Sale price
-
-Rs975.00
-Regular price
-
-~~Rs1,300.00~~
-
-Unit price
-
-/per
-
-Choose options
-
-[View details](/products/la-girl-shimmery-spray-finishing-spray-for-face-body)
-
-### Choose your option
-
-[![LocalID_45908 ](//prettyclickcosmetics.com/cdn/shop/files/0e2869e99f71ba6f2b0256ed9f011a730a1bab0f_1710780755_all-products-33007899.png?v=1756233958&width=900)
-
-![LocalID_45909 ](//prettyclickcosmetics.com/cdn/shop/files/6371c312bfa14a0ceaadfdaae51f66dd2ad12db8_1710780756_all-products-33007900.jpg?v=1756233958&width=900)](/products/milani-16hr-make-it-dewy-setting-spray)
-
-Sale
-
-Add to cart
-
-Compare
-
-[Setting Spray](/collections/types?q=Setting%20Spray)
-
-### [Milani 16HR Make It Dewy Setting Spray](/products/milani-16hr-make-it-dewy-setting-spray)
-
-Regular price
-
-Rs1,480.00
-
-Sale price
-
-Rs1,480.00
-Regular price
-
-~~Rs1,850.00~~
-
-Unit price
-
-/per
-
-Add to cart[View details](/products/milani-16hr-make-it-dewy-setting-spray)
-
-### Choose your option
-
-[![LocalID_49939 ](//prettyclickcosmetics.com/cdn/shop/files/7bcb3b110d6297620f70c7101819bb75e1f55821_1758291934_1_MakeItLast_SettingSpray_03_PDP_PoductWithSwatch_Seal_2_900x_93802128-f6c5-423a-a472-fe6fce82e31e.png?v=1758291938&width=900)
-
-![LocalID_49940 ](//prettyclickcosmetics.com/cdn/shop/files/89f5c7f85794bc8cc39ff596505a3a43ee35b60a_1758292081_1_MakeItLast_SettingSpray_03_PDP_PoductWithSwatch_grande_172747e6-566e-4451-883d-d8c407efa67c.png?v=1758292086&width=600)](/products/milani-make-it-last-setting-spray)
-
-Sale
-
-Add to cart
-
-Compare
-
-[Setting Spray](/collections/types?q=Setting%20Spray)
-
-### [Milani Make It Last Original - Natural Finish Setting Spray](/products/milani-make-it-last-setting-spray)
-
-Regular price
-
-Rs1,480.00
-
-Sale price
-
-Rs1,480.00
-Regular price
-
-~~Rs1,850.00~~
-
-Unit price
-
-/per
-
-Add to cart[View details](/products/milani-make-it-last-setting-spray)
-
-### Choose your option
-
-[![LocalID_47566 ](//prettyclickcosmetics.com/cdn/shop/files/9e29599a53ad8d2e923bd08ef1993c13207f9c3d_1727203114_1114472_20_281_29.jpg?v=1758955966&width=900)
-
-![LocalID_47565 ](//prettyclickcosmetics.com/cdn/shop/files/9cb827699b0df06406ac4a416e650edb7c274c94_1727203114_1114472_3.jpg?v=1758955966&width=900)](/products/wet-n-wild-fight-dirty-clarifying-detox-setting-spray-65-ml)
-
-
-Add to cart
-
-Compare
-
-[Setting Spray](/collections/types?q=Setting%20Spray)
-
-### [Wet n Wild Fight Dirty Clarifying Detox Setting Spray - 65 ml](/products/wet-n-wild-fight-dirty-clarifying-detox-setting-spray-65-ml)
-
-Regular price
-
-Rs950.00
-
-Sale price
-
-Rs950.00
-Regular price
-
-Unit price
-
-/per
-
-Add to cart[View details](/products/wet-n-wild-fight-dirty-clarifying-detox-setting-spray-65-ml)
-
-### Choose your option
-
-100% Authentic
-
-Free Delivery for order of Rs.3500 and more
+PRETTYCLICK REWARD POINTS
 
 Earn 5% prettyclick reward points on every purchase
+
+Regular price
+
+Rs1,400.00
+
+Sale price
+
+Rs1,400.00
+Regular price
+
+~~Rs1,750.00~~
+
+Unit price
+
+/per
+
+Tax included.
+[Shipping](/policies/shipping-policy) calculated at checkout.
+
+* 100% Authentic
+
+Available in stock
+
+2-in-1 complexion perfection! Combat under eye circles, redness and imperfections with our best-selling multi-tasking foundation and concealer formula. The Milani Conceal + Perfect 2-In-1 Foundation + Concealer provides medium to full coverage with a natural matte finish that stays all day. The long wear, oil-free formula is waterproof and sweatproof, so you’re always photo ready. Available in 45 shades.   
+    
+100% Agree their skin looks more even\*   
+93% Agree skin texture is smoothed and redness is reduced\*   
+93% Agree their complexion looks fresh and natural\*   
+90% Agree they have flawless, photo-ready complexion\*   
+*\* Results observed in a consumer panel survey*
+
+Color:
+Porcelain 00A
+
+
+
+Porcelain 00AVariant sold out or unavailable
+
+Light Natural 00Variant sold out or unavailable
+
+Creamy Vanilla 01Variant sold out or unavailable
+
+Creamy Natural 02AVariant sold out or unavailable
+
+Natural 02Variant sold out or unavailable
+
+Light Beige 03Variant sold out or unavailable
+
+Medium Beige 04Variant sold out or unavailable
+
+Natural Beige 05AVariant sold out or unavailable
+
+Warm Beige 05Variant sold out or unavailable
+
+Sand Beige 06Variant sold out or unavailable
+
+Sand 07Variant sold out or unavailable
+
+Warm Sand 08AVariant sold out or unavailable
+
+Creamy Nude 01AVariant sold out or unavailable
+
+Tan 09Variant sold out or unavailable
+
+Hazelnut-10AVariant sold out or unavailable
+
+Light 00BVariant sold out or unavailable
+
+Light Tan 08Variant sold out or unavailable
+
+Ivory 00AAVariant sold out or unavailable
+
+Quantity
+
+
+Decrease quantity for Milani Conceal + Perfect 2 In One Foundation + Concealer
+
+
+
+Increase quantity for Milani Conceal + Perfect 2 In One Foundation + Concealer
+
+Add to cart
+
+This item is a recurring or deferred purchase. By continuing, I agree to the cancellation policy and authorize you to charge my payment method at the prices, frequency and dates listed on this page until my order is fulfilled or I cancel, if permitted.
+
+* Free Delivery for orders over Rs 3500
+* Exchange within 7 days if the sealed is not opened
+
+Couldn't load pickup availability
+
+Refresh
+
+Share:
+
+[Share on Facebook](//www.facebook.com/sharer.php?u=https://prettyclickcosmetics.com/products/milani-conceal-perfect-2-in-one-foundation-concealer)[Share on X](//twitter.com/share?text=&url=https://prettyclickcosmetics.com/products/milani-conceal-perfect-2-in-one-foundation-concealer)[Pin on Pinterest](//pinterest.com/pin/create/button/?url=https://prettyclickcosmetics.com/products/milani-conceal-perfect-2-in-one-foundation-concealer&media=//prettyclickcosmetics.com/cdn/shop/files/69e7ee19baf68744f45ccf63960474ff.png?crop=center&height=1024&v=1731257672&width=1024&description=)
+
+
+
+![Milani Conceal + Perfect 2 In One Foundation + Concealer](//prettyclickcosmetics.com/cdn/shop/files/69e7ee19baf68744f45ccf63960474ff.png?v=1731257672&width=180)
+
+### Milani Conceal + Perfect 2 In One Foundation + Concealer
+
+Regular price
+
+Rs1,400.00
+
+Sale price
+
+Rs1,400.00
+Regular price
+
+~~Rs1,750.00~~
+
+Unit price
+
+/per
+
+Porcelain 00A
+Light Natural 00
+Creamy Vanilla 01
+Creamy Natural 02A
+Natural 02
+Light Beige 03
+Medium Beige 04
+Natural Beige 05A
+Warm Beige 05
+Sand Beige 06
+Sand 07
+Warm Sand 08A
+Creamy Nude 01A
+Tan 09
+Hazelnut-10A
+Light 00B
+Light Tan 08
+Ivory 00AA
+
+Decrease quantity for Milani Conceal + Perfect 2 In One Foundation + Concealer
+
+
+
+Increase quantity for Milani Conceal + Perfect 2 In One Foundation + Concealer
+
+Add to cart
+
+Customer Reviews
+----------------
+
+Based on 71 reviews
+
+[Write a review](#)
+
+87%
+
+(62)
+
+10%
+
+(7)
+
+3%
+
+(2)
+
+0%
+
+(0)
+
+0%
+
+(0)
+
+S
+
+       Sareena Kharel
+
+Loved it♥️
+
+S
+
+       Suru Sharma
+
+It was satisfactory
+
+S
+
+       Smriti Ghimire
+
+**foundation**
+
+Very nice
+
+A
+
+       Aashika Shrestha
+
+Milani Conceal + Perfect 2 In One Foundation + Concealer Foundation
+
+B
+
+       Benish Rajan
+
+**Awesome foundation**
+
+Never used anything like this. Perfectly blends. Suits my skin tone. Falling in love with this brand
+
+123
 
 
 
@@ -1106,8 +918,9 @@ Check out
 | Type |
 | Product variants |
 
-|
-|  |
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| Milani Conceal + Perfect 2 In One Foundation + Concealer  [Milani Conceal + Perfect 2 In One Foundation + Concealer](/products/milani-conceal-perfect-2-in-one-foundation-concealer)[View details](/products/milani-conceal-perfect-2-in-one-foundation-concealer) | 2-in-1 complexion perfection! Combat under eye circles, redness and imperfections with our best-selling multi-tasking foundation and concealer formula. The Milani Conceal + Perfect 2-In-1 Foundation + Concealer provides medium to full coverage with a natural matte finish that stays all day. The long wear, oil-free formula is waterproof and sweatproof, so you’re always photo ready. Available in 45 shades.     100% Agree their skin looks more even\*  93% Agree skin texture is smoothed and redness is reduced\*  93% Agree their complexion looks fresh and natural\*  90% Agree they have flawless, photo-ready complexion\*  *\* Results observed in a consumer panel survey* | Regular price  Rs1,400.00  Sale price  Rs1,400.00 Regular price  ~~Rs1,750.00~~  Unit price /per | Milani | Foundation | Color Porcelain 00A,Light Natural 00,Creamy Vanilla 01,Creamy Natural 02A,Natural 02,Light Beige 03,Medium Beige 04,Natural Beige 05A,Warm Beige 05,Sand Beige 06,Sand 07,Warm Sand 08A,Creamy Nude 01A,Tan 09,Hazelnut-10A,Light 00B,Light Tan 08,Ivory 00AA |
 
 * Choosing a selection results in a full page refresh.
 * Opens in a new window.
