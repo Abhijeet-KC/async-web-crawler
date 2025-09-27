@@ -140,7 +140,7 @@ docker run --rm -v $(pwd)/output:/app/output web-crawler
 </ul>
 
 ## Demo Video
-
+### Click on the video to play it on youtube
 [![Watch the video](thumbnail.jpg)](https://youtu.be/tw7DLRJ9pLY)
 
 ## Notes on Testing
