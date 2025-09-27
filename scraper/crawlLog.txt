@@ -28,3 +28,16 @@
 2025-09-27 08:36:07,701 | INFO | Crawling (depth 0): http://kiec.edu.np/
 2025-09-27 08:36:07,906 | INFO | Fetched http://kiec.edu.np/ (status 200)
 2025-09-27 08:36:07,908 | WARNING | CAPTCHA detected at http://kiec.edu.np/ | html_saved=output/captcha_pages\kiec.edu.np_20250927T083607.html | screenshot=None
+2025-09-27 08:51:44,176 | INFO | Crawling (depth 0): http://kiec.edu.np/
+2025-09-27 08:51:44,378 | INFO | Fetched http://kiec.edu.np/ (status 200)
+2025-09-27 08:51:44,381 | WARNING | CAPTCHA detected at http://kiec.edu.np/ | html_saved=output/captcha_pages\kiec.edu.np_20250927T085144.html | screenshot=None
+2025-09-27 08:51:44,393 | INFO | Crawl Completed!
+2025-09-27 08:51:44,394 | INFO | Total Pages Crawled: 0
+2025-09-27 08:51:44,394 | INFO | Total URLs Visited: 1
+2025-09-27 08:54:01,798 | INFO | Crawling (depth 0): http://kiec.edu.np/
+2025-09-27 08:54:01,987 | INFO | Fetched http://kiec.edu.np/ (status 200)
+2025-09-27 08:54:01,990 | WARNING | CAPTCHA detected at http://kiec.edu.np/ | html_saved=output/captcha_pages\kiec.edu.np_20250927T085401.html | screenshot=None
+2025-09-27 08:54:01,992 | WARNING | CAPTCHA logged to failed_urls.txt for http://kiec.edu.np/
+2025-09-27 08:54:01,994 | INFO | Crawl Completed!
+2025-09-27 08:54:02,001 | INFO | Total Pages Crawled: 0
+2025-09-27 08:54:02,004 | INFO | Total URLs Visited: 1
