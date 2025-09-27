@@ -5,3 +5,26 @@
 2025-09-26T22:01:35.463448 | https://jeevee.com/ | SUCCESS
 2025-09-26T22:04:31.568194 | http://kiec.edu.np/ | SUCCESS
 2025-09-26T22:54:09.026305 | http://kiec.edu.np/ | SUCCESS
+2025-09-27 00:07:07,946 | INFO | Crawling (depth 0): http://kiec.edu.np/
+2025-09-27 00:07:08,155 | INFO | Fetched http://kiec.edu.np/ (status 200)
+2025-09-27 00:21:26,682 | INFO | Crawling (depth 0): http://kiec.edu.np/
+2025-09-27 00:21:26,914 | INFO | Fetched http://kiec.edu.np/ (status 200)
+2025-09-27 00:21:26,924 | WARNING | CAPTCHA detected at http://kiec.edu.np/ | html_saved=output/captcha_pages\kiec.edu.np_20250927T002126.html | screenshot=None
+2025-09-27 00:27:02,896 | INFO | Crawling (depth 0): http://kiec.edu.np/
+2025-09-27 00:27:03,098 | INFO | Fetched http://kiec.edu.np/ (status 200)
+2025-09-27 00:27:03,099 | WARNING | CAPTCHA detected at http://kiec.edu.np/ | html_saved=output/captcha_pages\kiec.edu.np_20250927T002703.html | screenshot=None
+2025-09-27 08:01:08,965 | INFO | Crawling (depth 0): http://kiec.edu.np/
+2025-09-27 08:01:09,195 | INFO | Fetched http://kiec.edu.np/ (status 200)
+2025-09-27 08:01:09,242 | INFO | Starting Chromium download.
+2025-09-27 08:01:10,344 | WARNING | Failed to screenshot captcha page http://kiec.edu.np/: Chromium downloadable not found at https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1181205/chrome-win.zip: Received <?xml version='1.0' encoding='UTF-8'?><Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Details>No such object: chromium-browser-snapshots/Win_x64/1181205/chrome-win.zip</Details></Error>.
+
+2025-09-27 08:01:10,351 | WARNING | CAPTCHA detected at http://kiec.edu.np/ | html_saved=output/captcha_pages\kiec.edu.np_20250927T080109.html | screenshot=None
+2025-09-27 08:04:50,276 | INFO | Crawling (depth 0): http://kiec.edu.np/
+2025-09-27 08:04:50,512 | INFO | Fetched http://kiec.edu.np/ (status 200)
+2025-09-27 08:04:50,523 | WARNING | CAPTCHA detected at http://kiec.edu.np/ | html_saved=output/captcha_pages\kiec.edu.np_20250927T080450.html | screenshot=None
+2025-09-27 08:16:28,142 | INFO | Crawling (depth 0): http://kiec.edu.np/
+2025-09-27 08:16:28,346 | INFO | Fetched http://kiec.edu.np/ (status 200)
+2025-09-27 08:16:28,357 | WARNING | CAPTCHA detected at http://kiec.edu.np/ | html_saved=output/captcha_pages\kiec.edu.np_20250927T081628.html | screenshot=None
+2025-09-27 08:36:07,701 | INFO | Crawling (depth 0): http://kiec.edu.np/
+2025-09-27 08:36:07,906 | INFO | Fetched http://kiec.edu.np/ (status 200)
+2025-09-27 08:36:07,908 | WARNING | CAPTCHA detected at http://kiec.edu.np/ | html_saved=output/captcha_pages\kiec.edu.np_20250927T083607.html | screenshot=None

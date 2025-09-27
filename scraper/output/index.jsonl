@@ -4,3 +4,7 @@
 {"url": "https://jeevee.com/", "file": "jeevee.com_.md", "status": "SUCCESS", "timestamp": "2025-09-26T22:01:35.463448", "seed_origin": "https://jeevee.com/"}
 {"url": "http://kiec.edu.np/", "file": "http:__kiec.edu.np_.md", "status": "SUCCESS", "timestamp": "2025-09-26T22:04:31.568194", "seed_origin": "http://kiec.edu.np/"}
 {"url": "http://kiec.edu.np/", "file": "kiec.edu.np_.md", "status": "SUCCESS", "timestamp": "2025-09-26T22:54:09.026305", "seed_origin": "http://kiec.edu.np/"}
+{"url": "http://kiec.edu.np/", "file": "kiec.edu.np_.md", "status": "SUCCESS", "timestamp": "2025-09-27T00:07:08.155748", "seed_origin": "http://kiec.edu.np/"}
+{"url": "http://kiec.edu.np/", "file": null, "status": "CAPTCHA_DETECTED", "timestamp": "2025-09-27T08:01:10.353576", "seed_origin": "http://kiec.edu.np/", "captcha_html": "output/captcha_pages\\kiec.edu.np_20250927T080109.html", "captcha_screenshot": null}
+{"url": "http://kiec.edu.np/", "file": null, "status": "CAPTCHA_DETECTED", "timestamp": "2025-09-27T08:16:28.357719", "seed_origin": "http://kiec.edu.np/", "captcha_screenshot": null}
+{"url": "http://kiec.edu.np/", "file": null, "status": "CAPTCHA_DETECTED", "timestamp": "2025-09-27T08:36:07.909797", "seed_origin": "http://kiec.edu.np/", "captcha_html": "output/captcha_pages\\kiec.edu.np_20250927T083607.html", "captcha_screenshot": null}

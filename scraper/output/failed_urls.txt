@@ -1,0 +1,4 @@
+2025-09-27T00:21:26.925599 | http://kiec.edu.np/ | CAPTCHA_DETECTED | html=output/captcha_pages\kiec.edu.np_20250927T002126.html | screenshot=None
+2025-09-27T00:27:03.100767 | http://kiec.edu.np/ | CAPTCHA_DETECTED | html=output/captcha_pages\kiec.edu.np_20250927T002703.html | screenshot=None
+2025-09-27T08:01:10.352568 | http://kiec.edu.np/ | CAPTCHA_DETECTED | html=output/captcha_pages\kiec.edu.np_20250927T080109.html | screenshot=None
+2025-09-27T08:04:50.524300 | http://kiec.edu.np/ | CAPTCHA_DETECTED | html=output/captcha_pages\kiec.edu.np_20250927T080450.html | screenshot=None
