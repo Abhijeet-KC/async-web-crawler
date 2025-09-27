@@ -236,3 +236,30 @@
 2025-09-27 11:20:46,856 | INFO | Total Pages Crawled: 6
 2025-09-27 11:20:46,857 | INFO | Total URLs Visited: 9
 2025-09-27 11:20:46,894 | INFO | Total Failed URLs: 3
+2025-09-27 11:23:01,867 | INFO | Crawling (depth 0): https://jeevee.com/
+2025-09-27 11:23:02,227 | INFO | Fetched https://jeevee.com/ (status 200)
+2025-09-27 11:23:03,476 | INFO | Crawling (depth 1): https://jeevee.com/prescriptions
+2025-09-27 11:23:03,799 | INFO | Fetched https://jeevee.com/prescriptions (status 200)
+2025-09-27 11:23:09,036 | INFO | Crawling (depth 1): https://jeevee.com/about
+2025-09-27 11:23:09,388 | INFO | Fetched https://jeevee.com/about (status 200)
+2025-09-27 11:23:13,598 | INFO | Crawling (depth 1): https://jeevee.com/vendor-enrollment
+2025-09-27 11:23:13,943 | INFO | Fetched https://jeevee.com/vendor-enrollment (status 200)
+2025-09-27 11:23:17,248 | INFO | Crawling (depth 1): https://jeevee.com/terms
+2025-09-27 11:23:17,612 | INFO | Fetched https://jeevee.com/terms (status 200)
+2025-09-27 11:23:19,804 | INFO | Crawling (depth 1): https://jeevee.com/policies
+2025-09-27 11:23:20,160 | INFO | Fetched https://jeevee.com/policies (status 200)
+2025-09-27 11:23:25,359 | INFO | Crawling (depth 0): http://kiec.edu.np/
+2025-09-27 11:23:25,554 | INFO | Fetched http://kiec.edu.np/ (status 200)
+2025-09-27 11:23:25,555 | WARNING | CAPTCHA detected at http://kiec.edu.np/
+2025-09-27 11:23:25,558 | WARNING | CAPTCHA logged to failed_urls.txt for http://kiec.edu.np/
+2025-09-27 11:23:25,560 | INFO | Crawling (depth 0): https://prettyclickcosmetics.com/
+2025-09-27 11:23:25,802 | INFO | Fetched https://prettyclickcosmetics.com/ (status 200)
+2025-09-27 11:23:25,823 | WARNING | CAPTCHA detected at https://prettyclickcosmetics.com/
+2025-09-27 11:23:25,825 | WARNING | CAPTCHA logged to failed_urls.txt for https://prettyclickcosmetics.com/
+2025-09-27 11:23:25,828 | INFO | Crawling (depth 0): https://www.tranquilityspa.com.np/
+2025-09-27 11:23:26,025 | INFO | Fetched https://www.tranquilityspa.com.np/ (status 200)
+2025-09-27 11:23:26,027 | WARNING | CAPTCHA detected at https://www.tranquilityspa.com.np/
+2025-09-27 11:23:26,029 | WARNING | CAPTCHA logged to failed_urls.txt for https://www.tranquilityspa.com.np/
+2025-09-27 11:23:26,031 | INFO | Total Pages Crawled: 6
+2025-09-27 11:23:26,032 | INFO | Total URLs Visited: 9
+2025-09-27 11:23:26,061 | INFO | Total Failed URLs: 6

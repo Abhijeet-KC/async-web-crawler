@@ -27,7 +27,7 @@ MAX_PAGES = 20
 BLOCKED_PAGES_FULL = set()  
 BLOCK_PATTERNS = []  
 
-ALLOW_INSECURE = False       
+ALLOW_INSECURE = True      
 POLITE_DELAY = 1            
 
 OUTPUT_DIR = "output/MDs"

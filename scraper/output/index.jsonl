@@ -64,3 +64,12 @@
 {"url": "http://kiec.edu.np/", "file": null, "status": "CAPTCHA_DETECTED", "timestamp": "2025-09-27T11:20:42.452737", "seed_origin": "http://kiec.edu.np/"}
 {"url": "https://prettyclickcosmetics.com/", "file": null, "status": "CAPTCHA_DETECTED", "timestamp": "2025-09-27T11:20:42.725250", "seed_origin": "https://prettyclickcosmetics.com/"}
 {"url": "https://www.tranquilityspa.com.np/", "file": null, "status": "FAILED", "timestamp": "2025-09-27T11:20:46.853209", "seed_origin": "https://www.tranquilityspa.com.np/", "error": "Cannot connect to host www.tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]"}
+{"url": "https://jeevee.com/", "file": "jeevee.com_.md", "status": "SUCCESS", "timestamp": "2025-09-27T11:23:02.302222", "seed_origin": "https://jeevee.com/"}
+{"url": "https://jeevee.com/prescriptions", "file": "jeevee.com_prescriptions.md", "status": "SUCCESS", "timestamp": "2025-09-27T11:23:03.841515", "seed_origin": "https://jeevee.com/"}
+{"url": "https://jeevee.com/about", "file": "jeevee.com_about.md", "status": "SUCCESS", "timestamp": "2025-09-27T11:23:09.434996", "seed_origin": "https://jeevee.com/"}
+{"url": "https://jeevee.com/vendor-enrollment", "file": "jeevee.com_vendor-enrollment.md", "status": "SUCCESS", "timestamp": "2025-09-27T11:23:14.011376", "seed_origin": "https://jeevee.com/"}
+{"url": "https://jeevee.com/terms", "file": "jeevee.com_terms.md", "status": "SUCCESS", "timestamp": "2025-09-27T11:23:17.663568", "seed_origin": "https://jeevee.com/"}
+{"url": "https://jeevee.com/policies", "file": "jeevee.com_policies.md", "status": "SUCCESS", "timestamp": "2025-09-27T11:23:20.208784", "seed_origin": "https://jeevee.com/"}
+{"url": "http://kiec.edu.np/", "file": null, "status": "CAPTCHA_DETECTED", "timestamp": "2025-09-27T11:23:25.556554", "seed_origin": "http://kiec.edu.np/"}
+{"url": "https://prettyclickcosmetics.com/", "file": null, "status": "CAPTCHA_DETECTED", "timestamp": "2025-09-27T11:23:25.824112", "seed_origin": "https://prettyclickcosmetics.com/"}
+{"url": "https://www.tranquilityspa.com.np/", "file": null, "status": "CAPTCHA_DETECTED", "timestamp": "2025-09-27T11:23:26.028728", "seed_origin": "https://www.tranquilityspa.com.np/"}
