@@ -1,0 +1,569 @@
+<html lang="en" class="scroll-smooth hydrated"><head>
+    <meta charset="UTF-8"><style data-styles="">ion-icon{visibility:hidden}.hydrated{visibility:inherit}</style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="P2JgTNsi4u9ziEF1zty7d0LE95iAYpHsV28cMpn1">
+    <title>Teams — TRANQUILITY</title>
+    <link rel="icon" type="image/x-icon" href="https://tranquilityspa.com.np/sites/images/tranquility-logo.ico">
+    <!-- link -->
+    <link rel="stylesheet" href="https://tranquilityspa.com.np/sites/css/output.css?v=1758707125">
+    <link rel="stylesheet" href="https://tranquilityspa.com.np/sites/css/style.css">
+    <link rel="stylesheet" href="https://tranquilityspa.com.np/sites/css/membership-style.css">
+    <link rel="stylesheet" href="https://tranquilityspa.com.np/sites/css/about-style.css">
+
+    <script src="https://embed.tawk.to/_s/v4/app/68d221335f8/js/twk-main.js" charset="UTF-8" crossorigin="*"></script><script src="https://embed.tawk.to/_s/v4/app/68d221335f8/js/twk-vendor.js" charset="UTF-8" crossorigin="*"></script><script src="https://embed.tawk.to/_s/v4/app/68d221335f8/js/twk-chunk-vendors.js" charset="UTF-8" crossorigin="*"></script><script src="https://embed.tawk.to/_s/v4/app/68d221335f8/js/twk-chunk-common.js" charset="UTF-8" crossorigin="*"></script><script src="https://embed.tawk.to/_s/v4/app/68d221335f8/js/twk-runtime.js" charset="UTF-8" crossorigin="*"></script><script src="https://embed.tawk.to/_s/v4/app/68d221335f8/js/twk-app.js" charset="UTF-8" crossorigin="*"></script><script async="" src="https://embed.tawk.to/66f0f159e5982d6c7bb2ff92/1i8eiti72" charset="UTF-8" crossorigin="*"></script><script defer="" src="https://tranquilityspa.com.np/sites/js/script.js"></script>
+    <script defer="" src="https://tranquilityspa.com.np/sites/js/alpine.js"></script>
+    <script defer="" src="https://tranquilityspa.com.np/sites/js/owl.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- owl carousel files starts  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- owl carousel files ends  -->
+
+    <script defer="" src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"></script>
+
+    <!-- aos scripts -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- aos scripts -->
+
+    <style>
+        #loader {
+            position: fixed;
+            background-color: white;
+            z-index: 9999;
+        }
+
+        #popup-card {
+            display: none;
+        }
+    </style>
+
+    
+    <!-- Google tag (gtag.js) -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-6K42X1DDS4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-6K42X1DDS4');
+    </script>
+<style>:root{--swal2-outline: 0 0 0 3px rgba(100, 150, 200, 0.5);--swal2-container-padding: 0.625em;--swal2-backdrop: rgba(0, 0, 0, 0.4);--swal2-backdrop-transition: background-color 0.1s;--swal2-width: 32em;--swal2-padding: 0 0 1.25em;--swal2-border: none;--swal2-border-radius: 0.3125rem;--swal2-background: white;--swal2-color: #545454;--swal2-show-animation: swal2-show 0.3s;--swal2-hide-animation: swal2-hide 0.15s forwards;--swal2-icon-zoom: 1;--swal2-icon-animations: true;--swal2-title-padding: 0.8em 1em 0;--swal2-html-container-padding: 1em 1.6em 0.3em;--swal2-input-border: 1px solid #d9d9d9;--swal2-input-border-radius: 0.1875em;--swal2-input-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.06), 0 0 0 3px transparent;--swal2-input-background: transparent;--swal2-input-transition: border-color 0.2s, box-shadow 0.2s;--swal2-input-hover-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.06), 0 0 0 3px transparent;--swal2-input-focus-border: 1px solid #b4dbed;--swal2-input-focus-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.06), 0 0 0 3px $swal2-outline-color;--swal2-progress-step-background: #add8e6;--swal2-validation-message-background: #f0f0f0;--swal2-validation-message-color: #666;--swal2-footer-border-color: #eee;--swal2-footer-background: transparent;--swal2-footer-color: inherit;--swal2-timer-progress-bar-background: rgba(0, 0, 0, 0.3);--swal2-close-button-position: initial;--swal2-close-button-inset: auto;--swal2-close-button-font-size: 2.5em;--swal2-close-button-color: #ccc;--swal2-close-button-transition: color 0.2s, box-shadow 0.2s;--swal2-close-button-outline: initial;--swal2-close-button-box-shadow: inset 0 0 0 3px transparent;--swal2-close-button-focus-box-shadow: inset var(--swal2-outline);--swal2-close-button-hover-transform: none;--swal2-actions-justify-content: center;--swal2-actions-width: auto;--swal2-actions-margin: 1.25em auto 0;--swal2-actions-padding: 0;--swal2-actions-border-radius: 0;--swal2-actions-background: transparent;--swal2-action-button-transition: background-color 0.2s, box-shadow 0.2s;--swal2-action-button-hover: black 10%;--swal2-action-button-active: black 10%;--swal2-confirm-button-box-shadow: none;--swal2-confirm-button-border-radius: 0.25em;--swal2-confirm-button-background-color: #7066e0;--swal2-confirm-button-color: #fff;--swal2-deny-button-box-shadow: none;--swal2-deny-button-border-radius: 0.25em;--swal2-deny-button-background-color: #dc3741;--swal2-deny-button-color: #fff;--swal2-cancel-button-box-shadow: none;--swal2-cancel-button-border-radius: 0.25em;--swal2-cancel-button-background-color: #6e7881;--swal2-cancel-button-color: #fff;--swal2-toast-show-animation: swal2-toast-show 0.5s;--swal2-toast-hide-animation: swal2-toast-hide 0.1s forwards;--swal2-toast-border: none;--swal2-toast-box-shadow: 0 0 1px hsl(0deg 0% 0% / 0.075), 0 1px 2px hsl(0deg 0% 0% / 0.075), 1px 2px 4px hsl(0deg 0% 0% / 0.075), 1px 3px 8px hsl(0deg 0% 0% / 0.075), 2px 4px 16px hsl(0deg 0% 0% / 0.075)}[data-swal2-theme=dark]{--swal2-dark-theme-black: #19191a;--swal2-dark-theme-white: #e1e1e1;--swal2-background: var(--swal2-dark-theme-black);--swal2-color: var(--swal2-dark-theme-white);--swal2-footer-border-color: #555;--swal2-input-background: color-mix(in srgb, var(--swal2-dark-theme-black), var(--swal2-dark-theme-white) 10%);--swal2-validation-message-background: color-mix( in srgb, var(--swal2-dark-theme-black), var(--swal2-dark-theme-white) 10% );--swal2-validation-message-color: var(--swal2-dark-theme-white);--swal2-timer-progress-bar-background: rgba(255, 255, 255, 0.7)}@media(prefers-color-scheme: dark){[data-swal2-theme=auto]{--swal2-dark-theme-black: #19191a;--swal2-dark-theme-white: #e1e1e1;--swal2-background: var(--swal2-dark-theme-black);--swal2-color: var(--swal2-dark-theme-white);--swal2-footer-border-color: #555;--swal2-input-background: color-mix(in srgb, var(--swal2-dark-theme-black), var(--swal2-dark-theme-white) 10%);--swal2-validation-message-background: color-mix( in srgb, var(--swal2-dark-theme-black), var(--swal2-dark-theme-white) 10% );--swal2-validation-message-color: var(--swal2-dark-theme-white);--swal2-timer-progress-bar-background: rgba(255, 255, 255, 0.7)}}body.swal2-shown:not(.swal2-no-backdrop,.swal2-toast-shown){overflow:hidden}body.swal2-height-auto{height:auto !important}body.swal2-no-backdrop .swal2-container{background-color:rgba(0,0,0,0) !important;pointer-events:none}body.swal2-no-backdrop .swal2-container .swal2-popup{pointer-events:all}body.swal2-no-backdrop .swal2-container .swal2-modal{box-shadow:0 0 10px var(--swal2-backdrop)}body.swal2-toast-shown .swal2-container{box-sizing:border-box;width:360px;max-width:100%;background-color:rgba(0,0,0,0);pointer-events:none}body.swal2-toast-shown .swal2-container.swal2-top{inset:0 auto auto 50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-top-end,body.swal2-toast-shown .swal2-container.swal2-top-right{inset:0 0 auto auto}body.swal2-toast-shown .swal2-container.swal2-top-start,body.swal2-toast-shown .swal2-container.swal2-top-left{inset:0 auto auto 0}body.swal2-toast-shown .swal2-container.swal2-center-start,body.swal2-toast-shown .swal2-container.swal2-center-left{inset:50% auto auto 0;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-center{inset:50% auto auto 50%;transform:translate(-50%, -50%)}body.swal2-toast-shown .swal2-container.swal2-center-end,body.swal2-toast-shown .swal2-container.swal2-center-right{inset:50% 0 auto auto;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-start,body.swal2-toast-shown .swal2-container.swal2-bottom-left{inset:auto auto 0 0}body.swal2-toast-shown .swal2-container.swal2-bottom{inset:auto auto 0 50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-end,body.swal2-toast-shown .swal2-container.swal2-bottom-right{inset:auto 0 0 auto}@media print{body.swal2-shown:not(.swal2-no-backdrop,.swal2-toast-shown){overflow-y:scroll !important}body.swal2-shown:not(.swal2-no-backdrop,.swal2-toast-shown)>[aria-hidden=true]{display:none}body.swal2-shown:not(.swal2-no-backdrop,.swal2-toast-shown) .swal2-container{position:static !important}}div:where(.swal2-container){display:grid;position:fixed;z-index:1060;inset:0;box-sizing:border-box;grid-template-areas:"top-start     top            top-end" "center-start  center         center-end" "bottom-start  bottom-center  bottom-end";grid-template-rows:minmax(min-content, auto) minmax(min-content, auto) minmax(min-content, auto);height:100%;padding:var(--swal2-container-padding);overflow-x:hidden;transition:var(--swal2-backdrop-transition);-webkit-overflow-scrolling:touch}div:where(.swal2-container).swal2-backdrop-show,div:where(.swal2-container).swal2-noanimation{background:var(--swal2-backdrop)}div:where(.swal2-container).swal2-backdrop-hide{background:rgba(0,0,0,0) !important}div:where(.swal2-container).swal2-top-start,div:where(.swal2-container).swal2-center-start,div:where(.swal2-container).swal2-bottom-start{grid-template-columns:minmax(0, 1fr) auto auto}div:where(.swal2-container).swal2-top,div:where(.swal2-container).swal2-center,div:where(.swal2-container).swal2-bottom{grid-template-columns:auto minmax(0, 1fr) auto}div:where(.swal2-container).swal2-top-end,div:where(.swal2-container).swal2-center-end,div:where(.swal2-container).swal2-bottom-end{grid-template-columns:auto auto minmax(0, 1fr)}div:where(.swal2-container).swal2-top-start>.swal2-popup{align-self:start}div:where(.swal2-container).swal2-top>.swal2-popup{grid-column:2;place-self:start center}div:where(.swal2-container).swal2-top-end>.swal2-popup,div:where(.swal2-container).swal2-top-right>.swal2-popup{grid-column:3;place-self:start end}div:where(.swal2-container).swal2-center-start>.swal2-popup,div:where(.swal2-container).swal2-center-left>.swal2-popup{grid-row:2;align-self:center}div:where(.swal2-container).swal2-center>.swal2-popup{grid-column:2;grid-row:2;place-self:center center}div:where(.swal2-container).swal2-center-end>.swal2-popup,div:where(.swal2-container).swal2-center-right>.swal2-popup{grid-column:3;grid-row:2;place-self:center end}div:where(.swal2-container).swal2-bottom-start>.swal2-popup,div:where(.swal2-container).swal2-bottom-left>.swal2-popup{grid-column:1;grid-row:3;align-self:end}div:where(.swal2-container).swal2-bottom>.swal2-popup{grid-column:2;grid-row:3;place-self:end center}div:where(.swal2-container).swal2-bottom-end>.swal2-popup,div:where(.swal2-container).swal2-bottom-right>.swal2-popup{grid-column:3;grid-row:3;place-self:end end}div:where(.swal2-container).swal2-grow-row>.swal2-popup,div:where(.swal2-container).swal2-grow-fullscreen>.swal2-popup{grid-column:1/4;width:100%}div:where(.swal2-container).swal2-grow-column>.swal2-popup,div:where(.swal2-container).swal2-grow-fullscreen>.swal2-popup{grid-row:1/4;align-self:stretch}div:where(.swal2-container).swal2-no-transition{transition:none !important}div:where(.swal2-container)[popover]{width:auto;border:0}div:where(.swal2-container) div:where(.swal2-popup){display:none;position:relative;box-sizing:border-box;grid-template-columns:minmax(0, 100%);width:var(--swal2-width);max-width:100%;padding:var(--swal2-padding);border:var(--swal2-border);border-radius:var(--swal2-border-radius);background:var(--swal2-background);color:var(--swal2-color);font-family:inherit;font-size:1rem;container-name:swal2-popup}div:where(.swal2-container) div:where(.swal2-popup):focus{outline:none}div:where(.swal2-container) div:where(.swal2-popup).swal2-loading{overflow-y:hidden}div:where(.swal2-container) div:where(.swal2-popup).swal2-draggable{cursor:grab}div:where(.swal2-container) div:where(.swal2-popup).swal2-draggable div:where(.swal2-icon){cursor:grab}div:where(.swal2-container) div:where(.swal2-popup).swal2-dragging{cursor:grabbing}div:where(.swal2-container) div:where(.swal2-popup).swal2-dragging div:where(.swal2-icon){cursor:grabbing}div:where(.swal2-container) h2:where(.swal2-title){position:relative;max-width:100%;margin:0;padding:var(--swal2-title-padding);color:inherit;font-size:1.875em;font-weight:600;text-align:center;text-transform:none;overflow-wrap:break-word;cursor:initial}div:where(.swal2-container) div:where(.swal2-actions){display:flex;z-index:1;box-sizing:border-box;flex-wrap:wrap;align-items:center;justify-content:var(--swal2-actions-justify-content);width:var(--swal2-actions-width);margin:var(--swal2-actions-margin);padding:var(--swal2-actions-padding);border-radius:var(--swal2-actions-border-radius);background:var(--swal2-actions-background)}div:where(.swal2-container) div:where(.swal2-loader){display:none;align-items:center;justify-content:center;width:2.2em;height:2.2em;margin:0 1.875em;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;border-width:.25em;border-style:solid;border-radius:100%;border-color:#2778c4 rgba(0,0,0,0) #2778c4 rgba(0,0,0,0)}div:where(.swal2-container) button:where(.swal2-styled){margin:.3125em;padding:.625em 1.1em;transition:var(--swal2-action-button-transition);border:none;box-shadow:0 0 0 3px rgba(0,0,0,0);font-weight:500}div:where(.swal2-container) button:where(.swal2-styled):not([disabled]){cursor:pointer}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm){border-radius:var(--swal2-confirm-button-border-radius);background:initial;background-color:var(--swal2-confirm-button-background-color);box-shadow:var(--swal2-confirm-button-box-shadow);color:var(--swal2-confirm-button-color);font-size:1em}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm):hover{background-color:color-mix(in srgb, var(--swal2-confirm-button-background-color), var(--swal2-action-button-hover))}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm):active{background-color:color-mix(in srgb, var(--swal2-confirm-button-background-color), var(--swal2-action-button-active))}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-deny){border-radius:var(--swal2-deny-button-border-radius);background:initial;background-color:var(--swal2-deny-button-background-color);box-shadow:var(--swal2-deny-button-box-shadow);color:var(--swal2-deny-button-color);font-size:1em}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-deny):hover{background-color:color-mix(in srgb, var(--swal2-deny-button-background-color), var(--swal2-action-button-hover))}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-deny):active{background-color:color-mix(in srgb, var(--swal2-deny-button-background-color), var(--swal2-action-button-active))}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-cancel){border-radius:var(--swal2-cancel-button-border-radius);background:initial;background-color:var(--swal2-cancel-button-background-color);box-shadow:var(--swal2-cancel-button-box-shadow);color:var(--swal2-cancel-button-color);font-size:1em}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-cancel):hover{background-color:color-mix(in srgb, var(--swal2-cancel-button-background-color), var(--swal2-action-button-hover))}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-cancel):active{background-color:color-mix(in srgb, var(--swal2-cancel-button-background-color), var(--swal2-action-button-active))}div:where(.swal2-container) button:where(.swal2-styled):focus-visible{outline:none;box-shadow:var(--swal2-action-button-focus-box-shadow)}div:where(.swal2-container) button:where(.swal2-styled)[disabled]:not(.swal2-loading){opacity:.4}div:where(.swal2-container) button:where(.swal2-styled)::-moz-focus-inner{border:0}div:where(.swal2-container) div:where(.swal2-footer){margin:1em 0 0;padding:1em 1em 0;border-top:1px solid var(--swal2-footer-border-color);background:var(--swal2-footer-background);color:var(--swal2-footer-color);font-size:1em;text-align:center;cursor:initial}div:where(.swal2-container) .swal2-timer-progress-bar-container{position:absolute;right:0;bottom:0;left:0;grid-column:auto !important;overflow:hidden;border-bottom-right-radius:var(--swal2-border-radius);border-bottom-left-radius:var(--swal2-border-radius)}div:where(.swal2-container) div:where(.swal2-timer-progress-bar){width:100%;height:.25em;background:var(--swal2-timer-progress-bar-background)}div:where(.swal2-container) img:where(.swal2-image){max-width:100%;margin:2em auto 1em;cursor:initial}div:where(.swal2-container) button:where(.swal2-close){position:var(--swal2-close-button-position);inset:var(--swal2-close-button-inset);z-index:2;align-items:center;justify-content:center;width:1.2em;height:1.2em;margin-top:0;margin-right:0;margin-bottom:-1.2em;padding:0;overflow:hidden;transition:var(--swal2-close-button-transition);border:none;border-radius:var(--swal2-border-radius);outline:var(--swal2-close-button-outline);background:rgba(0,0,0,0);color:var(--swal2-close-button-color);font-family:monospace;font-size:var(--swal2-close-button-font-size);cursor:pointer;justify-self:end}div:where(.swal2-container) button:where(.swal2-close):hover{transform:var(--swal2-close-button-hover-transform);background:rgba(0,0,0,0);color:#f27474}div:where(.swal2-container) button:where(.swal2-close):focus-visible{outline:none;box-shadow:var(--swal2-close-button-focus-box-shadow)}div:where(.swal2-container) button:where(.swal2-close)::-moz-focus-inner{border:0}div:where(.swal2-container) div:where(.swal2-html-container){z-index:1;justify-content:center;margin:0;padding:var(--swal2-html-container-padding);overflow:auto;color:inherit;font-size:1.125em;font-weight:normal;line-height:normal;text-align:center;overflow-wrap:break-word;word-break:break-word;cursor:initial}div:where(.swal2-container) input:where(.swal2-input),div:where(.swal2-container) input:where(.swal2-file),div:where(.swal2-container) textarea:where(.swal2-textarea),div:where(.swal2-container) select:where(.swal2-select),div:where(.swal2-container) div:where(.swal2-radio),div:where(.swal2-container) label:where(.swal2-checkbox){margin:1em 2em 3px}div:where(.swal2-container) input:where(.swal2-input),div:where(.swal2-container) input:where(.swal2-file),div:where(.swal2-container) textarea:where(.swal2-textarea){box-sizing:border-box;width:auto;transition:var(--swal2-input-transition);border:var(--swal2-input-border);border-radius:var(--swal2-input-border-radius);background:var(--swal2-input-background);box-shadow:var(--swal2-input-box-shadow);color:inherit;font-size:1.125em}div:where(.swal2-container) input:where(.swal2-input).swal2-inputerror,div:where(.swal2-container) input:where(.swal2-file).swal2-inputerror,div:where(.swal2-container) textarea:where(.swal2-textarea).swal2-inputerror{border-color:#f27474 !important;box-shadow:0 0 2px #f27474 !important}div:where(.swal2-container) input:where(.swal2-input):hover,div:where(.swal2-container) input:where(.swal2-file):hover,div:where(.swal2-container) textarea:where(.swal2-textarea):hover{box-shadow:var(--swal2-input-hover-box-shadow)}div:where(.swal2-container) input:where(.swal2-input):focus,div:where(.swal2-container) input:where(.swal2-file):focus,div:where(.swal2-container) textarea:where(.swal2-textarea):focus{border:var(--swal2-input-focus-border);outline:none;box-shadow:var(--swal2-input-focus-box-shadow)}div:where(.swal2-container) input:where(.swal2-input)::placeholder,div:where(.swal2-container) input:where(.swal2-file)::placeholder,div:where(.swal2-container) textarea:where(.swal2-textarea)::placeholder{color:#ccc}div:where(.swal2-container) .swal2-range{margin:1em 2em 3px;background:var(--swal2-background)}div:where(.swal2-container) .swal2-range input{width:80%}div:where(.swal2-container) .swal2-range output{width:20%;color:inherit;font-weight:600;text-align:center}div:where(.swal2-container) .swal2-range input,div:where(.swal2-container) .swal2-range output{height:2.625em;padding:0;font-size:1.125em;line-height:2.625em}div:where(.swal2-container) .swal2-input{height:2.625em;padding:0 .75em}div:where(.swal2-container) .swal2-file{width:75%;margin-right:auto;margin-left:auto;background:var(--swal2-input-background);font-size:1.125em}div:where(.swal2-container) .swal2-textarea{height:6.75em;padding:.75em}div:where(.swal2-container) .swal2-select{min-width:50%;max-width:100%;padding:.375em .625em;background:var(--swal2-input-background);color:inherit;font-size:1.125em}div:where(.swal2-container) .swal2-radio,div:where(.swal2-container) .swal2-checkbox{align-items:center;justify-content:center;background:var(--swal2-background);color:inherit}div:where(.swal2-container) .swal2-radio label,div:where(.swal2-container) .swal2-checkbox label{margin:0 .6em;font-size:1.125em}div:where(.swal2-container) .swal2-radio input,div:where(.swal2-container) .swal2-checkbox input{flex-shrink:0;margin:0 .4em}div:where(.swal2-container) label:where(.swal2-input-label){display:flex;justify-content:center;margin:1em auto 0}div:where(.swal2-container) div:where(.swal2-validation-message){align-items:center;justify-content:center;margin:1em 0 0;padding:.625em;overflow:hidden;background:var(--swal2-validation-message-background);color:var(--swal2-validation-message-color);font-size:1em;font-weight:300}div:where(.swal2-container) div:where(.swal2-validation-message)::before{content:"!";display:inline-block;width:1.5em;min-width:1.5em;height:1.5em;margin:0 .625em;border-radius:50%;background-color:#f27474;color:#fff;font-weight:600;line-height:1.5em;text-align:center}div:where(.swal2-container) .swal2-progress-steps{flex-wrap:wrap;align-items:center;max-width:100%;margin:1.25em auto;padding:0;background:rgba(0,0,0,0);font-weight:600}div:where(.swal2-container) .swal2-progress-steps li{display:inline-block;position:relative}div:where(.swal2-container) .swal2-progress-steps .swal2-progress-step{z-index:20;flex-shrink:0;width:2em;height:2em;border-radius:2em;background:#2778c4;color:#fff;line-height:2em;text-align:center}div:where(.swal2-container) .swal2-progress-steps .swal2-progress-step.swal2-active-progress-step{background:#2778c4}div:where(.swal2-container) .swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step{background:var(--swal2-progress-step-background);color:#fff}div:where(.swal2-container) .swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step-line{background:var(--swal2-progress-step-background)}div:where(.swal2-container) .swal2-progress-steps .swal2-progress-step-line{z-index:10;flex-shrink:0;width:2.5em;height:.4em;margin:0 -1px;background:#2778c4}div:where(.swal2-icon){position:relative;box-sizing:content-box;justify-content:center;width:5em;height:5em;margin:2.5em auto .6em;zoom:var(--swal2-icon-zoom);border:.25em solid rgba(0,0,0,0);border-radius:50%;border-color:#000;font-family:inherit;line-height:5em;cursor:default;user-select:none}div:where(.swal2-icon) .swal2-icon-content{display:flex;align-items:center;font-size:3.75em}div:where(.swal2-icon).swal2-error{border-color:#f27474;color:#f27474}div:where(.swal2-icon).swal2-error .swal2-x-mark{position:relative;flex-grow:1}div:where(.swal2-icon).swal2-error [class^=swal2-x-mark-line]{display:block;position:absolute;top:2.3125em;width:2.9375em;height:.3125em;border-radius:.125em;background-color:#f27474}div:where(.swal2-icon).swal2-error [class^=swal2-x-mark-line][class$=left]{left:1.0625em;transform:rotate(45deg)}div:where(.swal2-icon).swal2-error [class^=swal2-x-mark-line][class$=right]{right:1em;transform:rotate(-45deg)}@container swal2-popup style(--swal2-icon-animations:true){div:where(.swal2-icon).swal2-error.swal2-icon-show{animation:swal2-animate-error-icon .5s}div:where(.swal2-icon).swal2-error.swal2-icon-show .swal2-x-mark{animation:swal2-animate-error-x-mark .5s}}div:where(.swal2-icon).swal2-warning{border-color:#f8bb86;color:#f8bb86}@container swal2-popup style(--swal2-icon-animations:true){div:where(.swal2-icon).swal2-warning.swal2-icon-show{animation:swal2-animate-error-icon .5s}div:where(.swal2-icon).swal2-warning.swal2-icon-show .swal2-icon-content{animation:swal2-animate-i-mark .5s}}div:where(.swal2-icon).swal2-info{border-color:#3fc3ee;color:#3fc3ee}@container swal2-popup style(--swal2-icon-animations:true){div:where(.swal2-icon).swal2-info.swal2-icon-show{animation:swal2-animate-error-icon .5s}div:where(.swal2-icon).swal2-info.swal2-icon-show .swal2-icon-content{animation:swal2-animate-i-mark .8s}}div:where(.swal2-icon).swal2-question{border-color:#87adbd;color:#87adbd}@container swal2-popup style(--swal2-icon-animations:true){div:where(.swal2-icon).swal2-question.swal2-icon-show{animation:swal2-animate-error-icon .5s}div:where(.swal2-icon).swal2-question.swal2-icon-show .swal2-icon-content{animation:swal2-animate-question-mark .8s}}div:where(.swal2-icon).swal2-success{border-color:#a5dc86;color:#a5dc86}div:where(.swal2-icon).swal2-success [class^=swal2-success-circular-line]{position:absolute;width:3.75em;height:7.5em;border-radius:50%}div:where(.swal2-icon).swal2-success [class^=swal2-success-circular-line][class$=left]{top:-0.4375em;left:-2.0635em;transform:rotate(-45deg);transform-origin:3.75em 3.75em;border-radius:7.5em 0 0 7.5em}div:where(.swal2-icon).swal2-success [class^=swal2-success-circular-line][class$=right]{top:-0.6875em;left:1.875em;transform:rotate(-45deg);transform-origin:0 3.75em;border-radius:0 7.5em 7.5em 0}div:where(.swal2-icon).swal2-success .swal2-success-ring{position:absolute;z-index:2;top:-0.25em;left:-0.25em;box-sizing:content-box;width:100%;height:100%;border:.25em solid rgba(165,220,134,.3);border-radius:50%}div:where(.swal2-icon).swal2-success .swal2-success-fix{position:absolute;z-index:1;top:.5em;left:1.625em;width:.4375em;height:5.625em;transform:rotate(-45deg)}div:where(.swal2-icon).swal2-success [class^=swal2-success-line]{display:block;position:absolute;z-index:2;height:.3125em;border-radius:.125em;background-color:#a5dc86}div:where(.swal2-icon).swal2-success [class^=swal2-success-line][class$=tip]{top:2.875em;left:.8125em;width:1.5625em;transform:rotate(45deg)}div:where(.swal2-icon).swal2-success [class^=swal2-success-line][class$=long]{top:2.375em;right:.5em;width:2.9375em;transform:rotate(-45deg)}@container swal2-popup style(--swal2-icon-animations:true){div:where(.swal2-icon).swal2-success.swal2-icon-show .swal2-success-line-tip{animation:swal2-animate-success-line-tip .75s}div:where(.swal2-icon).swal2-success.swal2-icon-show .swal2-success-line-long{animation:swal2-animate-success-line-long .75s}div:where(.swal2-icon).swal2-success.swal2-icon-show .swal2-success-circular-line-right{animation:swal2-rotate-success-circular-line 4.25s ease-in}}[class^=swal2]{-webkit-tap-highlight-color:rgba(0,0,0,0)}.swal2-show{animation:var(--swal2-show-animation)}.swal2-hide{animation:var(--swal2-hide-animation)}.swal2-noanimation{transition:none}.swal2-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll}.swal2-rtl .swal2-close{margin-right:initial;margin-left:0}.swal2-rtl .swal2-timer-progress-bar{right:0;left:auto}.swal2-toast{box-sizing:border-box;grid-column:1/4 !important;grid-row:1/4 !important;grid-template-columns:min-content auto min-content;padding:1em;overflow-y:hidden;border:var(--swal2-toast-border);background:var(--swal2-background);box-shadow:var(--swal2-toast-box-shadow);pointer-events:all}.swal2-toast>*{grid-column:2}.swal2-toast h2:where(.swal2-title){margin:.5em 1em;padding:0;font-size:1em;text-align:initial}.swal2-toast .swal2-loading{justify-content:center}.swal2-toast input:where(.swal2-input){height:2em;margin:.5em;font-size:1em}.swal2-toast .swal2-validation-message{font-size:1em}.swal2-toast div:where(.swal2-footer){margin:.5em 0 0;padding:.5em 0 0;font-size:.8em}.swal2-toast button:where(.swal2-close){grid-column:3/3;grid-row:1/99;align-self:center;width:.8em;height:.8em;margin:0;font-size:2em}.swal2-toast div:where(.swal2-html-container){margin:.5em 1em;padding:0;overflow:initial;font-size:1em;text-align:initial}.swal2-toast div:where(.swal2-html-container):empty{padding:0}.swal2-toast .swal2-loader{grid-column:1;grid-row:1/99;align-self:center;width:2em;height:2em;margin:.25em}.swal2-toast .swal2-icon{grid-column:1;grid-row:1/99;align-self:center;width:2em;min-width:2em;height:2em;margin:0 .5em 0 0}.swal2-toast .swal2-icon .swal2-icon-content{display:flex;align-items:center;font-size:1.8em;font-weight:bold}.swal2-toast .swal2-icon.swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line]{top:.875em;width:1.375em}.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:.3125em}.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:.3125em}.swal2-toast div:where(.swal2-actions){justify-content:flex-start;height:auto;margin:0;margin-top:.5em;padding:0 .5em}.swal2-toast button:where(.swal2-styled){margin:.25em .5em;padding:.4em .6em;font-size:1em}.swal2-toast .swal2-success{border-color:#a5dc86}.swal2-toast .swal2-success [class^=swal2-success-circular-line]{position:absolute;width:1.6em;height:3em;border-radius:50%}.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=left]{top:-0.8em;left:-0.5em;transform:rotate(-45deg);transform-origin:2em 2em;border-radius:4em 0 0 4em}.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=right]{top:-0.25em;left:.9375em;transform-origin:0 1.5em;border-radius:0 4em 4em 0}.swal2-toast .swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-toast .swal2-success .swal2-success-fix{top:0;left:.4375em;width:.4375em;height:2.6875em}.swal2-toast .swal2-success [class^=swal2-success-line]{height:.3125em}.swal2-toast .swal2-success [class^=swal2-success-line][class$=tip]{top:1.125em;left:.1875em;width:.75em}.swal2-toast .swal2-success [class^=swal2-success-line][class$=long]{top:.9375em;right:.1875em;width:1.375em}@container swal2-popup style(--swal2-icon-animations:true){.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-tip{animation:swal2-toast-animate-success-line-tip .75s}.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-long{animation:swal2-toast-animate-success-line-long .75s}}.swal2-toast.swal2-show{animation:var(--swal2-toast-show-animation)}.swal2-toast.swal2-hide{animation:var(--swal2-toast-hide-animation)}@keyframes swal2-show{0%{transform:scale(0.7)}45%{transform:scale(1.05)}80%{transform:scale(0.95)}100%{transform:scale(1)}}@keyframes swal2-hide{0%{transform:scale(1);opacity:1}100%{transform:scale(0.5);opacity:0}}@keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-0.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.8125em;width:1.5625em}}@keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@keyframes swal2-rotate-success-circular-line{0%{transform:rotate(-45deg)}5%{transform:rotate(-45deg)}12%{transform:rotate(-405deg)}100%{transform:rotate(-405deg)}}@keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;transform:scale(0.4);opacity:0}50%{margin-top:1.625em;transform:scale(0.4);opacity:0}80%{margin-top:-0.375em;transform:scale(1.15)}100%{margin-top:0;transform:scale(1);opacity:1}}@keyframes swal2-animate-error-icon{0%{transform:rotateX(100deg);opacity:0}100%{transform:rotateX(0deg);opacity:1}}@keyframes swal2-rotate-loading{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}@keyframes swal2-animate-question-mark{0%{transform:rotateY(-360deg)}100%{transform:rotateY(0)}}@keyframes swal2-animate-i-mark{0%{transform:rotateZ(45deg);opacity:0}25%{transform:rotateZ(-25deg);opacity:.4}50%{transform:rotateZ(15deg);opacity:.8}75%{transform:rotateZ(-5deg);opacity:1}100%{transform:rotateX(0);opacity:1}}@keyframes swal2-toast-show{0%{transform:translateY(-0.625em) rotateZ(2deg)}33%{transform:translateY(0) rotateZ(-2deg)}66%{transform:translateY(0.3125em) rotateZ(2deg)}100%{transform:translateY(0) rotateZ(0deg)}}@keyframes swal2-toast-hide{100%{transform:rotateZ(1deg);opacity:0}}@keyframes swal2-toast-animate-success-line-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-0.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@keyframes swal2-toast-animate-success-line-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}</style></head>
+
+<body class="font-dm-sans flex flex-col h-screen w-full overflow-x-hidden">
+    <!-- iniital logo display  -->
+    
+    
+    <!-- content to display after logo displa contain the hide class  -->
+    <div id="content" class="flex flex-col flex-grow" style="visibility: visible;">
+        <header id="header" class="sticky top-0 z-50 w-full">
+    
+    <nav class="bg-white flex justify-between px-5 md:px-10 2xl:px-20 py-1 shadow-md">
+        <div class="h-20 w-28">
+            <a href="https://tranquilityspa.com.np">
+                <img src="https://tranquilityspa.com.np/sites/images/tranquility-logo.png" alt="Tranquility Logo" class="h-full w-full object-cover">
+            </a>
+        </div>
+
+        <div class="flex flex-col justify-center">
+            <div id="navbar_content" class="hidden lg:flex lg:flex-col xl:flex-row gap-2 items-center">
+                <ul class="nav-ul list-none flex flex-col lg:flex-row text-sm">
+            <li class="relative group">
+            <a href="#" class="nav-item">SERVICES</a>
+                                                <div class="hidden z-[100] lg:absolute left-0 py-2 w-max bg-white group-hover:flex flex-col lg:shadow-lg">
+            <a href="https://tranquilityspa.com.np/services?service=3" class="px-4 py-2 hover:bg-gray-100 nav-item">Relaxation Massage</a>
+            <a href="https://tranquilityspa.com.np/services?service=4" class="px-4 py-2 hover:bg-gray-100 nav-item">Signature Massage</a>
+            <a href="https://tranquilityspa.com.np/services?service=9" class="px-4 py-2 hover:bg-gray-100 nav-item">Therapeutic Massage</a>
+            <a href="https://tranquilityspa.com.np/services?service=10" class="px-4 py-2 hover:bg-gray-100 nav-item">Mini Therapy</a>
+            <a href="https://tranquilityspa.com.np/services?service=12" class="px-4 py-2 hover:bg-gray-100 nav-item">Ladies Beauty Services</a>
+            <a href="https://tranquilityspa.com.np/services?service=13" class="px-4 py-2 hover:bg-gray-100 nav-item">Gentlemen Salon Services</a>
+            <a href="https://tranquilityspa.com.np/services?service=14" class="px-4 py-2 hover:bg-gray-100 nav-item">Vasti</a>
+            <a href="https://tranquilityspa.com.np/services?service=15" class="px-4 py-2 hover:bg-gray-100 nav-item">Cupping</a>
+            <a href="https://tranquilityspa.com.np/services?service=16" class="px-4 py-2 hover:bg-gray-100 nav-item">HydroTherapy</a>
+        
+</div>
+                                                                        </li>
+
+            <li class="relative group">
+            <a href="#" class="nav-item">PACKAGES</a>
+                                                            <div class="hidden z-[100] lg:absolute left-0 py-2 w-max bg-white group-hover:flex flex-col lg:shadow-lg">
+            <a href="https://tranquilityspa.com.np/packages?package=1" class="px-4 py-2 hover:bg-gray-100 nav-item">Beauty Package</a>
+            <a href="https://tranquilityspa.com.np/packages?package=2" class="px-4 py-2 hover:bg-gray-100 nav-item">Spa Package</a>
+            <a href="https://tranquilityspa.com.np/packages?package=17" class="px-4 py-2 hover:bg-gray-100 nav-item">Seasonal Package</a>
+        
+</div>
+                                                            </li>
+
+            <li class="relative group">
+            <a href="#" class="nav-item">MEMBERSHIP</a>
+                                                                        <div class="hidden z-[100] lg:absolute left-0 py-2 w-max bg-white group-hover:flex flex-col lg:shadow-lg">
+            <a href="https://tranquilityspa.com.np/memberships/solatee-membership/submemberships" class="px-4 py-2 hover:bg-gray-100 nav-item">Solatee Membership</a>
+            <a href="https://tranquilityspa.com.np/memberships/tranquility-wellness-card/submemberships" class="px-4 py-2 hover:bg-gray-100 nav-item">Tranquility Wellness Card</a>
+        
+</div>
+                                                </li>
+
+            <li class="relative group">
+            <a href="#" class="nav-item">ABOUT</a>
+                                                                <div class="hidden z-[100] lg:absolute left-0 py-2 w-max bg-white group-hover:flex flex-col lg:shadow-lg">
+            <a href="https://tranquilityspa.com.np/pages/about#welcome " class="px-4 py-2 hover:bg-gray-100 nav-item">Welcome To Tranquility Spa</a>
+            <a href="https://tranquilityspa.com.np/pages/about#history " class="px-4 py-2 hover:bg-gray-100 nav-item">History</a>
+            <a href="https://tranquilityspa.com.np/pages/about#story-and-vision " class="px-4 py-2 hover:bg-gray-100 nav-item">Mission And Vision </a>
+            <a href="https://tranquilityspa.com.np/teams " class="px-4 py-2 hover:bg-gray-100 nav-item">Teams</a>
+        
+</div>
+                    </li>
+
+            <li class="relative group">
+            <a href="#" class="nav-item">OUTLETS</a>
+                                                                <div class="hidden z-[100] lg:absolute left-0 py-2 w-max bg-white group-hover:flex flex-col lg:shadow-lg">
+            <a href="https://tranquilityspa.com.np/outlets/the-soaltee-kathmandu/services?service=4" class="px-4 py-2 hover:bg-gray-100 nav-item">The Soaltee Kathmandu</a>
+            <a href="https://tranquilityspa.com.np/outlets/radisson-hotel-and-residences-kathmandu/services?service=4 " class="px-4 py-2 hover:bg-gray-100 nav-item">Hotel Radission Kathmandu</a>
+            <a href="https://tranquilityspa.com.np/outlets/chandragiri-hills-resort1223/services?service=4   " class="px-4 py-2 hover:bg-gray-100 nav-item">Chandragiri Hills Resort</a>
+            <a href="https://tranquilityspa.com.np/outlets/hotel-sarowar/services?service=9" class="px-4 py-2 hover:bg-gray-100 nav-item">Hotel Sarowar</a>
+            <a href="https://tranquilityspa.com.np/outlets/hotel-crown-imperial/services?service=4" class="px-4 py-2 hover:bg-gray-100 nav-item">Hotel Crown Imperial</a>
+            <a href="https://tranquilityspa.com.np/outlets/hotel-shanker/services?service=4" class="px-4 py-2 hover:bg-gray-100 nav-item">Hotel Shanker</a>
+            <a href="https://tranquilityspa.com.np/outlets/tranquility-spa-jhamsikhel/services?service=4 " class="px-4 py-2 hover:bg-gray-100 nav-item">Tranquility Spa - Jhamsikhel</a>
+            <a href="https://tranquilityspa.com.np/outlets/kupondole/services?service=4" class="px-4 py-2 hover:bg-gray-100 nav-item">Kupondole</a>
+        
+</div>
+                    </li>
+
+            <li class="">
+            <a href="https://tranquilityspa.com.np/blogs" class="nav-item">BLOGS</a>
+                                                        </li>
+
+            <li class="">
+            <a href="https://tranquilityspa.com.np/careers" class="nav-item">CAREERS</a>
+                                                        </li>
+
+            <li class="">
+            <a href="https://tranquilityspa.com.np/contact" class="nav-item">CONTACT</a>
+                                                        </li>
+
+    </ul>
+
+            </div>
+            <span class="lg:hidden p-5">
+                <ion-icon id="open-mobile-nav" name="menu-outline" class="cursor-pointer md hydrated" role="img"></ion-icon>
+            </span>
+        </div>
+    </nav>
+</header>
+
+<div id="mobile-sidebar" class="lg-hidden fixed top-0 z-[100] overflow-hidden h-screen w-full bg-black bg-opacity-50">
+    <div class="flex w-full h-full">
+        <div class="h-full w-80 bg-white px-3 pt-3 pb-5 flex flex-col gap-5 overflow-y-auto">
+            <div class="flex justify-between items-center">
+                <a href="https://tranquilityspa.com.np">
+                    <img src="https://tranquilityspa.com.np/sites/images/tranquility-logo.png" alt="" class="h-24 w-32">
+                </a>
+                <button class="border-none bg-white cursor-pointer text-3xl text-red-500">
+                    <ion-icon id="close-mobile-nav" name="close-outline" role="img" class="md hydrated"></ion-icon>
+                </button>
+            </div>
+            <hr class="bg-primary w-full h-0.5">
+            <div class="flex flex-col gap-5 justify-between">
+                <ul class="list-none flex flex-col lg:flex-row gap-5 text-sm">
+            <li class="px-1 relative group">
+                            <div class="flex items-center justify-between">
+                    <a href="https://tranquilityspa.com.np/services" class="nav-item">SERVICES</a>
+                    <button class="mobile-dropdown-toggle ml-2 p-1 text-primary" data-target="dropdown-0">
+                        <ion-icon name="chevron-down-outline" class="text-sm transition-transform duration-200 md hydrated" role="img"></ion-icon>
+                    </button>
+                </div>
+                                                            <div id="dropdown-0" class="mobile-dropdown hidden pl-4 mt-2 flex-col bg-gray-50 rounded-md transition-all duration-300 ease-in-out max-h-0 overflow-hidden">
+            <a href="https://tranquilityspa.com.np/services?service=3" class="px-4 py-2 hover:bg-gray-100 nav-item border-l-2 border-primary">Relaxation Massage</a>
+            <a href="https://tranquilityspa.com.np/services?service=4" class="px-4 py-2 hover:bg-gray-100 nav-item border-l-2 border-primary">Signature Massage</a>
+            <a href="https://tranquilityspa.com.np/services?service=9" class="px-4 py-2 hover:bg-gray-100 nav-item border-l-2 border-primary">Therapeutic Massage</a>
+            <a href="https://tranquilityspa.com.np/services?service=10" class="px-4 py-2 hover:bg-gray-100 nav-item border-l-2 border-primary">Mini Therapy</a>
+            <a href="https://tranquilityspa.com.np/services?service=12" class="px-4 py-2 hover:bg-gray-100 nav-item border-l-2 border-primary">Ladies Beauty Services</a>
+            <a href="https://tranquilityspa.com.np/services?service=13" class="px-4 py-2 hover:bg-gray-100 nav-item border-l-2 border-primary">Gentlemen Salon Services</a>
+            <a href="https://tranquilityspa.com.np/services?service=14" class="px-4 py-2 hover:bg-gray-100 nav-item border-l-2 border-primary">Vasti</a>
+            <a href="https://tranquilityspa.com.np/services?service=15" class="px-4 py-2 hover:bg-gray-100 nav-item border-l-2 border-primary">Cupping</a>
+            <a href="https://tranquilityspa.com.np/services?service=16" class="px-4 py-2 hover:bg-gray-100 nav-item border-l-2 border-primary">HydroTherapy</a>
+    </div>
+                                                                        </li>
+            <li class="px-1 relative group">
+                            <div class="flex items-center justify-between">
+                    <a href="https://tranquilityspa.com.np/packages" class="nav-item">PACKAGES</a>
+                    <button class="mobile-dropdown-toggle ml-2 p-1 text-primary" data-target="dropdown-1">
+                        <ion-icon name="chevron-down-outline" class="text-sm transition-transform duration-200 md hydrated" role="img"></ion-icon>
+                    </button>
+                </div>
+                                                                        <div id="dropdown-1" class="mobile-dropdown hidden pl-4 mt-2 flex-col bg-gray-50 rounded-md transition-all duration-300 ease-in-out max-h-0 overflow-hidden">
+            <a href="https://tranquilityspa.com.np/packages?package=1" class="px-4 py-2 hover:bg-gray-100 nav-item border-l-2 border-primary">Beauty Package</a>
+            <a href="https://tranquilityspa.com.np/packages?package=2" class="px-4 py-2 hover:bg-gray-100 nav-item border-l-2 border-primary">Spa Package</a>
+            <a href="https://tranquilityspa.com.np/packages?package=17" class="px-4 py-2 hover:bg-gray-100 nav-item border-l-2 border-primary">Seasonal Package</a>
+    </div>
+                                                            </li>
+            <li class="px-1 relative group">
+                            <div class="flex items-center justify-between">
+                    <a href="https://tranquilityspa.com.np/memberships" class="nav-item">MEMBERSHIP</a>
+                    <button class="mobile-dropdown-toggle ml-2 p-1 text-primary" data-target="dropdown-2">
+                        <ion-icon name="chevron-down-outline" class="text-sm transition-transform duration-200 md hydrated" role="img"></ion-icon>
+                    </button>
+                </div>
+                                                                                    <div id="dropdown-2" class="mobile-dropdown hidden pl-4 mt-2 flex-col bg-gray-50 rounded-md transition-all duration-300 ease-in-out max-h-0 overflow-hidden">
+            <a href="https://tranquilityspa.com.np/memberships/solatee-membership/submemberships" class="px-4 py-2 hover:bg-gray-100 nav-item border-l-2 border-primary">Solatee Membership</a>
+            <a href="https://tranquilityspa.com.np/memberships/tranquility-wellness-card/submemberships" class="px-4 py-2 hover:bg-gray-100 nav-item border-l-2 border-primary">Tranquility Wellness Card</a>
+    </div>
+                                                </li>
+            <li class="px-1 relative group">
+                            <div class="flex items-center justify-between">
+                    <a href="https://tranquilityspa.com.np/pages/about" class="nav-item">ABOUT</a>
+                    <button class="mobile-dropdown-toggle ml-2 p-1 text-primary" data-target="dropdown-3">
+                        <ion-icon name="chevron-down-outline" class="text-sm transition-transform duration-200 md hydrated" role="img"></ion-icon>
+                    </button>
+                </div>
+                                                                            <div id="dropdown-3" class="mobile-dropdown hidden pl-4 mt-2 flex-col bg-gray-50 rounded-md transition-all duration-300 ease-in-out max-h-0 overflow-hidden">
+            <a href="https://tranquilityspa.com.np/pages/about#welcome " class="px-4 py-2 hover:bg-gray-100 nav-item border-l-2 border-primary">Welcome To Tranquility Spa</a>
+            <a href="https://tranquilityspa.com.np/pages/about#history " class="px-4 py-2 hover:bg-gray-100 nav-item border-l-2 border-primary">History</a>
+            <a href="https://tranquilityspa.com.np/pages/about#story-and-vision " class="px-4 py-2 hover:bg-gray-100 nav-item border-l-2 border-primary">Mission And Vision </a>
+            <a href="https://tranquilityspa.com.np/teams " class="px-4 py-2 hover:bg-gray-100 nav-item border-l-2 border-primary">Teams</a>
+    </div>
+                    </li>
+            <li class="px-1 relative group">
+                            <div class="flex items-center justify-between">
+                    <a href="https://tranquilityspa.com.np/outlets" class="nav-item">OUTLETS</a>
+                    <button class="mobile-dropdown-toggle ml-2 p-1 text-primary" data-target="dropdown-4">
+                        <ion-icon name="chevron-down-outline" class="text-sm transition-transform duration-200 md hydrated" role="img"></ion-icon>
+                    </button>
+                </div>
+                                                                            <div id="dropdown-4" class="mobile-dropdown hidden pl-4 mt-2 flex-col bg-gray-50 rounded-md transition-all duration-300 ease-in-out max-h-0 overflow-hidden">
+            <a href="https://tranquilityspa.com.np/outlets/the-soaltee-kathmandu/services?service=4" class="px-4 py-2 hover:bg-gray-100 nav-item border-l-2 border-primary">The Soaltee Kathmandu</a>
+            <a href="https://tranquilityspa.com.np/outlets/radisson-hotel-and-residences-kathmandu/services?service=4 " class="px-4 py-2 hover:bg-gray-100 nav-item border-l-2 border-primary">Hotel Radission Kathmandu</a>
+            <a href="https://tranquilityspa.com.np/outlets/chandragiri-hills-resort1223/services?service=4   " class="px-4 py-2 hover:bg-gray-100 nav-item border-l-2 border-primary">Chandragiri Hills Resort</a>
+            <a href="https://tranquilityspa.com.np/outlets/hotel-sarowar/services?service=9" class="px-4 py-2 hover:bg-gray-100 nav-item border-l-2 border-primary">Hotel Sarowar</a>
+            <a href="https://tranquilityspa.com.np/outlets/hotel-crown-imperial/services?service=4" class="px-4 py-2 hover:bg-gray-100 nav-item border-l-2 border-primary">Hotel Crown Imperial</a>
+            <a href="https://tranquilityspa.com.np/outlets/hotel-shanker/services?service=4" class="px-4 py-2 hover:bg-gray-100 nav-item border-l-2 border-primary">Hotel Shanker</a>
+            <a href="https://tranquilityspa.com.np/outlets/tranquility-spa-jhamsikhel/services?service=4 " class="px-4 py-2 hover:bg-gray-100 nav-item border-l-2 border-primary">Tranquility Spa - Jhamsikhel</a>
+            <a href="https://tranquilityspa.com.np/outlets/kupondole/services?service=4" class="px-4 py-2 hover:bg-gray-100 nav-item border-l-2 border-primary">Kupondole</a>
+    </div>
+                    </li>
+            <li class="px-1">
+                            <a href="https://tranquilityspa.com.np/blogs" class="nav-item">BLOGS</a>
+                                                                    </li>
+            <li class="px-1">
+                            <a href="https://tranquilityspa.com.np/careers" class="nav-item">CAREERS</a>
+                                                                    </li>
+            <li class="px-1">
+                            <a href="https://tranquilityspa.com.np/contact" class="nav-item">CONTACT</a>
+                                                                    </li>
+    </ul>
+
+            </div>
+            <hr class="bg-primary w-full h-0.5">
+                        <div class="flex flex-col gap-2">
+                <legend class="font-marcellus text-xl">WE ARE ON SOCIAL</legend>
+                <div class="flex gap-3 text-xl text-primary">
+                    <a href="https://www.linkedin.com/in/tranquility-spa-4a4a7426a/" class="no-underline text-primary" target="_blank"><ion-icon name="logo-linkedin" role="img" class="md hydrated"></ion-icon></a>
+                    <a href="https://www.instagram.com/tranquilityspa_nepal/?hl=en" class="no-underline text-primary" target="_blank"><ion-icon name="logo-instagram" role="img" class="md hydrated"></ion-icon></a>
+                    <a href="https://www.facebook.com/Tranquilityspanp/" class="no-underline text-primary" target="_blank"><ion-icon name="logo-facebook" role="img" class="md hydrated"></ion-icon></a>
+                    <a href="mailto:info@tranquilityspa.com.np" class="no-underline text-primary" target="_blank"><ion-icon name="mail-outline" role="img" class="md hydrated"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+        <div class="flex-grow"></div>
+    </div>
+</div>
+
+            <main class="px-10 md:px-20 2xl:px-40 py-5 flex-grow">
+        <!-- team heading  -->
+        <div class="flex gap-2 sm:gap-5 justify-center items-center px-4">
+    <hr class="h-1 bg-primary w-8 sm:w-16 md:w-24 lg:w-48 flex-shrink-0">
+    <h1 class="text-xl sm:text-2xl md:text-3xl font-semibold font-marcellus text-primary text-center whitespace-nowrap" style="font-weight:400;">
+        MEET OUR TEAM
+    </h1>
+    <hr class="h-1 bg-primary w-8 sm:w-16 md:w-24 lg:w-48 flex-shrink-0">
+</div>
+
+        <!-- team content  -->
+        <div id="team-lists" class="mt-5 grid grid-cols-2 md:grid-cols-3  lg:grid-cols-4 gap-5">
+                            <div class="flex flex-col items-center group">
+                    <div class="relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 w-full aspect-[3/4] h-auto max-h-[240px] sm:max-h-[280px] lg:max-h-[300px] 2xl:max-h-[340px]">
+                        <img src="https://tranquilityspa.com.np/uploads/images/teams/1803680b-da33-4dac-9e14-03b7eb01f3b7.jpg" alt="" class="h-full w-full object-cover object-top transform group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        </div>
+                    </div>
+                    <div class="flex flex-col md:items-center md:gap-1 mt-4 text-center">
+                        <h3 class="font-marcellus text-black no-underline font-medium line-clamp-1 text-sm sm:text-base">Shyam Pokheral</h3>
+                        <h4 class="font-medium text-paragraph text-xs sm:text-sm text-gray-600">Director</h4>
+                    </div>
+                </div>
+                            <div class="flex flex-col items-center group">
+                    <div class="relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 w-full aspect-[3/4] h-auto max-h-[240px] sm:max-h-[280px] lg:max-h-[300px] 2xl:max-h-[340px]">
+                        <img src="https://tranquilityspa.com.np/uploads/images/teams/8e37d758-93c9-40ca-b55f-429121788ca1.jpg" alt="" class="h-full w-full object-cover object-top transform group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        </div>
+                    </div>
+                    <div class="flex flex-col md:items-center md:gap-1 mt-4 text-center">
+                        <h3 class="font-marcellus text-black no-underline font-medium line-clamp-1 text-sm sm:text-base">Suresh Puri</h3>
+                        <h4 class="font-medium text-paragraph text-xs sm:text-sm text-gray-600">Executive Director</h4>
+                    </div>
+                </div>
+                            <div class="flex flex-col items-center group">
+                    <div class="relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 w-full aspect-[3/4] h-auto max-h-[240px] sm:max-h-[280px] lg:max-h-[300px] 2xl:max-h-[340px]">
+                        <img src="https://tranquilityspa.com.np/uploads/images/teams/a072cbc5-f933-4c31-b97c-01fff59f7ef7.jpg" alt="" class="h-full w-full object-cover object-top transform group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        </div>
+                    </div>
+                    <div class="flex flex-col md:items-center md:gap-1 mt-4 text-center">
+                        <h3 class="font-marcellus text-black no-underline font-medium line-clamp-1 text-sm sm:text-base">Chandra Prajuli</h3>
+                        <h4 class="font-medium text-paragraph text-xs sm:text-sm text-gray-600">Managing Director</h4>
+                    </div>
+                </div>
+                            <div class="flex flex-col items-center group">
+                    <div class="relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 w-full aspect-[3/4] h-auto max-h-[240px] sm:max-h-[280px] lg:max-h-[300px] 2xl:max-h-[340px]">
+                        <img src="https://tranquilityspa.com.np/uploads/images/teams/c8db70c2-ab90-41c0-9755-6a0a94ccd1d5.png" alt="" class="h-full w-full object-cover object-top transform group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        </div>
+                    </div>
+                    <div class="flex flex-col md:items-center md:gap-1 mt-4 text-center">
+                        <h3 class="font-marcellus text-black no-underline font-medium line-clamp-1 text-sm sm:text-base">Bhuwaneshwor Phaiju</h3>
+                        <h4 class="font-medium text-paragraph text-xs sm:text-sm text-gray-600">Chairman</h4>
+                    </div>
+                </div>
+                    </div>
+    </main>
+
+        <footer class="w-full bg-primary text-white">
+    <div class="w-full px-4 sm:px-6 lg:px-8 pb-5">
+        <!--Grid-->
+        <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3 gap-y-8 py-10 max-w-sm mx-auto sm:max-w-3xl lg:max-w-full" style="border-bottom: 1px solid white;">
+            <div class="col-span-full lg:col-span-2">
+                <a href="https://tranquilityspa.com.np" class="flex justify-center lg:justify-start">
+                    <div class="flex flex-col justify-center items-center">
+                    <img src="https://tranquilityspa.com.np/sites/images/tranquility-logo-footer.png" alt="" style="height: 160px; object-fit: scale-down;">
+                    <img src="https://tranquilityspa.com.np/sites/images/logo-bottom-text.png" alt="" style="height: 24px; margin-top: 4px;">
+                    </div>
+                </a>
+
+            </div>
+
+            <!--End Col-->
+                        <div class="lg:mx-auto text-left">
+                <h4 class="text-lg text-white font-semibold mb-3">
+                    Important Links
+                </h4>
+                <ul class="list-none text-base flex flex-col gap-3 transition-all duration-500">
+                                        <li>
+    <a href="https://tranquilityspa.com.np/services" class="text-white no-underline">Services</a>
+</li>
+                                        <li>
+    <a href="https://tranquilityspa.com.np/packages" class="text-white no-underline">Packages</a>
+</li>
+                                        <li>
+    <a href="https://tranquilityspa.com.np/outlets" class="text-white no-underline">Outlets</a>
+</li>
+                                        <li>
+    <a href="https://tranquilityspa.com.np/blogs" class="text-white no-underline">Blogs</a>
+</li>
+                                        <li>
+    <a href="https://tranquilityspa.com.np/contact" class="text-white no-underline">Contact</a>
+</li>
+                                        
+                </ul>
+            </div>
+                        <div class="lg:mx-auto text-left">
+                <h4 class="text-lg text-white font-semibold mb-3">
+                    Support
+                </h4>
+                <ul class="list-none text-base flex flex-col gap-3 transition-all duration-500">
+                                        <li>
+    <a href="#" class="text-white no-underline">Customer Support</a>
+</li>
+                                        <li>
+    <a href="#" class="text-white no-underline">Terms &amp; Conditions</a>
+</li>
+                                        <li>
+    <a href="#" class="text-white no-underline">Privacy Policy</a>
+</li>
+                                        <li>
+    <a href="https://tranquilityspa.com.np/faqs" class="text-white no-underline">FAQs</a>
+</li>
+                                        
+                </ul>
+            </div>
+                        <!--End Col-->
+            
+            <!--End Col-->
+            <div class="lg:mx-auto text-left">
+                <h4 class="text-lg text-white font-semibold mb-3">Contact Us</h4>
+                <ul class="list-none text-base flex flex-col gap-3 transition-all duration-500">
+                    <li class="flex break-words gap-2 items-center">
+                        <div class="flex flex-col items-center justify-center text-white">
+                            <ion-icon name="location-outline" role="img" class="md hydrated"></ion-icon>
+                        </div>
+                        <span class="text-base">Kathmandu 44600, Nepal</span>
+                    </li>
+                    <li class="flex break-words gap-2 items-center">
+                        <div class="flex flex-col items-center justify-center text-white">
+                            <ion-icon name="call-outline" role="img" class="md hydrated"></ion-icon>
+                        </div>
+
+                        <span class="text-base">+977-9802365118</span>
+                    </li>
+                </ul>
+            </div>
+            <!--End Col-->
+            <div class="lg:mx-auto text-left">
+                <div class="p-0.5 rounded-sm bg-white h-32 w-32">
+                    <img src="https://tranquilityspa.com.np/uploads/images/settings/a7f3c9f5-f6fa-459b-8583-7eeb68a885c2.png" alt="" class="h-full w-full object-cover">
+                </div>
+                <h5 class="font-medium text-base mt-2">Scan to download App</h5>
+            </div>
+        </div>
+
+        <!--Grid-->
+        <div class="w-full bg-primary text-white">
+            <div class="px-4 sm:px-6 lg:px-8">
+                <div class="pt-5">
+                    <div class="flex items-center justify-center flex-col lg:justify-between lg:flex-row">
+                                                <span class="text-sm">
+                            Copyright © Tranquility Spa - All Rights Reserved </span>
+                        <div class="text-xl flex mt-4 space-x-4 sm:justify-center lg:mt-0">
+                            <a href="https://www.linkedin.com/in/tranquility-spa-4a4a7426a/" class="text-white rounded-full transition-all duration-500 flex justify-center items-center" target="_blank">
+                                <ion-icon name="logo-linkedin" role="img" class="md hydrated"></ion-icon>
+                            </a>
+                            <a href="https://www.instagram.com/tranquilityspa_nepal/?hl=en" class="relative text-white rounded-full transition-all duration-500 flex justify-center items-center" target="_blank">
+                                <ion-icon name="logo-instagram" role="img" class="md hydrated"></ion-icon>
+                            </a>
+                            <a href="https://www.facebook.com/Tranquilityspanp/" class="relative text-white rounded-full transition-all duration-500 flex justify-center items-center" target="_blank">
+                                <ion-icon name="logo-facebook" role="img" class="md hydrated"></ion-icon>
+                            </a>
+                            <a href="https://youtube.com" class="relative text-white rounded-full transition-all duration-500 flex justify-center items-center" target="_blank">
+                                <ion-icon name="logo-youtube" role="img" class="md hydrated"></ion-icon>
+                            </a>
+                            <a href="https://tiktok.com" class="relative text-white rounded-full transition-all duration-500 flex justify-center items-center" target="_blank">
+                                <ion-icon name="logo-tiktok" role="img" class="md hydrated"></ion-icon>
+                            </a>
+                            <a href="mailto:info@tranquilityspa.com.np" class="relative text-white rounded-full transition-all duration-500 flex justify-center items-center" target="_blank">
+                                <ion-icon name="mail-outline" role="img" class="md hydrated"></ion-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="my-5 sm:px-10 md:px-20 2xl:px-40">
+    <fieldset class="flex flex-col items-center">
+        <legend class="text-center flex flex-col items-center justify-center px-5">
+            <img src="https://tranquilityspa.com.np/sites/images/tranquility-logo.png" alt="Tranquility Logo" class="h-12 object-scale-down">
+            <h4 class="text-primary font-semibold">Our Associated Partners</h4>
+        </legend>
+        <div class="py-5 px-5">
+            <div class="flex flex-col md:flex-row gap-5 items-center">
+                
+                <div class="flex flex-wrap justify-center gap-3">
+                                        <a href="#">
+                        <span class="h-16">
+                            <img src="https://tranquilityspa.com.np/uploads/images/partners/6eddb044-7521-46f0-bd5a-99e28cce81d2.png" alt="" class="h-16 object-scale-down hover:grayscale-0 transform ease-in-out duration-150">
+                        </span>
+                    </a>
+                                        <a href="#">
+                        <span class="h-16">
+                            <img src="https://tranquilityspa.com.np/uploads/images/partners/a85b19ab-dc5a-4678-b90c-cc101a9084f9.png" alt="" class="h-16 object-scale-down hover:grayscale-0 transform ease-in-out duration-150">
+                        </span>
+                    </a>
+                                        <a href="#">
+                        <span class="h-16">
+                            <img src="https://tranquilityspa.com.np/uploads/images/partners/741b81cb-f695-4229-8a22-0f8b261d601d.jpg" alt="" class="h-16 object-scale-down hover:grayscale-0 transform ease-in-out duration-150">
+                        </span>
+                    </a>
+                                        <a href="#">
+                        <span class="h-16">
+                            <img src="https://tranquilityspa.com.np/uploads/images/partners/043420c7-cb92-40c1-a01d-a2d39fe488b9.png" alt="" class="h-16 object-scale-down hover:grayscale-0 transform ease-in-out duration-150">
+                        </span>
+                    </a>
+                                        <a href="#">
+                        <span class="h-16">
+                            <img src="https://tranquilityspa.com.np/uploads/images/partners/9893893e-b40f-419c-81d5-7ed877da8d5d.jpg" alt="" class="h-16 object-scale-down hover:grayscale-0 transform ease-in-out duration-150">
+                        </span>
+                    </a>
+                                        <a href="#">
+                        <span class="h-16">
+                            <img src="https://tranquilityspa.com.np/uploads/images/partners/2a719ef7-e181-4924-a8ef-296185b551ab.png" alt="" class="h-16 object-scale-down hover:grayscale-0 transform ease-in-out duration-150">
+                        </span>
+                    </a>
+                                        <a href="#">
+                        <span class="h-16">
+                            <img src="https://tranquilityspa.com.np/uploads/images/partners/0b36b9e9-b3eb-432c-b2de-aafc6f671e8a.webp" alt="" class="h-16 object-scale-down hover:grayscale-0 transform ease-in-out duration-150">
+                        </span>
+                    </a>
+                                        <a href="#">
+                        <span class="h-16">
+                            <img src="https://tranquilityspa.com.np/uploads/images/partners/76b5bd09-028e-4045-a0ae-2d714cae886b.png" alt="" class="h-16 object-scale-down hover:grayscale-0 transform ease-in-out duration-150">
+                        </span>
+                    </a>
+                                    </div>
+            </div>
+        </div>
+    </fieldset>
+</div>
+        <!-- <div class="fixed top-1/2 -translate-y-1/2 -right-14 z-50">
+            <a href="https://tranquilityspa.com.np/book-now"
+                class="text-sm 2xl:text-base cursor-pointer bg-primary text-white px-5 py-2 pb-4 rounded-md -rotate-90 border border-solid no-underline border-white flex gap-2 items-center shrink-0">
+                <ion-icon name="calendar-outline"></ion-icon>
+                <h3 class="font-medium">Book Now</h3>
+            </a>
+        </div> -->
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://tranquilityspa.com.np/modules/jquery.min.js"></script>
+
+    
+    <script>
+        document.onreadystatechange = function() {
+            let state = document.readyState;
+            if (false) {
+                if (state == 'interactive') {
+                    document.getElementById('content').style.visibility = "hidden";
+                } else if (state == 'complete') {
+                    setTimeout(() => {
+                        document.getElementById('loader').style.visibility = "hidden";
+                        document.getElementById('content').style.visibility = "visible";
+                    }, 50);
+
+                }
+            } else {
+                document.getElementById('content').style.visibility = "visible";
+            }
+        }
+    </script>
+
+    <script>
+        $(window).on('load', function() {
+            
+                    });
+    </script>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function() {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/66f0f159e5982d6c7bb2ff92/1i8eiti72';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+
+
+</body></html>

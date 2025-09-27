@@ -7,17 +7,48 @@ from markdownify import markdownify as md
 from datetime import datetime
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, urljoin, urldefrag
+import string
 import re
 
-CAPTCHA_DIR = "output/captcha_pages"
-os.makedirs(CAPTCHA_DIR, exist_ok=True)
-    
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.common.exceptions import WebDriverException
+
+# Utility functions
 def normalize_url(url, base=None):
     """Normalize URL: resolve relative links, remove fragments, lowercase.""" 
     if base:
         url = urljoin(base, url)
     url, _ = urldefrag(url) 
     return url.strip().lower()
+
+def is_url_allowed(url):
+    """Check if a URL is allowed based on blocklists and domain."""
+    if url in BLOCKED_PAGES_FULL:
+        return False
+    for pattern in BLOCK_PATTERNS:
+        if re.search(pattern, url):
+            return False
+    parsed = urlparse(url)
+    return parsed.netloc in ALLOWED_DOMAIN
+
+def url_to_filename(url: str, ext=".md") -> str:
+    """
+    Convert a URL into a consistent safe filename.
+    Example: https://example.com/about -> example.com_about.md
+    """
+    parsed = urlparse(url)
+    domain = parsed.netloc.replace("www.", "")  # drop www
+    path = parsed.path.strip("/")
+
+    if not path:  # homepage
+        path = "index"
+    else:
+        # Replace slashes and special chars with underscores
+        path = path.replace("/", "_").replace("?", "_").replace("=", "_").replace("&", "_")
+
+    filename = f"{domain}_{path}{ext}"
+    return filename
 
 # Configuration Variables
 CRAWL_DEPTH = 1
@@ -27,10 +58,12 @@ MAX_PAGES = 20
 BLOCKED_PAGES_FULL = set()  
 BLOCK_PATTERNS = []  
 
-ALLOW_INSECURE = True      
+ALLOW_INSECURE = False      
 POLITE_DELAY = 1            
 
 OUTPUT_DIR = "output/MDs"
+HTML_DIR = "output/html"
+SCREENSHOT_DIR = "output/screenshots"
 LOG_FILE = "crawlLog.txt"
 INDEX_FILE = "output/index.jsonl"
 
@@ -66,13 +99,39 @@ async def fetch(session, url, retries=2, delay=2):
                 logger.error(f"Failed to fetch {url} after {retries+1} attempts: {e}")
                 return None, str(e)
 
+# Selenium Helper for JS Pages
+def fetch_js_page(url, headless=True, screenshot_path=None):
+    """Fetch page using Selenium for JS-heavy pages."""
+    options = Options()
+    options.headless = headless
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    driver = None
+    try:
+        driver = webdriver.Chrome(options=options)
+        driver.get(url)
+        html = driver.page_source
+
+        # Save screenshot if path provided
+        if screenshot_path:
+            os.makedirs(os.path.dirname(screenshot_path), exist_ok=True)
+            driver.save_screenshot(screenshot_path)
+
+        return html
+    except WebDriverException as e:
+        logger.error(f"Selenium failed for {url}: {e}")
+        return None
+    finally:
+        if driver:
+            driver.quit()
+
 # Crawl function
 visited_urls = set()
 total_pages_crawled = 0
 failed_captcha_urls = set()
 
-async def save_captcha_evidence(html, url, page_obj=None):
-    """Detect common captcha signs and return True if detected."""
+async def save_captcha_evidence(html, url, filename, page_obj=None):
+    """Detect common captcha signs and save evidence if strongly detected."""
     if not html:
         return False
 
@@ -80,32 +139,32 @@ async def save_captcha_evidence(html, url, page_obj=None):
     keywords = ["captcha", "recaptcha", "h-captcha", "are you human", "verify you", 
                 "just a moment", "bot verification", "checking your browser", "cloudflare"]
 
-    detected = any(k in lower for k in keywords)
-    
-    if not detected:
-        try:
-            soup = BeautifulSoup(html, "html.parser")
-            for img in soup.find_all("img", src=True):
-                if "captcha" in img["src"].lower():
-                    detected = True
-                    break
-        except Exception:
-            pass
+    # Check for suspicious phrases in body text (not just scripts)
+    soup = BeautifulSoup(html, "html.parser")
+    body_text = soup.get_text(" ", strip=True).lower()
 
-    if detected and url not in failed_captcha_urls:
+    detected = any(k in body_text for k in keywords)
+
+    # Extra rule: if page has almost no text, higher chance of CAPTCHA
+    if detected and len(body_text) < 100:
+        strict_detected = True
+    else:
+        strict_detected = False
+
+    if strict_detected and url not in failed_captcha_urls:
         failed_captcha_urls.add(url)
-        logger.warning(f"CAPTCHA detected at {url}")
-    return detected
+        logger.warning(f"CAPTCHA strongly detected at {url}")
 
-def is_url_allowed(url):
-    """Check if a URL is allowed based on blocklists and domain."""
-    if url in BLOCKED_PAGES_FULL:
-        return False
-    for pattern in BLOCK_PATTERNS:
-        if re.search(pattern, url):
-            return False
-    parsed = urlparse(url)
-    return parsed.netloc in ALLOWED_DOMAIN
+        # Save raw HTML
+        os.makedirs(HTML_DIR, exist_ok=True)
+        with open(os.path.join(HTML_DIR, filename.replace(".md", ".html")), "w", encoding="utf-8") as f:
+            f.write(html)
+
+        # Save screenshot
+        screenshot_path = os.path.join(SCREENSHOT_DIR, filename.replace(".md", ".png"))
+        await asyncio.to_thread(fetch_js_page, url, screenshot_path=screenshot_path)
+
+    return strict_detected
 
 async def crawl_seed(seed_url, depth=0, origin_seed=None):
     global total_pages_crawled
@@ -116,17 +175,25 @@ async def crawl_seed(seed_url, depth=0, origin_seed=None):
         return
 
     visited_urls.add(normalize_url(seed_url))
-    logger.info(f"Crawling (depth {depth}): {seed_url}")
+    logger.info(f"Crawling (depth {depth}, from {origin_seed}): {seed_url}")
     
     connector = aiohttp.TCPConnector(ssl=False) if ALLOW_INSECURE else aiohttp.TCPConnector()
     async with aiohttp.ClientSession(connector=connector) as session:
         html, status = await fetch(session, seed_url)
 
-        # Detect CAPTCHA
+        # If aiohttp fetch fails, try JS-rendered page
+        filename = url_to_filename(seed_url)
+        if html is None:
+            screenshot_path = os.path.join(SCREENSHOT_DIR, filename.replace(".md", ".png"))
+            html = await asyncio.to_thread(fetch_js_page, seed_url, screenshot_path=screenshot_path)
+            status = 200 if html else "FAILED_JS"
+
+        timestamp = datetime.now().isoformat()
+
+        # Detect CAPTCHA immediately
         if html:
-            captcha = await save_captcha_evidence(html, seed_url)
+            captcha = await save_captcha_evidence(html, seed_url, filename)
             if captcha:
-                timestamp = datetime.now().isoformat()
                 index_entry = {
                     "url": seed_url,
                     "file": None,
@@ -144,17 +211,28 @@ async def crawl_seed(seed_url, depth=0, origin_seed=None):
                 except Exception:
                     pass    
                 return
-                    
-        timestamp = datetime.now().isoformat()
 
+        # Process HTML if available
+        page_title = None
+        meta_description = None
         if html:
+            soup = BeautifulSoup(html, "html.parser")
+            if soup.title:
+                page_title = soup.title.string.strip() if soup.title.string else None
+            desc_tag = soup.find("meta", attrs={"name": "description"})
+            if desc_tag and desc_tag.get("content"):
+                meta_description = desc_tag["content"].strip()
+
+            # Save raw HTML for debugging
+            os.makedirs(HTML_DIR, exist_ok=True)
+            with open(os.path.join(HTML_DIR, filename.replace(".md", ".html")), "w", encoding="utf-8") as f:
+                f.write(html)
+
             # Convert HTML to Markdown
             markdown_content = md(html)
-            
             metadata = f"---\nurl: {seed_url}\ntimestamp: {timestamp}\nstatus: SUCCESS\n---\n\n"
             markdown_content = metadata + markdown_content
             
-            filename = seed_url.replace("https://", "").replace("http://", "").replace("/", "_") + ".md"
             os.makedirs(OUTPUT_DIR, exist_ok=True)
             with open(os.path.join(OUTPUT_DIR, filename), "w", encoding="utf-8") as f:
                 f.write(markdown_content)
@@ -165,15 +243,17 @@ async def crawl_seed(seed_url, depth=0, origin_seed=None):
                 "file": filename,
                 "status": "SUCCESS",
                 "timestamp": timestamp,
-                "seed_origin": origin_seed
+                "seed_origin": origin_seed,
+                "http_status": status,
+                "title": page_title,
+                "meta_description": meta_description
             }
-            with open(INDEX_FILE, "a") as idx:
+            with open(INDEX_FILE, "a", encoding="utf-8") as idx:
                 idx.write(json.dumps(index_entry) + "\n")
 
             total_pages_crawled += 1
 
             # Find links
-            soup = BeautifulSoup(html, "html.parser")
             links = [a.get("href") for a in soup.find_all("a", href=True)]
             valid_links = []
             for link in links:
@@ -210,8 +290,7 @@ async def crawl_seed(seed_url, depth=0, origin_seed=None):
 
 # Running crawler
 async def main():
-    for seed in seeds:
-        await crawl_seed(seed)
+    await asyncio.gather(*(crawl_seed(seed) for seed in seeds))
     
     logger.info(f"Total Pages Crawled: {total_pages_crawled}")
     logger.info(f"Total URLs Visited: {len(visited_urls)}")

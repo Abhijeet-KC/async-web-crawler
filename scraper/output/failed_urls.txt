@@ -1,6 +1,6 @@
-2025-09-27T11:20:42.452737 | http://kiec.edu.np/ | CAPTCHA_DETECTED 
-2025-09-27T11:20:42.725250 | https://prettyclickcosmetics.com/ | CAPTCHA_DETECTED 
-2025-09-27T11:20:46.853209 | https://www.tranquilityspa.com.np/ | FAILED | Cannot connect to host www.tranquilityspa.com.np:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
-2025-09-27T11:23:25.556554 | http://kiec.edu.np/ | CAPTCHA_DETECTED 
-2025-09-27T11:23:25.824112 | https://prettyclickcosmetics.com/ | CAPTCHA_DETECTED 
-2025-09-27T11:23:26.028728 | https://www.tranquilityspa.com.np/ | CAPTCHA_DETECTED 
+2025-09-27T12:49:39.244499 | http://kiec.edu.np/ | CAPTCHA_DETECTED 
+2025-09-27T12:49:39.262810 | https://prettyclickcosmetics.com/ | CAPTCHA_DETECTED 
+2025-09-27T12:49:55.903042 | https://www.tranquilityspa.com.np/ | CAPTCHA_DETECTED 
+2025-09-27T12:59:41.711029 | http://kiec.edu.np/ | CAPTCHA_DETECTED 
+2025-09-27T13:09:43.059647 | http://kiec.edu.np/ | CAPTCHA_DETECTED 
+2025-09-27T13:13:16.572532 | http://kiec.edu.np/ | CAPTCHA_DETECTED 
