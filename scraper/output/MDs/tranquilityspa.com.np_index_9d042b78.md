@@ -1,6 +1,6 @@
 ---
 url: https://www.tranquilityspa.com.np/
-timestamp: 2025-09-27T19:20:31.341865
+timestamp: 2025-09-27T22:40:36.909551
 status: SUCCESS
 ---
 
