@@ -1,6 +1,6 @@
 ---
 url: https://tranquilityspa.com.np/outlets/the-soaltee-kathmandu/services?service=4
-timestamp: 2025-09-27T14:33:18.382247
+timestamp: 2025-09-27T18:31:50.641592
 status: SUCCESS
 ---
 

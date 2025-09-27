@@ -1,6 +1,6 @@
 ---
 url: https://prettyclickcosmetics.com/products/milani-make-it-last-setting-spray
-timestamp: 2025-09-27T14:32:18.851878
+timestamp: 2025-09-27T18:31:05.651671
 status: SUCCESS
 ---
 

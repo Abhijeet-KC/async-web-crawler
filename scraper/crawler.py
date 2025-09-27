@@ -3,16 +3,35 @@ import json
 import aiohttp
 import asyncio
 import logging
-from markdownify import markdownify as md
-from datetime import datetime
-from bs4 import BeautifulSoup
-from urllib.parse import urlparse, urljoin, urldefrag
-import urllib.robotparser
 import re
-
+import random
+import urllib.robotparser
+from urllib.parse import urlparse, urljoin, urldefrag
+from datetime import datetime
+from markdownify import markdownify as md
+from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import WebDriverException
+
+# Configuration Variables
+CRAWL_DEPTH = 1
+ALLOWED_DOMAIN = ["jeevee.com", "kiec.edu.np", "prettyclickcosmetics.com", "tranquilityspa.com.np"]
+PAGES_PER_SEED = 5
+MAX_PAGES = 20
+BLOCKED_PAGES_FULL = set()  
+BLOCK_PATTERNS = []  
+
+ALLOW_INSECURE = False  # SSL verification
+POLITE_DELAY = 1        # Seconds between requests to same domain
+ROBOTS_CACHE = {}       # Cache for robots.txt parsers
+DOMAIN_LAST_CRAWL = {}  # For per-domain rate limiting
+
+OUTPUT_DIR = "output/MDs"
+HTML_DIR = "output/html"
+SCREENSHOT_DIR = "output/screenshots"
+LOG_FILE = "crawlLog.txt"
+INDEX_FILE = "output/index.jsonl"
 
 # Utility functions
 def normalize_url(url, base=None):
@@ -50,7 +69,7 @@ def url_to_filename(url: str, ext=".md") -> str:
     Example: https://example.com/about -> example.com_about.md
     """
     parsed = urlparse(url)
-    domain = parsed.netloc.replace("www.", "")  # drop www
+    domain = parsed.netloc.replace("www.", "")  
     path = parsed.path.strip("/")
 
     if not path:  # homepage
@@ -84,23 +103,6 @@ async def fetch_robots_txt(domain):
     
     ROBOTS_CACHE[domain] = rp
     return rp
-# Configuration Variables
-CRAWL_DEPTH = 1
-ALLOWED_DOMAIN = ["jeevee.com", "kiec.edu.np", "prettyclickcosmetics.com", "tranquilityspa.com.np"]
-PAGES_PER_SEED = 5
-MAX_PAGES = 20
-BLOCKED_PAGES_FULL = set()  
-BLOCK_PATTERNS = []  
-
-ALLOW_INSECURE = False      
-POLITE_DELAY = 1    
-ROBOTS_CACHE = {}        
-
-OUTPUT_DIR = "output/MDs"
-HTML_DIR = "output/html"
-SCREENSHOT_DIR = "output/screenshots"
-LOG_FILE = "crawlLog.txt"
-INDEX_FILE = "output/index.jsonl"
 
 # Setup logging
 logger = logging.getLogger(__name__)
@@ -159,6 +161,7 @@ def fetch_js_page(url, headless=True, screenshot_path=None):
     finally:
         if driver:
             driver.quit()
+            del driver  # free memory immediately
 
 # Crawl function
 visited_urls = set()
@@ -174,13 +177,11 @@ async def save_captcha_evidence(html, url, filename, page_obj=None):
     keywords = ["captcha", "recaptcha", "h-captcha", "are you human", "verify you", 
                 "just a moment", "bot verification", "checking your browser", "cloudflare"]
 
-    # Check for suspicious phrases in body text (not just scripts)
     soup = BeautifulSoup(html, "html.parser")
     body_text = soup.get_text(" ", strip=True).lower()
 
     detected = any(k in body_text for k in keywords)
 
-    # Extra rule: if page has almost no text, higher chance of CAPTCHA
     if detected and len(body_text) < 100:
         strict_detected = True
     else:
@@ -190,16 +191,23 @@ async def save_captcha_evidence(html, url, filename, page_obj=None):
         failed_captcha_urls.add(url)
         logger.warning(f"CAPTCHA strongly detected at {url}")
 
-        # Save raw HTML
         os.makedirs(HTML_DIR, exist_ok=True)
         with open(os.path.join(HTML_DIR, filename.replace(".md", ".html")), "w", encoding="utf-8") as f:
             f.write(html)
 
-        # Save screenshot
         screenshot_path = os.path.join(SCREENSHOT_DIR, filename.replace(".md", ".png"))
         await asyncio.to_thread(fetch_js_page, url, screenshot_path=screenshot_path)
 
     return strict_detected
+
+async def domain_delay(domain):
+    """Respect per-domain polite delay with jitter."""
+    now = datetime.now().timestamp()
+    last = DOMAIN_LAST_CRAWL.get(domain, 0)
+    wait_time = POLITE_DELAY + random.uniform(0, 1)
+    if now - last < wait_time:
+        await asyncio.sleep(wait_time - (now - last))
+    DOMAIN_LAST_CRAWL[domain] = datetime.now().timestamp()
 
 async def crawl_seed(seed_url, depth=0, origin_seed=None):
     global total_pages_crawled
@@ -211,12 +219,15 @@ async def crawl_seed(seed_url, depth=0, origin_seed=None):
 
     visited_urls.add(normalize_url(seed_url))
     logger.info(f"Crawling (depth {depth}, from {origin_seed}): {seed_url}")
-    
+
+    parsed = urlparse(seed_url)
+    domain = parsed.netloc
+    await domain_delay(domain)
+
     connector = aiohttp.TCPConnector(ssl=False) if ALLOW_INSECURE else aiohttp.TCPConnector()
     async with aiohttp.ClientSession(connector=connector) as session:
         html, status = await fetch(session, seed_url)
 
-        # If aiohttp fetch fails, try JS-rendered page
         filename = url_to_filename(seed_url)
         if html is None:
             screenshot_path = os.path.join(SCREENSHOT_DIR, filename.replace(".md", ".png"))
@@ -225,7 +236,6 @@ async def crawl_seed(seed_url, depth=0, origin_seed=None):
 
         timestamp = datetime.now().isoformat()
 
-        # Detect CAPTCHA immediately
         if html:
             captcha = await save_captcha_evidence(html, seed_url, filename)
             if captcha:
@@ -238,16 +248,11 @@ async def crawl_seed(seed_url, depth=0, origin_seed=None):
                 }
                 with open(INDEX_FILE, "a") as idx:
                     idx.write(json.dumps(index_entry) + "\n")
-                try:
-                    os.makedirs("output", exist_ok=True)
-                    with open("output/failed_urls.txt", "a", encoding="utf-8") as f:
-                        f.write(f"{timestamp} | {seed_url} | CAPTCHA_DETECTED \n")
-                        logger.warning(f"CAPTCHA logged to failed_urls.txt for {seed_url}")
-                except Exception:
-                    pass    
+                os.makedirs("output", exist_ok=True)
+                with open("output/failed_urls.txt", "a", encoding="utf-8") as f:
+                    f.write(f"{timestamp} | {seed_url} | CAPTCHA_DETECTED \n")
                 return
 
-        # Process HTML if available
         page_title = None
         meta_description = None
         if html:
@@ -258,12 +263,10 @@ async def crawl_seed(seed_url, depth=0, origin_seed=None):
             if desc_tag and desc_tag.get("content"):
                 meta_description = desc_tag["content"].strip()
 
-            # Save raw HTML for debugging
             os.makedirs(HTML_DIR, exist_ok=True)
             with open(os.path.join(HTML_DIR, filename.replace(".md", ".html")), "w", encoding="utf-8") as f:
                 f.write(html)
 
-            # Convert HTML to Markdown
             markdown_content = md(html)
             metadata = f"---\nurl: {seed_url}\ntimestamp: {timestamp}\nstatus: SUCCESS\n---\n\n"
             markdown_content = metadata + markdown_content
@@ -272,7 +275,6 @@ async def crawl_seed(seed_url, depth=0, origin_seed=None):
             with open(os.path.join(OUTPUT_DIR, filename), "w", encoding="utf-8") as f:
                 f.write(markdown_content)
 
-            # Update JSON index
             index_entry = {
                 "url": seed_url,
                 "file": filename,
@@ -288,7 +290,6 @@ async def crawl_seed(seed_url, depth=0, origin_seed=None):
 
             total_pages_crawled += 1
 
-            # Find links
             links = [a.get("href") for a in soup.find_all("a", href=True)]
             valid_links = []
             for link in links:
@@ -297,20 +298,13 @@ async def crawl_seed(seed_url, depth=0, origin_seed=None):
                     valid_links.append(norm_link)
         
             for link in valid_links[:PAGES_PER_SEED]:
-                await asyncio.sleep(POLITE_DELAY) 
                 await crawl_seed(link, depth + 1, origin_seed=origin_seed)
                 
         else:
-            # Log failure
-            with open(LOG_FILE, "a") as log:
-                logger.error(f"{timestamp} | {seed_url} | FAILED | {status}\n")
-
-            try:
-                os.makedirs("output", exist_ok=True)
-                with open("output/failed_urls.txt", "a", encoding="utf-8") as f:
-                    f.write(f"{timestamp} | {seed_url} | FAILED | {status}\n")
-            except Exception:
-                pass
+            logger.error(f"{timestamp} | {seed_url} | FAILED | {status}")
+            os.makedirs("output", exist_ok=True)
+            with open("output/failed_urls.txt", "a", encoding="utf-8") as f:
+                f.write(f"{timestamp} | {seed_url} | FAILED | {status}\n")
 
             index_entry = {
                 "url": seed_url,

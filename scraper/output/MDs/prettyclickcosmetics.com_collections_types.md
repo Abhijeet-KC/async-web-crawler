@@ -1,6 +1,6 @@
 ---
 url: https://prettyclickcosmetics.com/collections/types?q=setting%20spray
-timestamp: 2025-09-27T14:32:26.208565
+timestamp: 2025-09-27T18:31:07.185578
 status: SUCCESS
 ---
 

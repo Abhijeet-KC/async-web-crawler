@@ -1,6 +1,6 @@
 ---
 url: https://prettyclickcosmetics.com/products/milani-conceal-perfect-2-in-one-foundation-concealer
-timestamp: 2025-09-27T14:32:35.754223
+timestamp: 2025-09-27T18:31:08.835159
 status: SUCCESS
 ---
 

@@ -1,6 +1,6 @@
 ---
 url: https://prettyclickcosmetics.com/
-timestamp: 2025-09-27T14:32:14.213061
+timestamp: 2025-09-27T18:31:02.300944
 status: SUCCESS
 ---
 
@@ -1775,37 +1775,6 @@ Add to cart[View details](/products/prettyclick-lip-cream-love)
 
 ### Choose your option
 
-[![LocalID_49754 ](//prettyclickcosmetics.com/cdn/shop/files/cee21d02ed25f71d97478a8c0ccf0b587be6e5d1_1753618613_PASSION_e7be19c1-542a-4380-a795-04709c96f436.jpg?v=1754501788&width=599)
-
-![LocalID_49669 ](//prettyclickcosmetics.com/cdn/shop/files/89583de946a6d3f98f6643a43f63162c068f8281_1752813946_passion_201_815f65bb-2981-4f57-a67d-5d316648da85.jpg?v=1754501788&width=1200)](/products/prettyclick-lip-cream-passion)
-
-Sale
-
-Add to cart
-
-[Lip Cream](/collections/types?q=Lip%20Cream)
-
-### [Prettyclick Lip Cream - Passion](/products/prettyclick-lip-cream-passion)
-
-Regular price
-
-Rs750.00
-
-Sale price
-
-Rs750.00
-Regular price
-
-~~Rs1,000.00~~
-
-Unit price
-
-/per
-
-Add to cart[View details](/products/prettyclick-lip-cream-passion)
-
-### Choose your option
-
 [![LocalID_49435 ](//prettyclickcosmetics.com/cdn/shop/files/fd34bf484eb1fae56e35540604386f037dd44769_1750538818_Untitled_20design_20_2814_29_48a8ff42-fb4f-4662-a068-ff17a5de6760.jpg?v=1757908648&width=900)
 
 ![LocalID_46285 ](//prettyclickcosmetics.com/cdn/shop/files/989aa66a0ee36d9f2761104462a17df80d4e5936_1710781195_hopemodel_563x704resize_09068267-a7be-4d6f-a12c-174a05a42402.jpg?v=1757908648&width=720)](/products/prettyclick-lip-cream-hope-1)
@@ -1834,6 +1803,37 @@ Unit price
 /per
 
 Add to cart[View details](/products/prettyclick-lip-cream-hope-1)
+
+### Choose your option
+
+[![LocalID_49754 ](//prettyclickcosmetics.com/cdn/shop/files/cee21d02ed25f71d97478a8c0ccf0b587be6e5d1_1753618613_PASSION_e7be19c1-542a-4380-a795-04709c96f436.jpg?v=1754501788&width=599)
+
+![LocalID_49669 ](//prettyclickcosmetics.com/cdn/shop/files/89583de946a6d3f98f6643a43f63162c068f8281_1752813946_passion_201_815f65bb-2981-4f57-a67d-5d316648da85.jpg?v=1754501788&width=1200)](/products/prettyclick-lip-cream-passion)
+
+Sale
+
+Add to cart
+
+[Lip Cream](/collections/types?q=Lip%20Cream)
+
+### [Prettyclick Lip Cream - Passion](/products/prettyclick-lip-cream-passion)
+
+Regular price
+
+Rs750.00
+
+Sale price
+
+Rs750.00
+Regular price
+
+~~Rs1,000.00~~
+
+Unit price
+
+/per
+
+Add to cart[View details](/products/prettyclick-lip-cream-passion)
 
 ### Choose your option
 
